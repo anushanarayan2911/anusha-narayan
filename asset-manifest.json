@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/anusha-narayan/static/css/main.073c9b0a.css",
+    "main.js": "/anusha-narayan/static/js/main.5dc516b3.js",
+    "static/js/787.b32fe4f8.chunk.js": "/anusha-narayan/static/js/787.b32fe4f8.chunk.js",
+    "static/media/logo.svg": "/anusha-narayan/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/anusha-narayan/index.html",
+    "main.073c9b0a.css.map": "/anusha-narayan/static/css/main.073c9b0a.css.map",
+    "main.5dc516b3.js.map": "/anusha-narayan/static/js/main.5dc516b3.js.map",
+    "787.b32fe4f8.chunk.js.map": "/anusha-narayan/static/js/787.b32fe4f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.5dc516b3.js"
+  ]
+}
