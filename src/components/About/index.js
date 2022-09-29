@@ -18,7 +18,7 @@ const About = ({}) => {
     <InfoContainer>
       <InfoWrapper>
         <InfoRow>
-          <Column1><Subtitle>{"Born and raised in North London, I am in my third year at Imperial College London, pursuing an MEng in Design Engineering. My primary interests lie in the field of human-centred and UX design. In these areas, I can use the wide-ranging skillset (engineering, computing, aesthetic design etc.) that I am accumulating, to create products or services that works to solve a problem being faced by a certain user."}</Subtitle></Column1>
+          <Column1><Subtitle>{"Born and raised in North London, I am in my third year at Imperial College London, pursuing an MEng in Design Engineering. My primary interests lie in the field of human-centred and UX design. In these areas, I can use the wide-ranging skillset (engineering, computing, aesthetic design etc.) that I am accumulating, to create products or services that works to solve a problem being faced by users."}</Subtitle></Column1>
           <Column2><YoutubeEmbed/></Column2>
         </InfoRow>
         <InfoRow>
