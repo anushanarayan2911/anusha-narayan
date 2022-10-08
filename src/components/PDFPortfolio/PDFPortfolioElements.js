@@ -50,3 +50,19 @@ export const TopLine = styled.p`
     text-transform: uppercase;
     margin-bottom: 30px;
 `
+
+export const ImageLink = styled(LinkR)`
+    background: #ffffff;
+`
+
+export const Image = styled.img`
+    width: 100%;
+`
+
+export const PDFDiv = styled.div`
+    background-color: #787878;
+    overflow-y: scroll;
+    height: 80vh;
+    border-color: #787878;
+    border-radius: 5px;
+`
