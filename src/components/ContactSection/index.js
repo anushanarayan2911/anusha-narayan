@@ -23,15 +23,11 @@ const ContactSection = () => {
             <ContactGrid>
               <ContactRow>
                 <Column1><Image src={require('../../Visuals/Contact/Images/1.png')}/></Column1>
-                <Column2><Subtitle>anusha.narayan2002@outlook.com</Subtitle></Column2>
+                <Column2><Image src={require('../../Visuals/Contact/Images/2.png')}/></Column2>
               </ContactRow>
               <br/>
               <br/>
               <br/>
-              <ContactRow>
-                <Column1><Image src={require('../../Visuals/Contact/Images/2.png')}/></Column1>
-                <Column2><Subtitle>https://www.linkedin.com/in/a-k-narayan/</Subtitle></Column2>
-              </ContactRow>
               <br/>
               <br/>
               <br/>

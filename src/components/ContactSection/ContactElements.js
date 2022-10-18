@@ -76,15 +76,19 @@ export const ContactRow = styled.div`
 `
 
 export const Column1 = styled.div`
-    max-width: 20%;
-    padding: 0px 5% 0px 0px;
+    max-width: 40%;
+    align-items: center;
+    justify-content: center;   
+    padding: 0 0 0px 20%;
 `
 
 export const Column2 = styled.div`
-    max-width: 70%;
-    padding: 0px 5% 0px 0px;
+    max-width: 30%;
+    align-items: center;
+    justify-content: center;
 `
 
 export const Image = styled.img`
-    width: 50%;
+    width: 30%;
+    padding: 0 0 0 0;
 `
