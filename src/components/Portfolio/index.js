@@ -85,6 +85,22 @@ const PortfolioSection = () => {
               </LinkWrap>
             </Column>
           </PortfolioRow>
+          <PortfolioRow>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/PulmoPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Landing Page/Pulmo Title Card.png')}/>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/HealthTrackerAppPage"}>
+                  <Image src={require('../../Visuals/Portfolio/Landing Page/Adobe Build Title Card.png')}/>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+          </PortfolioRow>
         </PortfolioGrid>
       </InfoWrapper>
     </InfoContainer>
