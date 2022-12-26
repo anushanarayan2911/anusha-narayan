@@ -63,7 +63,7 @@ export const TopLine = styled.p`
 `
 
 export const SubHeading = styled.p`
-    color: #84CCDF;
+    color: #D6C9F9;
     font-size: 15px;
     font-weight: 500;
 `
@@ -105,13 +105,13 @@ export const Image = styled.img`
 `
 
 export const SectionHeading1 = styled.p`
-    color: #84CCDF;
+    color: #D6C9F9;
     font-size: 25px;
     font-weight: 500;
 `
 
 export const SectionHeading2 = styled.p`
-    color: #84CCDF;
+    color: #D6C9F9;
     font-size: 25px;
     font-weight: 500;
 `
