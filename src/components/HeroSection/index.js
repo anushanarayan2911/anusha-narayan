@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { HeroContainer, HeroBg, Image} from './heroElements'
+import { HeroContainer, HeroBg, VideoBg, Image} from './heroElements'
+import Video from '../../Visuals/Home/Video.mp4'
 import ImageSlideshow from '../Slideshow/ImageSlideshow'
 import { SliderData } from '../Slideshow/SliderData'
 
@@ -25,7 +26,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <ImageSlideshow slides={SliderData}/>
+        <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
       </HeroBg>
     </HeroContainer>
   )

@@ -34,6 +34,13 @@ export const HeroBg = styled.div`
     overflow: hidden;
 `
 
+export const VideoBg = styled.video`
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+`
+
 export const ArrowForward = styled(MdArrowForward)`
     margin-left: 8px;
 `
