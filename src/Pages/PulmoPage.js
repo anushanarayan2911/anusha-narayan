@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Pulmo from '../components/Pulmo'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
+import { useEffect } from 'react'
 
 const PulmoPage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,6 +10,10 @@ const PulmoPage = () => {
   const toggle = () => {
       setIsOpen(!isOpen)
   };
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [])
 
   return (
     <>
