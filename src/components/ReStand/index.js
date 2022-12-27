@@ -54,7 +54,6 @@ const ReStand = () => {
                     <Column>
                       <SectionHeading1>the problem</SectionHeading1>
                       <Subtitle>In 2015, there were 2200 camping chairs left at the Glastonbury festival. There are few product service systems in place to remove the waste left behind and the materials used add to energy wasteage and carbon footprint.</Subtitle>
-                      <br/>
                     </Column>
                     <Column>
                       <SectionHeading2>the solution</SectionHeading2>

@@ -59,8 +59,6 @@ const TeddyBot = () => {
                     <Column>
                       <SectionHeading2>the solution</SectionHeading2>
                       <Subtitle>In order to make learning maths more interactive  experience, I designed a robotic maths game to teach addition and subtraction to young children (3 - 4).</Subtitle>
-                        <br/>
-                        <br/>
                     </Column>
                 </PortfolioRow>
                 <br/>

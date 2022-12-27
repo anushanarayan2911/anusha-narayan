@@ -60,8 +60,6 @@ const UMe = () => {
                       <SectionHeading2>the solution</SectionHeading2>
                       <Subtitle>The U Me is a two way communication device with an accompanying app. Parents/carers are able to set tasks using the app, whilst the child can use the device to ask for help</Subtitle>
                         <br/>
-                        <br/>
-                        <br/>
                     </Column>
                 </PortfolioRow>
                 <br/>

@@ -54,15 +54,12 @@ const TeddyBot = () => {
                     <Column>
                       <SectionHeading1>the problem</SectionHeading1>
                       <Subtitle>During the Covid-19 pandemic, several young adults saw a decrease in their physical health due to the fact that they were not allowed outside.</Subtitle>
-                      <br/>
-                      <br/>
-                      <br/>
+                      
                     </Column>
                     <Column>
                       <SectionHeading2>the solution</SectionHeading2>
                       <Subtitle>I designed a desktop application on which users could track their exercising and eating habits, as well as features for timetabling exercising and setting goals to motivation.</Subtitle>
-                        <br/>
-                        <br/>
+                        
                     </Column>
                 </PortfolioRow>
                 <br/>

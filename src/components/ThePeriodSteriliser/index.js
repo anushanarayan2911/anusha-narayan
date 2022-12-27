@@ -55,8 +55,6 @@ const ThePeriodSteriliser = () => {
                     <Column>
                         <SectionHeading2>the solution</SectionHeading2>
                         <Subtitle>I designed a steriliser into which girls and women could put their period products. They would then be thoroughly cleaned and disinfected, creating a long-lasting supply of period products that can be reused without causing infection.</Subtitle>
-                        <br/>
-                        <br/>
                     </Column>
                 </PortfolioRow>
                 <br/>

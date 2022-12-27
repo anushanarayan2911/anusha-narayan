@@ -55,6 +55,7 @@ const TandemBike = () => {
                       <SectionHeading1>the brief</SectionHeading1>
                       <Subtitle>The brief was to design a lightweight, tandem bike frame to be used by two adults. Three essential requirements had to be met: lightweight, natural frequency over 30 Hz and a life span of 10 years (1 million cycles).</Subtitle>
                       <br/>
+                      <br/>
                     </Column>
                     <Column>
                       <SectionHeading2>the outcomes</SectionHeading2>
