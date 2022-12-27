@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link as LinkR} from 'react-router-dom';
 
 export const InfoContainer = styled.div`
     background: #ffffff;
@@ -86,6 +87,9 @@ export const Column2 = styled.div`
     max-width: 30%;
     align-items: center;
     justify-content: center;
+`
+export const ImageLink = styled(LinkR)`
+    background: #ffffff;
 `
 
 export const Image = styled.img`

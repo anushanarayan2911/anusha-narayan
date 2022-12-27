@@ -7,6 +7,7 @@ import { InfoContainer,
     ContactRow,
     Column1,
     Column2,
+    ImageLink,
     Image,
     Subtitle
 } from './ContactElements'
@@ -22,8 +23,16 @@ const ContactSection = () => {
             <br/>
             <ContactGrid>
               <ContactRow>
-                <Column1><Image src={require('../../Visuals/Contact/Images/1.png')}/></Column1>
-                <Column2><Image src={require('../../Visuals/Contact/Images/2.png')}/></Column2>
+                <Column1>
+                  <a href="mailto:anusha.narayan2002@outlook.com">
+                    <Image src={require('../../Visuals/Contact/Images/1.png')}/>
+                  </a>
+                </Column1>
+                <Column2>
+                  <a href={"https://www.linkedin.com/in/a-k-narayan/"}> 
+                    <Image src={require('../../Visuals/Contact/Images/2.png')}/>
+                  </a>
+                </Column2>
               </ContactRow>
               <br/>
               <br/>
