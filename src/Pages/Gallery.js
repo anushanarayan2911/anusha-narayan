@@ -1,10 +1,9 @@
 import React, {useState} from 'react'
-import About from '../components/About'
-import { homeObjOne } from '../components/About/data'
+import GallerySection from '../components/GallerySection'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 
-const AboutPage = (id="about") => {
+const Gallery = (id="gallery") => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -15,10 +14,10 @@ const AboutPage = (id="about") => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <About/>
+      <GallerySection/>
     </>
     
   )
 }
 
-export default AboutPage
+export default Gallery

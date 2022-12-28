@@ -3,10 +3,10 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './Pages'
 import React from 'react'
 import Sidebar from './components/SideBar'
-import AboutPage from './Pages/AboutPage';
-import PortfolioPage from './Pages/PortfolioPage';
-import GalleryPage from './Pages/GalleryPage';
-import ContactPage from './Pages/ContactPage'
+import About from './Pages/About';
+import Portfolio from './Pages/Portfolio';
+import Gallery from './Pages/Gallery';
+import Contact from './Pages/Contact'
 import ThePeriodSteriliserPage from './Pages/ThePeriodSteriliserPage';
 import ReStandPage from './Pages/ReStandPage';
 import TeddyBotPage from './Pages/TeddyBotPage';
@@ -25,10 +25,10 @@ function App() {
   return (
     <Switch>
       <Route exact path="/" component={Home}/>
-      <Route exact path="/AboutPage" component={AboutPage}/>
-      <Route path="/PortfolioPage" component={PortfolioPage} exact/>
-      <Route path="/GalleryPage" component={GalleryPage} exact/>
-      <Route path="/ContactPage" component={ContactPage} exact />
+      <Route exact path="/About" component={About}/>
+      <Route path="/Portfolio" component={Portfolio} exact/>
+      <Route path="/Gallery" component={Gallery} exact/>
+      <Route path="/Contact" component={Contact} exact />
       <Route exact path="/ThePeriodSteriliserPage" component={ThePeriodSteriliserPage}/>
       <Route path="/ReStandPage" component={ReStandPage} exact/>
       <Route path="/TeddyBotPage" component={TeddyBotPage} exact/>

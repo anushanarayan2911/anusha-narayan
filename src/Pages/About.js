@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
-import Portfolio from '../components/Portfolio'
+import AboutComponent from '../components/About'
+import { homeObjOne } from '../components/About/data'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 
-const PortfolioPage = (id="portfolio") => {
+const About = (id="about") => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -14,10 +15,10 @@ const PortfolioPage = (id="portfolio") => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <Portfolio/>
+      <AboutComponent/>
     </>
     
   )
 }
 
-export default PortfolioPage
+export default About

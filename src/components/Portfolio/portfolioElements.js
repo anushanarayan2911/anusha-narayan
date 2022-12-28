@@ -5,7 +5,7 @@ export const InfoContainer = styled.div`
     background-color: #ffffff;
     width: 100%;
     height: 100%;
-    overflow: hidden
+    overflow-x: hidden
     
     @media screen and (max-width: 768px) {
         padding: 0px
@@ -20,7 +20,7 @@ export const InfoWrapper = styled.div`
     width: auto;
     margin-right: 10%;
     margin-left: 10%;
-    overflow: hidden;
+    overflow-x: no-scroll;
 
     @media screen and (max-width: 768px) {
         margin-right: 5%;
@@ -52,15 +52,17 @@ export const TopLine = styled.p`
 `
 
 export const PortfolioGrid = styled.div`
-    width: 100%;
-    overflow: hidden;
+    width: 80%;
+    overflow-x: none;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
+    overflow-x: no-scroll;
 `
 export const PortfolioRow = styled.div`
     display: flex;
-    width: 80%;
+    width: 100%;
+    overflow-x: no-scroll;
     justify-content: space-between;
     flex-direction: row;
 
@@ -71,20 +73,24 @@ export const PortfolioRow = styled.div`
 
 export const Column = styled.div`
     max-width: max-content;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px; 
+    overflow-x: no-scroll;
 `
 
 export const LinkWrap = styled.nav`
     display: flex;
     align-items: center
+    overflow-x: no-scroll;
 `
 
 export const ImageLink = styled(LinkR)`
     background: #ffffff;
+    overflow: no-scroll;
 `
 
 export const Image = styled.img`
     width: 100%;
+    overflow-x: no-scroll;
 
     &:hover{
         width: 104%;

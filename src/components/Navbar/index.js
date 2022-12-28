@@ -10,7 +10,7 @@ import {Nav,
   Img 
 } from './navbarElements'
 import {FaBars} from 'react-icons/fa'
-import AboutPage from '../../Pages/AboutPage'
+import About from '../../Pages/About'
 
 const Navbar = ({toggle, id}) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -42,7 +42,7 @@ const Navbar = ({toggle, id}) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to={"/AboutPage"} 
+              <NavLinks to={"/About"} 
                 smooth={true} 
                 duration={500}
                 spy={true}
@@ -51,7 +51,7 @@ const Navbar = ({toggle, id}) => {
               >ABOUT</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to={"/PortfolioPage"}
+              <NavLinks to={"/Portfolio"}
               smooth={true} 
               duration={500}
               spy={true}
@@ -59,7 +59,7 @@ const Navbar = ({toggle, id}) => {
               offset={-80}>PORTFOLIO</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to={"/GalleryPage"}
+              <NavLinks to={"/Gallery"}
               smooth={true} 
               duration={500}
               spy={true}
@@ -67,7 +67,7 @@ const Navbar = ({toggle, id}) => {
               offset={-80}>GALLERY</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to={"/ContactPage"}
+              <NavLinks to={"/Contact"}
               smooth={true} 
               duration={500}
               spy={true}

@@ -39,66 +39,50 @@ const PortfolioSection = () => {
           </PortfolioRow>
           <PortfolioRow>
             <Column>
-              <LinkWrap>
-                <ImageLink to={"/TeddyBotPage"}>
-                  <Image src={require('../../Visuals/Portfolio/Landing Page/TeddyBot Title Card.png')}/>
-                </ImageLink>
-              </LinkWrap>
+              <ImageLink to={"/TeddyBotPage"}>
+                <Image src={require('../../Visuals/Portfolio/Landing Page/TeddyBot Title Card.png')}/>
+              </ImageLink>
             </Column>
             <Column>
-              <LinkWrap>
-                <ImageLink to={"/TravelToothpastePage"}>
-                  <Image src={require('../../Visuals/Portfolio/Landing Page/Travel Toothpaste Title Card.png')}/>
-                </ImageLink>
-              </LinkWrap>
+              <ImageLink to={"/TravelToothpastePage"}>
+                <Image src={require('../../Visuals/Portfolio/Landing Page/Travel Toothpaste Title Card.png')}/>
+              </ImageLink>
             </Column>
           </PortfolioRow>
           <PortfolioRow>
             <Column>
-              <LinkWrap>
-                <ImageLink to={"/TandemBikePage"}>
-                  <Image src={require('../../Visuals/Portfolio/Landing Page/Tandem Bike Title Card.png')}/>
-                </ImageLink>
-              </LinkWrap>
+              <ImageLink to={"/TandemBikePage"}>
+                <Image src={require('../../Visuals/Portfolio/Landing Page/Tandem Bike Title Card.png')}/>
+              </ImageLink>
             </Column>
             <Column>
-              <LinkWrap>
-                <ImageLink to={"/AramaPage"}>
-                  <Image src={require('../../Visuals/Portfolio/Landing Page/Arama Title Card.png')}/>
-                </ImageLink>
-              </LinkWrap>
+              <ImageLink to={"/AramaPage"}>
+                <Image src={require('../../Visuals/Portfolio/Landing Page/Arama Title Card.png')}/>
+              </ImageLink>
             </Column>
           </PortfolioRow>
           <PortfolioRow>
             <Column>
-              <LinkWrap>
-                <ImageLink to={"/UMePage"}>
-                  <Image src={require('../../Visuals/Portfolio/Landing Page/U Me Title Card.png')}/>
-                </ImageLink>
-              </LinkWrap>
+              <ImageLink to={"/UMePage"}>
+                <Image src={require('../../Visuals/Portfolio/Landing Page/U Me Title Card.png')}/>
+              </ImageLink>
             </Column>
             <Column>
-              <LinkWrap>
-                <ImageLink to={"/HealthTrackerAppPage"}>
-                  <Image src={require('../../Visuals/Portfolio/Landing Page/Health Tracker App Title Card.png')}/>
-                </ImageLink>
-              </LinkWrap>
+              <ImageLink to={"/HealthTrackerAppPage"}>
+                <Image src={require('../../Visuals/Portfolio/Landing Page/Health Tracker App Title Card.png')}/>
+              </ImageLink>
             </Column>
           </PortfolioRow>
           <PortfolioRow>
             <Column>
-              <LinkWrap>
-                <ImageLink to={"/PulmoPage"}>
-                  <Image src={require('../../Visuals/Portfolio/Landing Page/Pulmo Title Card.png')}/>
-                </ImageLink>
-              </LinkWrap>
+              <ImageLink to={"/PulmoPage"}>
+                <Image src={require('../../Visuals/Portfolio/Landing Page/Pulmo Title Card.png')}/>
+              </ImageLink>
             </Column>
             <Column>
-              <LinkWrap>
-                <ImageLink to={"/AdobeBuildPage"}>
-                  <Image src={require('../../Visuals/Portfolio/Landing Page/Adobe Build Title Card.png')}/>
-                </ImageLink>
-              </LinkWrap>
+              <ImageLink to={"/AdobeBuildPage"}>
+                <Image src={require('../../Visuals/Portfolio/Landing Page/Adobe Build Title Card.png')}/>
+              </ImageLink>
             </Column>
           </PortfolioRow>
         </PortfolioGrid>

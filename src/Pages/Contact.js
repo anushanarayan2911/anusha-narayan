@@ -3,7 +3,7 @@ import ContactSection from '../components/ContactSection'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 
-const ContactPage = (id="contact") => {
+const Contact = (id="contact") => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -19,4 +19,4 @@ const ContactPage = (id="contact") => {
   )
 }
 
-export default ContactPage
+export default Contact

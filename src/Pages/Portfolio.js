@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import GallerySection from '../components/GallerySection'
+import PortfolioSection from '../components/Portfolio'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 
-const GalleryPage = (id="gallery") => {
+const Portfolio = (id="portfolio") => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -14,10 +14,10 @@ const GalleryPage = (id="gallery") => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <GallerySection/>
+      <PortfolioSection/>
     </>
     
   )
 }
 
-export default GalleryPage
+export default Portfolio

@@ -13,7 +13,7 @@ import {
     PortfolioBtn
 } from './AboutElements'
 
-const About = ({}) => {
+const AboutComponent = ({}) => {
   return (
     <InfoContainer>
       <InfoWrapper>
@@ -48,4 +48,4 @@ const About = ({}) => {
   )
 }
 
-export default About
+export default AboutComponent
