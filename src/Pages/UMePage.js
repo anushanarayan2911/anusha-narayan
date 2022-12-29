@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import Navbar from '../components/Navbar'
-import UMe from '../components/U Me'
 import Sidebar from '../components/SideBar'
 import { useEffect } from 'react'
+import UMeComponent from '../components/U Me'
 
-const UMePage = () => {
+const UMe = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -19,9 +19,9 @@ const UMePage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <UMe/>
+      <UMeComponent/>
     </>
   )
 }
 
-export default UMePage
+export default UMe

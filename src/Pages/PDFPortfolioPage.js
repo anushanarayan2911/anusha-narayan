@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import PDFPortfolio from '../components/PDFPortfolio'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
+import PDFPortfolioComponent from '../components/PDFPortfolio'
 
-const PDFPortfolioPage = (id="PDFPortfolioPage") => {
+const PDFPortfolio = (id="PDFPortfolioPage") => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -14,9 +14,9 @@ const PDFPortfolioPage = (id="PDFPortfolioPage") => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <PDFPortfolio/>
+      <PDFPortfolioComponent/>
     </>
   )
 }
 
-export default PDFPortfolioPage
+export default PDFPortfolio

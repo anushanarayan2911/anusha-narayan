@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import CV from '../components/CV'
+import CVComponent from '../components/CV'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 
-const CVPage = (id="CVPage") => {
+const CV = (id="CVPage") => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -14,9 +14,9 @@ const CVPage = (id="CVPage") => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <CV/>
+      <CVComponent/>
     </>
   )
 }
 
-export default CVPage
+export default CV

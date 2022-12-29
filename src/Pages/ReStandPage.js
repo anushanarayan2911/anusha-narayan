@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
-import ReStand from '../components/ReStand'
+import ReStandComponent from '../components/ReStand'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 import { useEffect } from 'react'
 
-const ReStandPage = () => {
+const ReStand = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -19,9 +19,9 @@ const ReStandPage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <ReStand/>
+      <ReStandComponent/>
     </>
   )
 }
 
-export default ReStandPage
+export default ReStand

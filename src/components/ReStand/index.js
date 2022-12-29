@@ -16,7 +16,7 @@ import { InfoContainer,
     YoutubeEmbed
 } from './ReStandElements'
 
-const ReStand = () => {
+const ReStandComponent = () => {
 
   return (
     <InfoContainer>
@@ -87,4 +87,4 @@ const ReStand = () => {
   )
 }
 
-export default ReStand
+export default ReStandComponent

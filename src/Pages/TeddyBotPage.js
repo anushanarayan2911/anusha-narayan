@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
-import TeddyBot from '../components/TeddyBot'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 import { useEffect } from 'react'
+import TeddyBotComponent from '../components/TeddyBot'
 
-const TeddyBotPage = () => {
+const TeddyBot = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -19,9 +19,9 @@ const TeddyBotPage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <TeddyBot/>
+      <TeddyBotComponent/>
     </>
   )
 }
 
-export default TeddyBotPage
+export default TeddyBot

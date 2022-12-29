@@ -16,7 +16,7 @@ import { InfoContainer,
     YoutubeEmbed
 } from './TandemBikeElements'
 
-const TandemBike = () => {
+const TandemBikeComponent = () => {
 
   return (
     <InfoContainer>
@@ -91,4 +91,4 @@ const TandemBike = () => {
   )
 }
 
-export default TandemBike
+export default TandemBikeComponent

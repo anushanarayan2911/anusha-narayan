@@ -31,13 +31,13 @@ const AboutComponent = ({}) => {
         <Column1>
           <br></br>
           <CVBtn >
-            <BtnLink to={"/CVPage"}>CV</BtnLink>
+            <BtnLink to={"/CV"}>CV</BtnLink>
           </CVBtn>
         </Column1>
         <Column2>
             <br></br>
           <PortfolioBtn>
-            <BtnLink to={"/PDFPortfolioPage"}>PDF Portfolio</BtnLink>
+            <BtnLink to={"/PDFPortfolio"}>PDF Portfolio</BtnLink>
           </PortfolioBtn>
         </Column2>
       </InfoRow>

@@ -16,7 +16,7 @@ import { InfoContainer,
     YoutubeEmbed
 } from './HealthTrackerAppElements'
 
-const TeddyBot = () => {
+const HealthTrackerAppComponent = () => {
 
   return (
     <InfoContainer>
@@ -75,4 +75,4 @@ const TeddyBot = () => {
   )
 }
 
-export default TeddyBot
+export default HealthTrackerAppComponent

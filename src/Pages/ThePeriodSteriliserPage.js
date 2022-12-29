@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import Navbar from '../components/Navbar'
-import ThePeriodSteriliser from '../components/ThePeriodSteriliser'
+import ThePeriodProductSteriliserComponent from '../components/ThePeriodSteriliser'
 import Sidebar from '../components/SideBar'
 import { useEffect } from 'react'
 
-const ThePeriodSteriliserPage = () => {
+const ThePeriodProductSteriliser = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -19,9 +19,9 @@ const ThePeriodSteriliserPage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <ThePeriodSteriliser/>
+      <ThePeriodProductSteriliserComponent/>
     </>
   )
 }
 
-export default ThePeriodSteriliserPage
+export default ThePeriodProductSteriliser

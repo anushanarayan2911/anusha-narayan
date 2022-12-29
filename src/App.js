@@ -7,18 +7,18 @@ import About from './Pages/About';
 import Portfolio from './Pages/Portfolio';
 import Gallery from './Pages/Gallery';
 import Contact from './Pages/Contact'
-import ThePeriodSteriliserPage from './Pages/ThePeriodSteriliserPage';
-import ReStandPage from './Pages/ReStandPage';
-import TeddyBotPage from './Pages/TeddyBotPage';
-import AramaPage from './Pages/AramaPage';
-import TravelToothpastePage from './Pages/TravelToothpastePage';
-import HealthTrackerAppPage from './Pages/HealthTrackerAppPage';
-import TandemBikePage from './Pages/TandemBikePage';
-import UMePage from './Pages/UMePage';
-import PulmoPage from './Pages/PulmoPage';
-import AdobeBuildPage from './Pages/AdobeBuildPage';
-import CVPage from './Pages/CVPage'
-import PDFPortfolioPage from './Pages/PDFPortfolioPage';
+import ThePeriodProductSteriliser from './Pages/ThePeriodSteriliserPage';
+import ReStand from './Pages/ReStandPage';
+import TeddyBot from './Pages/TeddyBotPage';
+import Arama from './Pages/AramaPage';
+import TravelToothpaste from './Pages/TravelToothpastePage';
+import HealthTrackerApp from './Pages/HealthTrackerAppPage';
+import TandemBike from './Pages/TandemBikePage';
+import UMe from './Pages/UMePage';
+import Pulmo from './Pages/PulmoPage';
+import AdobeBuild from './Pages/AdobeBuildPage';
+import CV from './Pages/CVPage'
+import PDFPortfolio from './Pages/PDFPortfolioPage';
 
 
 function App() {
@@ -29,19 +29,18 @@ function App() {
       <Route path="/Portfolio" component={Portfolio} exact/>
       <Route path="/Gallery" component={Gallery} exact/>
       <Route path="/Contact" component={Contact} exact />
-      <Route exact path="/ThePeriodSteriliserPage" component={ThePeriodSteriliserPage}/>
-      <Route path="/ReStandPage" component={ReStandPage} exact/>
-      <Route path="/TeddyBotPage" component={TeddyBotPage} exact/>
-      <Route path="/AramaPage" component={AramaPage} exact/>
-      <Route path="/TravelToothpastePage" component={TravelToothpastePage} exact/>
-      <Route path="/HealthTrackerAppPage" component={HealthTrackerAppPage} exact/>
-      <Route path="/CVPage" component={CVPage} exact/>
-      <Route path="/PDFPortfolioPage" component={PDFPortfolioPage} exact/>
-      <Route path="/ReStandPage" component={ReStandPage} exact/>
-      <Route path="/TandemBikePage" component={TandemBikePage} exact/>
-      <Route path="/UMePage" component={UMePage} exact />
-      <Route path="/PulmoPage" component={PulmoPage} exact/>
-      <Route path="/AdobeBuildPage" component={AdobeBuildPage} exact/>
+      <Route exact path="/ThePeriodProductSteriliser" component={ThePeriodProductSteriliser}/>
+      <Route path="/ReStand" component={ReStand} exact/>
+      <Route path="/TeddyBot" component={TeddyBot} exact/>
+      <Route path="/TravelToothpaste" component={TravelToothpaste} exact/>
+      <Route path="/TandemBike" component={TandemBike} exact/>
+      <Route path="/Arama" component={Arama} exact/>
+      <Route path="/HealthTrackerApp" component={HealthTrackerApp} exact/>
+      <Route path="/CV" component={CV} exact/>
+      <Route path="/PDFPortfolio" component={PDFPortfolio} exact/>
+      <Route path="/UMe" component={UMe} exact />
+      <Route path="/Pulmo" component={Pulmo} exact/>
+      <Route path="/AdobeBuild" component={AdobeBuild} exact/>
     </Switch>
   );
 }

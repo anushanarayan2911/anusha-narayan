@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import Navbar from '../components/Navbar'
-import Arama from '../components/Arama'
+import AramaComponent from '../components/Arama'
 import Sidebar from '../components/SideBar'
 import { useEffect } from 'react'
 
-const AramaPage = () => {
+const Arama = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -19,10 +19,10 @@ const AramaPage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <Arama/>
+      <AramaComponent/>
     </>
     
   )
 }
 
-export default AramaPage
+export default Arama

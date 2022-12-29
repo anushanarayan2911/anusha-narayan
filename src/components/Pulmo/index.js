@@ -16,7 +16,7 @@ import { InfoContainer,
     YoutubeEmbed
 } from './PulmoElements'
 
-const Pulmo = () => {
+const PulmoComponent = () => {
 
   return (
     <InfoContainer>
@@ -93,4 +93,4 @@ const Pulmo = () => {
   )
 }
 
-export default Pulmo
+export default PulmoComponent

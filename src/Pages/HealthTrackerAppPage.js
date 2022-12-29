@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
-import HealthTrackerApp from '../components/HealthTrackerApp'
+import HealthTrackerAppComponent from '../components/HealthTrackerApp'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 import { useEffect } from 'react'
 
-const HealthTrackerAppPage = () => {
+const HealthTrackerApp = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -19,10 +19,10 @@ const HealthTrackerAppPage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <HealthTrackerApp/>
+      <HealthTrackerAppComponent/>
     </>
     
   )
 }
 
-export default HealthTrackerAppPage
+export default HealthTrackerApp

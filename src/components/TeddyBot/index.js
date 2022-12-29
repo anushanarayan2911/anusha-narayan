@@ -16,7 +16,7 @@ import { InfoContainer,
     YoutubeEmbed
 } from './TeddyBotElements'
 
-const TeddyBot = () => {
+const TeddyBotComponent = () => {
 
   return (
     <InfoContainer>
@@ -79,4 +79,4 @@ const TeddyBot = () => {
   )
 }
 
-export default TeddyBot
+export default TeddyBotComponent

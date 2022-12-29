@@ -9,7 +9,7 @@ import { InfoContainer,
   Image
 } from './CVElements'
 
-const CV = () => {
+const CVComponent = () => {
   return (
     <InfoContainer id="portfolio">
       <InfoWrapper>
@@ -19,4 +19,4 @@ const CV = () => {
   )
 }
 
-export default CV
+export default CVComponent

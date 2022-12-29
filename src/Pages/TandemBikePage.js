@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
-import TandemBike from '../components/TandemBike'
+import TandemBikeComponent from '../components/TandemBike'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 import { useEffect } from 'react'
 
-const TandemBikePage = () => {
+const TandemBike = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -19,9 +19,9 @@ const TandemBikePage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <TandemBike/>
+      <TandemBikeComponent/>
     </>
   )
 }
 
-export default TandemBikePage
+export default TandemBike

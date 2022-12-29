@@ -16,7 +16,7 @@ import { InfoContainer,
     YoutubeEmbed
 } from './UMeElements'
 
-const UMe = () => {
+const UMeComponent = () => {
 
   return (
     <InfoContainer>
@@ -123,4 +123,4 @@ const UMe = () => {
   )
 }
 
-export default UMe
+export default UMeComponent

@@ -9,7 +9,7 @@ import { InfoContainer,
   PDFDiv
 } from './PDFPortfolioElements'
 
-const PDFPortfolio = () => {
+const PDFPortfolioComponent = () => {
   return (
     <InfoContainer id="portfolio">
       <InfoWrapper>
@@ -42,4 +42,4 @@ const PDFPortfolio = () => {
   )
 }
 
-export default PDFPortfolio
+export default PDFPortfolioComponent

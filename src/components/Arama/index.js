@@ -16,7 +16,7 @@ import { InfoContainer,
     YoutubeEmbed
 } from './AramaElements'
 
-const Arama = () => {
+const AramaComponent = () => {
 
   return (
     <InfoContainer>
@@ -88,4 +88,4 @@ const Arama = () => {
   )
 }
 
-export default Arama
+export default AramaComponent

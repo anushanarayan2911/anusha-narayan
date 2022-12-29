@@ -15,7 +15,7 @@ import { InfoContainer,
     PDFDiv
 } from './ThePeriodSteriliserElements'
 
-const ThePeriodSteriliser = () => {
+const ThePeriodProductSteriliserComponent = () => {
 
   return (
     <InfoContainer>
@@ -93,4 +93,4 @@ const ThePeriodSteriliser = () => {
   )
 }
 
-export default ThePeriodSteriliser
+export default ThePeriodProductSteriliserComponent

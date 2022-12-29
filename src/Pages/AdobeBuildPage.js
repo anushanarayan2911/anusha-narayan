@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
-import AdobeBuild from '../components/Adobe Build'
+import AdobeBuildComponent from '../components/Adobe Build'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 import { useEffect } from 'react'
 
-const AdobeBuildPage = () => {
+const AdobeBuild = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -19,9 +19,9 @@ const AdobeBuildPage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <AdobeBuild/>
+      <AdobeBuildComponent/>
     </>
   )
 }
 
-export default AdobeBuildPage
+export default AdobeBuild

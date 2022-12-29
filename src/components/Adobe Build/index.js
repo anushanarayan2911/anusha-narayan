@@ -16,7 +16,7 @@ import { InfoContainer,
     YoutubeEmbed
 } from './AdobeBuildElements'
 
-const AdobeBuild = () => {
+const AdobeBuildComponent = () => {
 
   return (
     <InfoContainer>
@@ -104,4 +104,4 @@ const AdobeBuild = () => {
   )
 }
 
-export default AdobeBuild
+export default AdobeBuildComponent

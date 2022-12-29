@@ -16,7 +16,7 @@ import { InfoContainer,
     YoutubeEmbed
 } from './TravelToothpasteElements'
 
-const TravelToothpaste = () => {
+const TravelToothpasteComponent = () => {
 
   return (
     <InfoContainer>
@@ -87,4 +87,4 @@ const TravelToothpaste = () => {
   )
 }
 
-export default TravelToothpaste
+export default TravelToothpasteComponent
