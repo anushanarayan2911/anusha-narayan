@@ -35,10 +35,18 @@ export const HeroBg = styled.div`
 `
 
 export const VideoBg = styled.video`
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     -o-object-fit: cover;
     object-fit: cover;
+
+    @media screen and (max-width: 768px) {
+        height: 80vh;
+        align-items: center;
+        justify-content: center;
+        -o-object-fit: center;
+        object-fit: center;
+    }
 `
 
 export const ArrowForward = styled(MdArrowForward)`
