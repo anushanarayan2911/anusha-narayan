@@ -67,9 +67,9 @@ export const ContactGrid = styled.div`
 export const ContactRow = styled.div`
     display: flex;
     width: 100%;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
-    align-items: left;
+    align-items: center;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -77,14 +77,14 @@ export const ContactRow = styled.div`
 `
 
 export const Column1 = styled.div`
-    max-width: 40%;
+    max-width: 50%;
     align-items: center;
-    justify-content: center;   
-    padding: 0 0 0px 20%;
+    justify-content: center;
+    padding-left: 10%;   
 `
 
 export const Column2 = styled.div`
-    max-width: 30%;
+    max-width: 50%;
     align-items: center;
     justify-content: center;
 `

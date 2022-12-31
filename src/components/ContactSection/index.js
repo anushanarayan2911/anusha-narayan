@@ -28,11 +28,11 @@ const ContactSection = () => {
                     <Image src={require('../../Visuals/Contact/Images/1.png')}/>
                   </a>
                 </Column1>
-                <Column2>
+                <Column1>
                   <a href={"https://www.linkedin.com/in/a-k-narayan/"}> 
                     <Image src={require('../../Visuals/Contact/Images/2.png')}/>
                   </a>
-                </Column2>
+                </Column1>
               </ContactRow>
               <br/>
               <br/>
