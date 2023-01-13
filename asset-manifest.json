@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e54e0853.css",
-    "main.js": "/static/js/main.608fab50.js",
+    "main.js": "/static/js/main.b5561871.js",
     "static/js/787.b32fe4f8.chunk.js": "/static/js/787.b32fe4f8.chunk.js",
     "static/media/Video.mp4": "/static/media/Video.fb943d93c0d7bf9c4d21.mp4",
     "static/media/Team 8 Phase 02-1.png": "/static/media/Team 8 Phase 02-1.93f746374ebd82d7ef2f.png",
@@ -169,6 +169,7 @@
     "static/media/Anusha Concept Booklet-06.png": "/static/media/Anusha Concept Booklet-06.708f5cdd286307dcbd0c.png",
     "static/media/A4 - 146.png": "/static/media/A4 - 146.13d74aec29f0ebbfb90b.png",
     "static/media/Anusha Concept Booklet-08.png": "/static/media/Anusha Concept Booklet-08.1d07c537fe12be4cdf5f.png",
+    "static/media/A4 - 164.png": "/static/media/A4 - 164.cb3c30424f8c77129765.png",
     "static/media/Portfolio-03.png": "/static/media/Portfolio-03.0c91c08f5fbf2801a6d5.png",
     "static/media/A4 - 167.png": "/static/media/A4 - 167.5d952aed32ba3babde34.png",
     "static/media/Anusha Concept Booklet-09.png": "/static/media/Anusha Concept Booklet-09.c1382aa2a3ee352aba2f.png",
@@ -186,7 +187,6 @@
     "static/media/4.png": "/static/media/4.00adb8b686b19a1d2223.png",
     "static/media/U Me.png": "/static/media/U Me.065007f19ac829234640.png",
     "static/media/A4 - 52.png": "/static/media/A4 - 52.c30d9f8ac5d266195dbc.png",
-    "static/media/A4 - 164.png": "/static/media/A4 - 164.2ba2fd64e7046e5a2250.png",
     "static/media/A4 - 170.png": "/static/media/A4 - 170.68bcedbe0f7b8e4a5532.png",
     "static/media/Period Product Steriliser.png": "/static/media/Period Product Steriliser.afc7957b59a8ad298f47.png",
     "static/media/Portfolio-01.png": "/static/media/Portfolio-01.855d272194b28b910b0f.png",
@@ -204,11 +204,11 @@
     "static/media/The Period Product Steriliser Title Card.png": "/static/media/The Period Product Steriliser Title Card.fc48880a27489c1f2f18.png",
     "index.html": "/index.html",
     "main.e54e0853.css.map": "/static/css/main.e54e0853.css.map",
-    "main.608fab50.js.map": "/static/js/main.608fab50.js.map",
+    "main.b5561871.js.map": "/static/js/main.b5561871.js.map",
     "787.b32fe4f8.chunk.js.map": "/static/js/787.b32fe4f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e54e0853.css",
-    "static/js/main.608fab50.js"
+    "static/js/main.b5561871.js"
   ]
 }
