@@ -16,26 +16,31 @@ const PDFPortfolioComponent = () => {
         <br/>
         <br/>
         <PDFDiv>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-01.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-02.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-03.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-04.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-05.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-06.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-07.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-08.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-09.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-10.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-11.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-12.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-13.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-14.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-15.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-16.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-17.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-18.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-19.png')}/>
-          <Image src={require('../../Visuals/About/PDF Portfolio/Portfolio-20.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 22.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 23.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 24.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 25.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 26.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 27.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 28.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 29.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 30.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 31.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 32.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 33.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 34.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 35.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 36.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 37.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 38.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 39.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 40.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 41.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 42.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 43.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 44.png')}/>
+          <Image src={require('../../Visuals/About/PDF Portfolio/Frame 45.png')}/>
+
         </PDFDiv>
       </InfoWrapper>
     </InfoContainer>
