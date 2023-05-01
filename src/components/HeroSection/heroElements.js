@@ -34,30 +34,44 @@ export const HeroBg = styled.div`
     overflow: hidden;
 `
 
-export const VideoBg = styled.video`
-    width: 100vw;
-    height: 100vh;
-    -o-object-fit: cover;
-    object-fit: cover;
-
-    @media screen and (max-width: 768px) {
-        height: 80vh;
-        align-items: center;
-        justify-content: center;
-        -o-object-fit: center;
-        object-fit: center;
-    }
+export const Row = styled.div`
+    position: absolute;
+    width: 80%;
+    top: 0%;
+    left: 10%;
+    right: 10%;
+    background-colour: #FF0000;
 `
 
-export const ArrowForward = styled(MdArrowForward)`
-    margin-left: 8px;
+export const LeftCol = styled.div`
+    position: absolute;
+    top: 30%;
+    right: 0;
+    bottom: 0; 
+    left: 0%;
+    width: 50%;
+    backgroundolour: #FF0000;
 `
 
-export const ArrowRight = styled(MdKeyboardArrowRight)`
-    margin-left: 8px;
+export const RightCol = styled.div`
+    position: fixed;
+    top: 12%;
+    right: 0;
+    bottom: 0; 
+    left: 50%;
+    width: 40%;
+    background-colour: #FF0000;
+`
+
+export const Subtitle = styled.p`
+    max-width: max-content;
+    font-size: 4em;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: #787878;
+    text-align: center;   
 `
 
 export const Image = styled.img`
-    width: 50%;
-    
+    width: 100%;
 `
