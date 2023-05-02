@@ -58,9 +58,9 @@ export const Row = styled.div`
 
 export const LeftCol = styled.div`
     margin-bottom: 0px;
-    padding: 0 0 0 0;
-    grid-area: col1;    
-
+    padding: 0 0% 0 0%;
+    grid-area: col1;  
+    width: 50vw;
 
     @media screen and (max-width: 768px) {
         padding: 10% 0 0 0;
@@ -73,6 +73,7 @@ export const RightCol = styled.div`
     margin-bottom: 0px;
     padding: 0 0% 0 0%;
     grid-area: col2;
+    width: 50vw;
 
     @media screen and (max-width: 768px) {
         padding: 10% 0 0 0;
@@ -81,13 +82,14 @@ export const RightCol = styled.div`
     }
 `
 
-export const Subtitle = styled.p`
+export const Paragraph = styled.p`
     max-width: max-content;
-    font-size: 4em;
-    line-height: 1.5em;
+    margin-top: 10%;
+    font-size: 100%;
+    line-height: 150%;
     font-weight: 200;
     color: #787878;
-    text-align: center;   
+    text-align: justify;   
 `
 
 export const Image = styled.img`

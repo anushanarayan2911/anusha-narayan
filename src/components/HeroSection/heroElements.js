@@ -82,8 +82,8 @@ export const RightCol = styled.div`
 
 export const Subtitle = styled.p`
     max-width: max-content;
-    font-size: 4em;
-    line-height: 1.5em;
+    font-size: 400%;
+    line-height: 150%;
     font-weight: 200;
     color: #787878;
     text-align: center;   
