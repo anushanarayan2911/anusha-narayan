@@ -24,50 +24,67 @@ export const HeroContainer = styled.div`
 `
 
 export const HeroBg = styled.div`
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0; 
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+    display: flex;
+    z-index: 1;
+    background-color: #ffffff;
+    height: 80%;
+    width: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+
+    @media screen and (max-width: 768px) {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    @media screen and (max-width: 400px) {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
 `
 
 export const Row = styled.div`
-    position: absolute;
-    width: 80%;
-    top: 0%;
-    left: 10%;
-    right: 10%;
-    background-colour: #FF0000;
+    display: grid;
+    grid-auto-columns: minmax(auto, 1fr)
+    align-items: left;   border-color: black;
+    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+
+    @media screen and (max-width: 768px) {
+        grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+    }
 `
 
 export const LeftCol = styled.div`
-    position: absolute;
-    top: 30%;
-    right: 0;
-    bottom: 0; 
-    left: 0%;
-    width: 50%;
-    backgroundolour: #FF0000;
+    margin-bottom: 0px;
+    padding: 0 0 0 0;
+    grid-area: col1;    
+
+
+    @media screen and (max-width: 768px) {
+        padding: 10% 0 0 0;
+        align-items: center;
+        justify-content: center;
+    }
 `
 
 export const RightCol = styled.div`
-    position: fixed;
-    top: 12%;
-    right: 0;
-    bottom: 0; 
-    left: 50%;
-    width: 40%;
-    background-colour: #FF0000;
+    margin-bottom: 0px;
+    padding: 0 5% 0 10%;
+    grid-area: col2;
+
+    @media screen and (max-width: 768px) {
+        padding: 10% 0 0 0;
+        align-items: center;
+        justify-content: center;
+    }
 `
 
 export const Subtitle = styled.p`
     max-width: max-content;
     font-size: 4em;
     line-height: 1.5em;
-    font-weight: 300;
+    font-weight: 200;
     color: #787878;
     text-align: center;   
 `

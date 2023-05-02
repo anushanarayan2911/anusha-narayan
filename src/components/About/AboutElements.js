@@ -1,28 +1,38 @@
-import styled from 'styled-components';
-import {Link as LinkR} from 'react-router-dom'
+import styled from 'styled-components'
+import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
 
-export const InfoContainer = styled.div`
+export const HeroContainer = styled.div`
     background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
 
-    width: 100%;
-    height: 100%;
-    overflow: hidden
-    
-    @media screen and (max-width: 768px) {
-        padding: 0px
+    :before {
+        content: '';
+        position: fixed;
+        overflow-x: hidden;
+        box-sizing: inherit;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), linear-gradient (180 deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+        z-index: 2
     }
 `
 
-export const InfoWrapper = styled.div`
-    display: grid;
+export const HeroBg = styled.div`
+    display: flex;
     z-index: 1;
     background-color: #ffffff;
-    height: 80%;
+    height: 100%;
     width: auto;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 5%;
-    overflow: hidden;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
 
     @media screen and (max-width: 768px) {
         margin-right: 5%;
@@ -35,7 +45,7 @@ export const InfoWrapper = styled.div`
     }
 `
 
-export const InfoRow = styled.div`
+export const Row = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr)
     align-items: left;   border-color: black;
@@ -46,11 +56,11 @@ export const InfoRow = styled.div`
     }
 `
 
-export const Column1 = styled.div`
+export const LeftCol = styled.div`
     margin-bottom: 0px;
-    padding: 0 5% 0 0;
+    padding: 0 0 0 0;
     grid-area: col1;    
-    
+
 
     @media screen and (max-width: 768px) {
         padding: 10% 0 0 0;
@@ -59,9 +69,9 @@ export const Column1 = styled.div`
     }
 `
 
-export const Column2 = styled.div`
-    margin-bottom: 15px;
-    padding: 0 0 0 0;
+export const RightCol = styled.div`
+    margin-bottom: 0px;
+    padding: 0 0% 0 0%;
     grid-area: col2;
 
     @media screen and (max-width: 768px) {
@@ -69,61 +79,17 @@ export const Column2 = styled.div`
         align-items: center;
         justify-content: center;
     }
-    
 `
 
 export const Subtitle = styled.p`
     max-width: max-content;
-    font-size: 0.8em;
-    line-height: 22px;
+    font-size: 4em;
+    line-height: 1.5em;
+    font-weight: 200;
     color: #787878;
-    text-align: justify;
-    
+    text-align: center;   
 `
 
-export const YoutubeEmbed = ({ }) => (
-    <div className='video-responsive'>
-        <iframe
-        src="https://www.youtube.com/embed/-4SfyQuGzrU"
-        allow="autoplay; encrypted-media; fullscreen"
-        allowFullScreen
-        title="video"
-        width="auto"
-        height="100%"
-      />{" "}
-    </div>
-)
-
-export const CVBtn = styled.nav`
-    display: flex;
-    align-items: center;
-    position: absolute;
-    margin-left: 30%;
-`
-
-export const BtnLink = styled(LinkR)`
-    border-radius: 50px;
-    background: #e4e4e4;
-    whitespace: nowrap;
-    padding: 10px 22px;
-    color: #787878;
-    font-size: 16px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #ffffff;
-        color: #787878
-    }
-`
-
-export const PortfolioBtn = styled.nav`
-    display: flex;
-    align-items: center;
-    position: absolute;
-    margin-left: 10%;
+export const Image = styled.img`
+    width: 100%;
 `
