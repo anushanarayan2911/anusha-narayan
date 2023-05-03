@@ -8,8 +8,8 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     width: 100vw;
+    height: auto;
     position: absolute;
-    z-index: 1;
 
     :before {
         content: '';
@@ -21,7 +21,6 @@ export const HeroContainer = styled.div`
         right: 0;
         bottom: 0;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), linear-gradient (180 deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-        z-index: 2
     }
 `
 
@@ -29,7 +28,7 @@ export const HeroBg = styled.div`
     display: flex;
     z-index: 1;
     background-color: #ffffff;
-    height: 100%;
+    height: auto;
     width: auto;
     margin-right: 0%;
     margin-left: 0%;
@@ -49,11 +48,12 @@ export const HeroBg = styled.div`
 export const Row = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr)
-    align-items: left;   border-color: black;
+    align-items: center;   border-color: black;
     grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
     @media screen and (max-width: 768px) {
         grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+        align-items: center;
     }
 `
 
@@ -61,10 +61,11 @@ export const LeftCol = styled.div`
     margin-bottom: 0px;
     padding: 0 0% 0 0%;
     grid-area: col1;  
-    width: 50vw;
+    width: 30vw;
 
     @media screen and (max-width: 768px) {
-        padding: 10% 0 0 0;
+        width: 100%;
+        padding: 0 0% 0 5%;
         align-items: center;
         justify-content: center;
     }
@@ -72,9 +73,9 @@ export const LeftCol = styled.div`
 
 export const RightCol = styled.div`
     margin-bottom: 0px;
-    padding: 0 0% 0 0%;
+    padding: 10% 10% 0 0%;
     grid-area: col2;
-    width: 50vw;
+
 
     @media screen and (max-width: 768px) {
         padding: 10% 0 0 0;
@@ -85,7 +86,16 @@ export const RightCol = styled.div`
 
 export const Paragraph = styled.p`
     max-width: max-content;
-    margin-top: 10%;
+    margin-top: 0%;
+    font-size: 100%;
+    line-height: 150%;
+    font-weight: 200;
+    color: #787878;
+    text-align: justify;   
+`
+export const BottomParapgraph = styled.p`
+    max-width: max-content;
+    margin-bottom: 5%;
     font-size: 100%;
     line-height: 150%;
     font-weight: 200;

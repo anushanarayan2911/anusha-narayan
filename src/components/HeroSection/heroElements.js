@@ -6,10 +6,9 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: auto;
     width: 100vw;
     position: relative;
-    z-index: 1;
 
     :before {
         content: '';
@@ -19,15 +18,14 @@ export const HeroContainer = styled.div`
         right: 0;
         bottom: 0;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), linear-gradient (180 deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-        z-index: 2
     }
 `
 
 export const HeroBg = styled.div`
     display: flex;
     z-index: 1;
-    background-color: #ffffff;
-    height: 80%;
+    background-color: white;
+    height: auto;
     width: auto;
     margin-right: 5%;
     margin-left: 5%;
