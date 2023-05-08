@@ -91,12 +91,12 @@ const PortfolioSection = () => {
             </Column>
             <Column>
               <LinkWrap>
-                <ImageLink to={"/Arama"}>
+                <ImageLink to={"/Pulmo"}>
                 <Container>
-                    <Image src={require('../../Visuals/Portfolio/Landing Page/Arama Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+                    <Image src={require('../../Visuals/Portfolio/Landing Page/Pulmo - 1 Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
                     <Overlay>
-                      <HeaderCaption>arama</HeaderCaption>
-                      <SecondCaption>USER RESEARCH | SKETCHING | LO-FI PROTOTYPING | CAD</SecondCaption>
+                      <HeaderCaption>pulmo - part I</HeaderCaption>
+                      <SecondCaption>FUTURE CONTEXTUAL STUDIES | LITERATURE REVIEW | PSS DESIGN</SecondCaption>
                     </Overlay> 
                   </Container>
                 </ImageLink>
@@ -104,12 +104,12 @@ const PortfolioSection = () => {
             </Column>
             <Column>
               <LinkWrap>
-                <ImageLink to={"/UMe"}>
+                <ImageLink to={"/Pulmo"}>
                 <Container>
-                    <Image src={require('../../Visuals/Portfolio/Landing Page/U Me Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+                    <Image src={require('../../Visuals/Portfolio/Landing Page/Pulmo - 2 Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
                     <Overlay>
-                      <HeaderCaption>U Me</HeaderCaption>
-                      <SecondCaption>EMPATHY MAPPING | PRODUCT DEVELOPMENT | RENDERING | APP DESIGN | BRANDING</SecondCaption>
+                      <HeaderCaption>pulmo - part II</HeaderCaption>
+                      <SecondCaption>FUTURE TECHNOLOGY STUDIES | APP DESIGN | IOT SYSTEM DESIGN</SecondCaption>
                     </Overlay> 
                   </Container>
                 </ImageLink>
