@@ -32,67 +32,29 @@ export const InfoWrapper = styled.div`
     }
 `
 
-export const InfoRow = styled.div`
-    display: grid;
-    margin-top: 0px;
-    grid-auto-columns: minmax(auto, 1fr);
-    align-items: left;
-    overflow: hidden;
-`
-
-export const TopLine = styled.p`
-    color: #4b4b4b;
-    font-size: 30px;
+export const TextHeading = styled.p`
+    color: #787878;
+    font-size: 1.5em;
     font-weight: 200;
     letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
+    text-align: left;
 `
 
-export const Subtitle = styled.p`
-    color: #4b4b4b;
-    font-size: 20px;
-    font-weight: 200;
-    letter-spacing: 1.4px;
-    margin-bottom: 30px;
-    text-align: center;
+export const Form = styled.form`
+    margin-left: 8%;
 `
 
-export const ContactGrid = styled.div`
-    width: 100%;
-    overflow: hidden;
-    align-items: center;
+export const Label = styled.label`
+    background-color: #ffffff;
 `
 
-export const ContactRow = styled.div`
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-    }
-`
-
-export const Column1 = styled.div`
-    max-width: 50%;
-    align-items: center;
-    justify-content: center;
-    padding-left: 10%;   
-`
-
-export const Column2 = styled.div`
-    max-width: 50%;
-    align-items: center;
-    justify-content: center;
-`
-export const ImageLink = styled(LinkR)`
-    background: #ffffff;
-`
-
-export const Image = styled.img`
-    width: 30%;
-    padding: 0 0 0 0;
+export const InputField = styled.input`
+    width: 90%;
+    type: text;
+    border: none;
+    border-bottom: 1px solid #787878; 
+    outline: none;
+    color: #787878;
+    font-size: 1.5em;
+    font-weight: 100;
 `
