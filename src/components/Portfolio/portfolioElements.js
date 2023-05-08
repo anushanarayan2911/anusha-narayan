@@ -21,17 +21,14 @@ export const InfoWrapper = styled.div`
     margin-right: 10%;
     margin-left: 10%;
     overflow-x: no-scroll;
-
     @media screen and (max-width: 768px) {
         margin-right: 5%;
         margin-left: 5%;
     }
-
     @media screen and (max-width: 400px) {
         margin-right: 0%;
         margin-left: 0%;
     }
-
 `
 
 export const InfoRow = styled.div`
@@ -65,7 +62,6 @@ export const PortfolioRow = styled.div`
     overflow-x: no-scroll;
     justify-content: space-between;
     flex-direction: row;
-
     @media screen and (max-width: 768px) {
         flex-direction: column;
     }
@@ -82,7 +78,46 @@ export const LinkWrap = styled.nav`
     align-items: center
     overflow-x: no-scroll;
 `
+export const Container = styled.div`
+    position: relative;
 
+`
+
+export const Overlay = styled.div`
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+
+    &: hover{
+        opacity: 70%;
+    }
+`
+export const HeaderCaption = styled.p`
+    color: #787878;
+    font-size: 2.5em;
+    font-weight: 200;
+    top: 20%;
+    position: absolute;
+    text-align: center;
+`
+
+export const SecondCaption = styled.p`
+    color: #787878;
+    font-size: 1em;
+    font-weight: 200;
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 10%;
+    right: 10%;
+`
 export const ImageLink = styled(LinkR)`
     background: #ffffff;
     overflow: no-scroll;
@@ -90,11 +125,7 @@ export const ImageLink = styled(LinkR)`
 
 export const Image = styled.img`
     width: 100%;
+    height: auto;
+    display: block;
     overflow-x: no-scroll;
-
-    &:hover{
-        width: 104%;
-        opacity: 60%;
-        transition: all 0.3s ease-in-out;
-    }
 `
