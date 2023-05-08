@@ -11,8 +11,12 @@ import {
     Image,
     Paragraph,
     BottomParapgraph,
-    CVBtn,
-    BtnLink
+    Row2,
+    LeftCol2,
+    RightCol2,
+    Btn,
+    BtnLink,
+    YoutubeEmbed
 } from './AboutElements'
 
 const AboutComponent = ({}) => {
@@ -28,7 +32,22 @@ const AboutComponent = ({}) => {
             <Paragraph>Design and engineering can create timeless solutions to many problems being faced by the modern world, from poverty to climate change to mental health issues. I work in close collaboration with my users to ensure that my solution does address problems at their core. I have carried out projects for a wide cross-section of users: from games for young children (3-4) in order to make learning maths a fun and interactive experience, to medical wearables that can detect when a user is at risk of developing long disease. </Paragraph>
             <BottomParapgraph>The skills I have accumulated have helped me to advocate for users in a variety of situations, most recently as a UX Design Intern at MathWorks Inc. As part of the Parallel Computing and Deep Learning teams, I helped to design new features for MATLAB Desktop, as well as extending accessibility support for MATLAB Online.</BottomParapgraph>
             <Row>
-              <CVBtn><BtnLink>CV</BtnLink></CVBtn>
+              <Row2>
+                <LeftCol2>
+                  <Btn>
+                    <BtnLink>CV</BtnLink>
+                  </Btn>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <Btn>
+                    <BtnLink>PDF Portfolio</BtnLink>
+                  </Btn>
+                </LeftCol2>
+                <RightCol2>
+                  <YoutubeEmbed/>
+                </RightCol2>
+              </Row2>
             </Row>
           </RightCol>
         </Row>

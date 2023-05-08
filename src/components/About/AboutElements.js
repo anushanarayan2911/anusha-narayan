@@ -50,7 +50,7 @@ export const Row = styled.div`
     grid-auto-columns: minmax(auto, 1fr)
     align-items: center;   border-color: black;
     grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
-
+    
     @media screen and (max-width: 768px) {
         grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
         align-items: center;
@@ -75,7 +75,8 @@ export const RightCol = styled.div`
     margin-bottom: 0px;
     padding: 10% 10% 0 0%;
     grid-area: col2;
-
+    align-itmes: center;
+    justify-content: center;
 
     @media screen and (max-width: 768px) {
         padding: 10% 0 0 0;
@@ -101,26 +102,78 @@ export const BottomParapgraph = styled.p`
     font-weight: 200;
     color: #787878;
     text-align: justify;   
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 10%;
+        padding: 0% 0 0 0;
+        align-items: center;
+        justify-content: center;
+    }
 `
 
 export const Image = styled.img`
     width: 100%;
 `
 
-export const CVBtn = styled.nav`
+export const Row2 = styled.div`
+    display: grid;
+    grid-auto-columns: minmax(auto, 1fr);   
+    align-items: center;   
+    border-color: black;
+    grid-template-areas: ${({ imgStart }) => (imgStart ? `'column2 column1'` : `'column1 column2'`)};
+
+    @media screen and (max-width: 768px) {
+        grid-template-areas: ${({ imgStart }) => (imgStart ? `'column1' 'column2'` : `'column1 column1' 'column2 column2'`)};
+}
+`
+
+export const LeftCol2 = styled.div`
+    margin-bottom: 0px;
+    padding: 0 0% 0 40%;
+    grid-area: column1;  
+    width: auto;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 0 0% 0 5%;
+        align-items: center;
+        justify-content: center;
+    }
+`
+
+export const RightCol2 = styled.div`
+    margin-bottom: -10%;
+    padding: 0% 0% 0 15%;
+    grid-area: column2;
+
+
+    @media screen and (max-width: 768px) {
+        padding: 10% 0 0 0;
+        align-items: center;
+        justify-content: center;
+    }
+`
+
+export const Btn = styled.nav`
     display: flex;
     align-items: center;
+    justify-content: center;
     position: absolute;
-    margin-left: 30%;
 `
 
 export const BtnLink = styled(LinkR)`
     border-radius: 50px;
+    width: 15vw;
+    align-itmes: center;
+    justify-content: center;
+    text-align: center;
     background: #EFEFEF;
     whitespace: nowrap;
-    padding: 10px 22px;
+    padding: 5% 10% 5% 10%;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.25);
     color: #787878;
     font-size: 16px;
+    font-weight: 200;
     outline: none;
     border: none;
     cursor: pointer;
@@ -133,3 +186,16 @@ export const BtnLink = styled(LinkR)`
         color: #787878
     }
 `
+
+export const YoutubeEmbed = ({ }) => (
+    <div className='video-responsive'>
+        <iframe
+        src="https://www.youtube.com/embed/-4SfyQuGzrU"
+        allow="autoplay; encrypted-media; fullscreen"
+        allowFullScreen
+        title="video"
+        width="auto"
+        height="100%"
+      />{" "}
+    </div>
+)
