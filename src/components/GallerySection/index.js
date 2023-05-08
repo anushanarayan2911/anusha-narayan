@@ -16,25 +16,6 @@ import { InfoContainer,
 const GallerySection = () => {
   const [isOverlay, setIsOverlay] = useState(false);
   const [isImage, setIsImage] = useState('')
-
-  var imagesPath = [
-    require('../../Visuals/Gallery/Images/1.png'),
-    require('../../Visuals/Gallery/Images/2.png'),
-    require('../../Visuals/Gallery/Images/3.png'),
-    require('../../Visuals/Gallery/Images/4.png'),
-    require('../../Visuals/Gallery/Images/5.png'),
-    require('../../Visuals/Gallery/Images/6.png'),
-    require('../../Visuals/Gallery/Images/7.png'),
-    require('../../Visuals/Gallery/Images/8.png'),
-  ]
-
-  const setImage = (sourceLink) => {
-    setIsImage(imagesPath[sourceLink]);
-  }
-
-  const showOverlay = () => {
-    setIsOverlay(!isOverlay);
-  }
   return (
     <InfoContainer id="portfolio">
       <InfoWrapper>
@@ -47,48 +28,50 @@ const GallerySection = () => {
           <PortfolioRow>
             <Column>
               <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/Images/1.png')}/>
+                <Image src={require('../../Visuals/Gallery/1.png')}/>
               </LinkWrap>
             </Column>
             <Column>
               <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/Images/2.png')}/>
-              </LinkWrap>
-            </Column>
-          </PortfolioRow>
-          <PortfolioRow>
-            <LinkWrap>
-              <Image src={require('../../Visuals/Gallery/Images/3.png')}/>
-            </LinkWrap>
-          </PortfolioRow>
-          <PortfolioRow>
-            <Column>
-              <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/Images/4.png')}/>
-              </LinkWrap>
-            </Column>
-            <Column>
-              <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/Images/5.png')}/>
+                <Image src={require('../../Visuals/Gallery/2.png')}/>
               </LinkWrap>
             </Column>
           </PortfolioRow>
           <PortfolioRow>
             <Column>
               <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/Images/6.png')}/>
+                <Image src={require('../../Visuals/Gallery/5.png')}/>
               </LinkWrap>
             </Column>
             <Column>
               <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/Images/7.png')}/>
+                <Image src={require('../../Visuals/Gallery/4.png')}/>
               </LinkWrap>
             </Column>
           </PortfolioRow>
           <PortfolioRow>
-            <LinkWrap>
-              <Image src={require('../../Visuals/Gallery/Images/8.png')}/>
-            </LinkWrap>
+            <Column>
+              <LinkWrap>
+                <Image src={require('../../Visuals/Gallery/8.png')}/>
+              </LinkWrap>
+            </Column>
+            <Column>
+              <LinkWrap>
+                <Image src={require('../../Visuals/Gallery/7.png')}/>
+              </LinkWrap>
+            </Column>
+          </PortfolioRow>
+          <PortfolioRow>
+            <Column>
+              <LinkWrap>
+                <Image src={require('../../Visuals/Gallery/6.png')}/>
+              </LinkWrap>
+            </Column>
+            <Column>
+              <LinkWrap>
+                <Image src={require('../../Visuals/Gallery/3.png')}/>
+              </LinkWrap>
+            </Column>
           </PortfolioRow>
         </PortfolioGrid>
       </InfoWrapper>

@@ -31,8 +31,6 @@ const PortfolioSection = () => {
       <InfoWrapper>
         <br/>
         <br/>
-        <br/>
-        <br/>
         <PortfolioGrid>
           <PortfolioRow>
             <Column>
@@ -158,6 +156,9 @@ const PortfolioSection = () => {
             </Column>
           </PortfolioRow>
         </PortfolioGrid>
+        <br/>
+        <br/>
+        <br/>
       </InfoWrapper>
     </InfoContainer>
   )

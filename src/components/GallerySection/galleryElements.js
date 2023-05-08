@@ -70,23 +70,26 @@ export const PortfolioGrid = styled.div`
     width: 100%;
     overflow: hidden;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 `
 export const PortfolioRow = styled.div`
     display: flex;
-    width: 80%;
+    width: 100%;
+    margin-bottom: 2%;
+
+    overflow-x: no-scroll;
     justify-content: space-between;
     flex-direction: row;
-
     @media screen and (max-width: 768px) {
         flex-direction: column;
     }
 `
 
 export const Column = styled.div`
-    max-width: max-content;
-    padding: 10px 10px 10px 10px;
+    max-width: 50%;
+    padding: 0px 1% 0px 5px; 
+    overflow-x: no-scroll;
 `
 
 export const LinkWrap = styled.nav`
@@ -100,9 +103,7 @@ export const ImageLink = styled(LinkR)`
 
 export const Image = styled.img`
     width: 100%;
-
-    &:hover{
-        width: 102%;
-        transition: all 0.3s ease-in-out;
-    }
+    height: auto;
+    display: block;
+    overflow-x: no-scroll;
 `
