@@ -102,13 +102,13 @@ export const Overlay = styled.div`
     background-color: #ffffff;
 
     &: hover{
-        opacity: 70%;
+        opacity: 80%;
     }
 `
 export const HeaderCaption = styled.p`
     color: #787878;
     font-size: 2em;
-    font-weight: 200;
+    font-weight: 300;
     width: 100%;
     bottom: 37%;
     position: absolute;

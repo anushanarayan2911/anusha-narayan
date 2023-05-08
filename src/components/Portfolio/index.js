@@ -116,6 +116,47 @@ const PortfolioSection = () => {
               </LinkWrap>
             </Column>
           </PortfolioRow>
+          <PortfolioRow>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/ReStand"}>
+                  <Container>
+                    <Image src={require('../../Visuals/Portfolio/Landing Page/ReStand Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+                    <Overlay>
+                      <HeaderCaption>restand</HeaderCaption>
+                      <SecondCaption>SUSTAINABLE DESIGN | SYSTEM DESIGN | VIDEO EDITING</SecondCaption>
+                    </Overlay> 
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/TravelToothpaste"}>
+                <Container>
+                    <Image src={require('../../Visuals/Portfolio/Landing Page/Travel Toothpaste Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+                    <Overlay>
+                      <HeaderCaption>travel toothpaste</HeaderCaption>
+                      <SecondCaption>PRODUCT TEARDOWN | SYSTEM ANALYSIS | MATERIAL ANALYSIS | SPECIFICATION GENERATION</SecondCaption>
+                    </Overlay> 
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/AdobeBuild"}>
+                <Container>
+                    <Image src={require('../../Visuals/Portfolio/Landing Page/Adobe Build Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+                    <Overlay>
+                      <HeaderCaption>Adobe Build</HeaderCaption>
+                      <SecondCaption>USER RESEARCH | MARKET STRATEGY | BRAND DESIGN | BUSINESS PROPOSAL BUILDING</SecondCaption>
+                    </Overlay> 
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+          </PortfolioRow>
         </PortfolioGrid>
       </InfoWrapper>
     </InfoContainer>
