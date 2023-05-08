@@ -75,7 +75,47 @@ const PortfolioSection = () => {
               </LinkWrap>
             </Column>
           </PortfolioRow>
-          
+          <PortfolioRow>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/TeddyBot"}>
+                  <Container>
+                    <Image src={require('../../Visuals/Portfolio/Landing Page/TeddyBot Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+                    <Overlay>
+                      <HeaderCaption>teddybot</HeaderCaption>
+                      <SecondCaption>ELECTRONICS | ARDUINO | C++ | ROBOTICS</SecondCaption>
+                    </Overlay> 
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/Arama"}>
+                <Container>
+                    <Image src={require('../../Visuals/Portfolio/Landing Page/Arama Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+                    <Overlay>
+                      <HeaderCaption>arama</HeaderCaption>
+                      <SecondCaption>USER RESEARCH | SKETCHING | LO-FI PROTOTYPING | CAD</SecondCaption>
+                    </Overlay> 
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/UMe"}>
+                <Container>
+                    <Image src={require('../../Visuals/Portfolio/Landing Page/U Me Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+                    <Overlay>
+                      <HeaderCaption>U Me</HeaderCaption>
+                      <SecondCaption>EMPATHY MAPPING | PRODUCT DEVELOPMENT | RENDERING | APP DESIGN | BRANDING</SecondCaption>
+                    </Overlay> 
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
+          </PortfolioRow>
         </PortfolioGrid>
       </InfoWrapper>
     </InfoContainer>
