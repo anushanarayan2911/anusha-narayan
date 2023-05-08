@@ -107,7 +107,7 @@ export const Overlay = styled.div`
 `
 export const HeaderCaption = styled.p`
     color: #787878;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 200;
     width: 100%;
     bottom: 37%;
@@ -119,13 +119,13 @@ export const HeaderCaption = styled.p`
 
 export const SecondCaption = styled.p`
     color: #787878;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 200;
     position: absolute;
     text-align: center;
     top: 55%;
-    left: 10%;
-    right: 10%;
+    left: 5%;
+    right: 5%;
 `
 export const ImageLink = styled(LinkR)`
     background: #ffffff;

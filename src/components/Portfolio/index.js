@@ -61,6 +61,19 @@ const PortfolioSection = () => {
                 </ImageLink>
               </LinkWrap>
             </Column>
+            <Column>
+              <LinkWrap>
+                <ImageLink to={"/UMe"}>
+                <Container>
+                    <Image src={require('../../Visuals/Portfolio/Landing Page/U Me Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+                    <Overlay>
+                      <HeaderCaption>U Me</HeaderCaption>
+                      <SecondCaption>EMPATHY MAPPING | PRODUCT DEVELOPMENT | RENDERING | APP DESIGN | BRANDING</SecondCaption>
+                    </Overlay> 
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
+            </Column>
           </PortfolioRow>
           
         </PortfolioGrid>
