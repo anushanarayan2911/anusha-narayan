@@ -42,19 +42,31 @@ export const TextHeading = styled.p`
 
 export const Form = styled.form`
     margin-left: 8%;
+    autocomplete: off;
 `
 
 export const Label = styled.label`
     background-color: #ffffff;
 `
 
-export const InputField = styled.input`
+export const InputField = styled.textarea`
     width: 90%;
-    type: text;
     border: none;
     border-bottom: 1px solid #787878; 
     outline: none;
     color: #787878;
+    font-family: runda;
     font-size: 1.5em;
     font-weight: 100;
+`
+
+export const Btn = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+`
+export const BtnLink = styled.input`
+    type: submit;
+    background-color: red;
 `

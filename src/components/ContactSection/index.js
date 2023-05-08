@@ -4,7 +4,9 @@ import { InfoContainer,
     Form,
     TextHeading,
     Label,
-    InputField
+    InputField,
+    Btn,
+    BtnLink
 } from './ContactElements'
 
 const ContactSection = () => {
@@ -34,6 +36,11 @@ const ContactSection = () => {
                 <TextHeading>MESSAGE</TextHeading>
                 <InputField name="message"></InputField>
               </Label>
+              <br/>
+              <Btn>
+                <input type="submit" />
+              </Btn>
+             
             </Form>
         </InfoWrapper>
     </InfoContainer>
