@@ -51,7 +51,13 @@ const PortfolioSection = () => {
             <Column>
               <LinkWrap>
                 <ImageLink to={"/Arama"}>
-                  <Image src={require('../../Visuals/Portfolio/Landing Page/Arama Title Card.png')}/>
+                <Container>
+                    <Image src={require('../../Visuals/Portfolio/Landing Page/Arama Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+                    <Overlay>
+                      <HeaderCaption>arama</HeaderCaption>
+                      <SecondCaption>USER RESEARCH | SKETCHING | LO-FI PROTOTYPING | CAD</SecondCaption>
+                    </Overlay> 
+                  </Container>
                 </ImageLink>
               </LinkWrap>
             </Column>

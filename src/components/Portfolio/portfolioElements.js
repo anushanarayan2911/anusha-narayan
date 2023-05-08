@@ -80,11 +80,17 @@ export const LinkWrap = styled.nav`
 `
 export const Container = styled.div`
     position: relative;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
 
 `
 
 export const Overlay = styled.div`
     position: absolute;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
     top: 0%;
     bottom: 0;
     left: 0%;
@@ -103,9 +109,12 @@ export const HeaderCaption = styled.p`
     color: #787878;
     font-size: 2.5em;
     font-weight: 200;
-    top: 20%;
+    width: 100%;
+    bottom: 37%;
     position: absolute;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 `
 
 export const SecondCaption = styled.p`
