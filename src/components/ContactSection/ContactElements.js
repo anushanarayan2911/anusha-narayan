@@ -49,7 +49,18 @@ export const Label = styled.label`
     background-color: #ffffff;
 `
 
-export const InputField = styled.textarea`
+export const SingleInputField = styled.input`
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #787878; 
+    outline: none;
+    color: #787878;
+    font-family: runda;
+    font-size: 1.5em;
+    font-weight: 100;
+`
+
+export const MultiInputField = styled.textarea`
     width: 90%;
     border: none;
     border-bottom: 1px solid #787878; 
@@ -65,8 +76,31 @@ export const Btn = styled.div`
     align-items: center;
     justify-content: center;
     position: absolute;
+    margin-left: 25%;
 `
 export const BtnLink = styled.input`
     type: submit;
-    background-color: red;
+    border-radius: 50px;
+    width: 15vw;
+    align-itmes: center;
+    justify-content: center;
+    text-align: center;
+    background: #EFEFEF;
+    whitespace: nowrap;
+    padding: 5% 10% 5% 10%;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.25);
+    color: #787878;
+    font-size: 16px;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #ffffff;
+        color: #787878
+    }
 `

@@ -4,7 +4,8 @@ import { InfoContainer,
     Form,
     TextHeading,
     Label,
-    InputField,
+    SingleInputField,
+    MultiInputField,
     Btn,
     BtnLink
 } from './ContactElements'
@@ -16,32 +17,38 @@ const ContactSection = () => {
             <Form>
               <Label>
                 <TextHeading>NAME</TextHeading>
-                <InputField name="name"></InputField>
+                <SingleInputField name="name"></SingleInputField>
               </Label>
               <br/>
               <br/>
               <Label>
                 <TextHeading>EMAIL</TextHeading>
-                <InputField name="email"></InputField>
+                <SingleInputField name="email"></SingleInputField>
               </Label>
               <br/>
               <br/>
               <Label>
                 <TextHeading>SUBJECT TITLE</TextHeading>
-                <InputField name="subject title"></InputField>
+                <SingleInputField name="subject title"></SingleInputField>
               </Label>
               <br/>
               <br/>
               <Label>
                 <TextHeading>MESSAGE</TextHeading>
-                <InputField name="message"></InputField>
+                <MultiInputField name="message"></MultiInputField>
               </Label>
               <br/>
+              <br/>
+              <br/>
               <Btn>
-                <input type="submit" />
+                <BtnLink type="submit" />
               </Btn>
-             
             </Form>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </InfoWrapper>
     </InfoContainer>
   )
