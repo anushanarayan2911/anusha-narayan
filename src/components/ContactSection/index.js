@@ -36,6 +36,12 @@ const ContactSection = () => {
     .catch((err) => {
       console.log('FAILED...', err);
     });
+    setToSend({
+      from_name: '',
+      from_email: '',
+      subject_title: '',
+      message: '',
+    })
   };
 
   const handleChange = (e) => {
