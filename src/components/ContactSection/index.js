@@ -17,54 +17,58 @@ const ContactSection = () => {
 
   const [toSend, setToSend] = useState({
     from_name: '',
-    to_name: '',
-    message: '',
-    reply_to: '',
+    from_email: '',
+    subject_title: '',
+    message: ''
   });
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const onSubmit = (e) => {
+    e.preventDefault();
     send(
-      'service_y3t9ymb',
-      'TEMPLATE ID',
+      'service_q528wwz',
+      'template_yae9i09',
       toSend,
-      'User ID'
+      're7N8OvO4Z1mF4W-4'
     )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
     })
     .catch((err) => {
-      console.log('FAILED...', err);  
+      console.log('FAILED...', err);
     });
-  }
+  };
+
+  const handleChange = (e) => {
+    setToSend({...toSend, [e.target.name]: e.target.value});
+  };
 
   
 
   return (
     <InfoContainer id="contact">
         <InfoWrapper>
-            <Form onSubmit={handleSubmit}>
+            <Form onSubmit={onSubmit}>
               <Label>
                 <TextHeading>NAME</TextHeading>
-                <SingleInputField name="name" value={toSend.from_name}></SingleInputField>
+                <SingleInputField name="from_name" value={toSend.from_name} onChange={handleChange}></SingleInputField>
               </Label>
               <br/>
               <br/>
               <Label>
                 <TextHeading>EMAIL</TextHeading>
-                <SingleInputField name="email"></SingleInputField>
+                <SingleInputField name="from_email" value={toSend.from_email} onChange={handleChange}></SingleInputField>
               </Label>
               <br/>
               <br/>
               <Label>
                 <TextHeading>SUBJECT TITLE</TextHeading>
-                <SingleInputField name="subject title"></SingleInputField>
+                <SingleInputField name="subject_title" value={toSend.subject_title} onChange={handleChange}></SingleInputField>
               </Label>
               <br/>
               <br/>
               <Label>
                 <TextHeading>MESSAGE</TextHeading>
-                <MultiInputField name="message" value={toSend.message}></MultiInputField>
+                <MultiInputField name="message" value={toSend.message} onChange={handleChange}></MultiInputField>
               </Label>
               <br/>
               <br/>
