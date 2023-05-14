@@ -33,86 +33,105 @@ export const InfoWrapper = styled.div`
         margin-left: 0%;
     }
 `
-export const NavLogo = styled(LinkR)`
-    color: white;
-    justify-self: flex-start;
-    cursor: pointer;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    margin-left: 24px;
-    font-weight: bold;
-    text-decoration: none;
-`
 
-export const InfoRow = styled.div`
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    max-height: max-content;
-`
-export const PortfolioGrid = styled.div`
-    width: 70%;
-    overflow: hidden;
-    margin: 0 15% 0 15%;
-    align-items: center;
-`
-
-export const Column = styled.div`
-    max-width: 50%;
-    padding: 0px 0 0px 0px;
-`
-
-export const ImageRow = styled.div`
-    width: 100%;
-`
-
-export const Image = styled.img`
-    width: 50%;
-    padding: 0% 0% 0% 25%;
+export const TitleImage = styled.img`
+    width: 30%;
+    padding: 0% 0% 0% 35%;
 `
 
 export const Container = styled.div`
     position: relative;
     justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-
+    width: 100%;
 `
 
 export const Overlay = styled.div`
     position: absolute;
     justify-content: center;
     align-items: center;
-    vertical-align: middle;
-    top: 0%;
-    bottom: 0;
-    left: 0%;
-    right: 0;
     width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: .5s ease;
     opacity: 80%;
 `
 
 export const Title = styled.p`
-    font-size: 4em;
+    font-size: 450%;
     font-family: runda;
     font-weight: 100;
     color: #787878;
-    padding: 15% 0 0 0;
+    padding: 10% 11% 0;
 `
 
 export const Caption = styled.p`
-    font-size: 2em;
+    position: absolute;
+    top: 75%;
+    left: 12.5%;
+    font-size: 200%;
     font-family: runda;
     font-weight: 100;
+    width: 75%;
+    padding: 0% 0% 10%;
     color: #787878;
-    align-text: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+`
+
+export const Text = styled.p`
+    font-size: 90%;
+    font-weight: 100;
+    color: #787878;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 150%;
+`
+
+export const Divider = styled.span`
+    width: 100%;
+    opacity: 50%;
+    background-color: #787878;
+    height: 1px;
 `
 
 export const Row = styled.div`
     display: grid;
-    max-height: 50%;
+    grid-auto-columns: minmax(auto, 1fr)
+    align-items: center;   border-color: black;
+    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+    
+    @media screen and (max-width: 768px) {
+        grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+        align-items: center;
+    }
+`
+
+export const LeftCol = styled.div`
+    margin-bottom: 0px;
+    padding: 0 0% 0 0%;
+    grid-area: col1;  
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 0 0% 0 5%;
+        align-items: center;
+        justify-content: center;
+    }
+`
+
+export const RightCol = styled.div`
+    margin-bottom: 0px;
+    padding: 0 0 0 0;
+    grid-area: col2;
+    align-itmes: center;
+    justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        padding: 5% 0 0 0;
+        align-items: center;
+        justify-content: center;
+    }
+`
+
+export const Image = styled.img`
+    width: 100%;
 `
