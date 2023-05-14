@@ -9,9 +9,12 @@ import { InfoContainer,
     Text,
     Divider,
     Row,
+    ButtonRow,
     LeftCol,
     RightCol,
-    Image
+    Image,
+    BtnLink,
+    Btn
 } from './ThePeriodSteriliserElements'
 
 const ThePeriodProductSteriliserComponent = () => {
@@ -45,6 +48,33 @@ const ThePeriodProductSteriliserComponent = () => {
             <Divider/>
             <br/>
             <br/>
+            <Row>
+                <LeftCol>
+                    <br/>
+                    <br/>   
+                    <br/>   
+                    <br/>
+                    <br/>
+                    <br/>
+                    <Text>Women and girls need a long-lasting supply of hygienic period products. That is what the period product steriliser does. The user opens the top latch and places the product in. It is first soaked in cold water to remove the stain. The product is then washed in hot water to remove bacteria. Finally, steam is injected to kill microorganisms. The products can then be removed and reused. Women and girls will have a lasting supply of period products, meaning that they will no longer have to resort to extreme measures which cause detriment to their health.</Text>
+                </LeftCol>
+                <RightCol>
+                    <Image src={require("../../Visuals/Portfolio/The Period Steriliser/Internal.png")}/>
+                </RightCol>
+            </Row>
+            <br/>
+            <Divider/>
+            <br/>
+            <br/>
+            <ButtonRow>
+                <Btn>
+                    <BtnLink>Download Portfolio</BtnLink>
+                </Btn>
+            </ButtonRow>
+            <br/>
+            <br/>
+            <br/>
+            <br/>   
         </InfoWrapper>
     </InfoContainer>
   )

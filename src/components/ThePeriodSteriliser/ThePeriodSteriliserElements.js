@@ -96,13 +96,24 @@ export const Divider = styled.span`
 export const Row = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr)
-    align-items: center;   border-color: black;
+    align-items: center;  
+    justify-content: center;
+    border-color: black;
+    vertical-align: center;
     grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
     
     @media screen and (max-width: 768px) {
         grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
         align-items: center;
     }
+`
+
+export const ButtonRow = styled.div`
+    width: 100%;
+    align-items: center;  
+    justify-content: center;
+    background-color: red;
+    padding: 0% 38% 0%;
 `
 
 export const LeftCol = styled.div`
@@ -120,10 +131,11 @@ export const LeftCol = styled.div`
 
 export const RightCol = styled.div`
     margin-bottom: 0px;
-    padding: 0 0 0 0;
+    padding: 0 15% 0;
     grid-area: col2;
     align-itmes: center;
     justify-content: center;
+    width: 70%;
 
     @media screen and (max-width: 768px) {
         padding: 5% 0 0 0;
@@ -134,4 +146,38 @@ export const RightCol = styled.div`
 
 export const Image = styled.img`
     width: 100%;
+`
+
+export const Btn = styled.nav`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color:
+`
+
+export const BtnLink = styled(LinkR)`
+    border-radius: 50px;
+    width: 15vw;
+    align-itmes: center;
+    justify-content: center;
+    text-align: center;
+    background: #EFEFEF;
+    whitespace: nowrap;
+    padding: 5% 10% 5% 10%;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.25);
+    color: #787878;
+    font-size: 16px;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #ffffff;
+        color: #787878
+    }
 `
