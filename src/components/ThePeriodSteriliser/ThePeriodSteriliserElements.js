@@ -51,31 +51,6 @@ export const InfoRow = styled.div`
     justify-items: center;
     max-height: max-content;
 `
-
-export const TopLine = styled.p`
-    color: #787878;
-    font-size: 30px;
-    font-weight: 200;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    align-items: center;
-`
-
-export const SubHeading = styled.p`
-    color: #e8a1bf;
-    font-size: 15px;
-    font-weight: 500;
-`
-
-export const Subtitle = styled.p`
-    max-width: max-content;
-    font-size: 1em;
-    line-height: 24px;
-    color: #787878;
-    text-align: justify;
-`
-
 export const PortfolioGrid = styled.div`
     width: 70%;
     overflow: hidden;
@@ -83,48 +58,61 @@ export const PortfolioGrid = styled.div`
     align-items: center;
 `
 
-export const PortfolioRow = styled.div`
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-    }
-`
-
 export const Column = styled.div`
     max-width: 50%;
-    padding: 0px 5% 0px 0px;
+    padding: 0px 0 0px 0px;
+`
+
+export const ImageRow = styled.div`
+    width: 100%;
 `
 
 export const Image = styled.img`
+    width: 50%;
+    padding: 0% 0% 0% 25%;
+`
+
+export const Container = styled.div`
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+
+`
+
+export const Overlay = styled.div`
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    top: 0%;
+    bottom: 0;
+    left: 0%;
+    right: 0;
     width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    opacity: 80%;
 `
 
-export const SectionHeading1 = styled.p`
-    color: #e8a1bf;
-    font-size: 25px;
-    font-weight: 500;
+export const Title = styled.p`
+    font-size: 4em;
+    font-family: runda;
+    font-weight: 100;
+    color: #787878;
+    padding: 15% 0 0 0;
 `
 
-export const SectionHeading2 = styled.p`
-    color: #e8a1bf;
-    font-size: 25px;
-    font-weight: 500;
+export const Caption = styled.p`
+    font-size: 2em;
+    font-family: runda;
+    font-weight: 100;
+    color: #787878;
+    align-text: center;
 `
 
 export const Row = styled.div`
     display: grid;
     max-height: 50%;
-`
-
-export const PDFDiv = styled.div`
-    background-color: #787878;
-    overflow-y: scroll;
-    height: 60vh;
-    border-color: #787878;
-    border-radius: 2px;
 `
