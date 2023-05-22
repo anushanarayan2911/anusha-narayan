@@ -31,19 +31,16 @@ const AramaComponent = () => {
             </Container> 
             <br/>
             <br/>
+            <br/>
             <Text>Children with severe autism have trouble communicating, even with those closest to them, such as their parents. They struggle to understand spoken instructions, and often cannot ask for help when they need it, even for simple tasks.</Text>
             <br/>
             <Divider/>
             <br/>
             <Row>
-                <Image src={require("../../Visuals/Portfolio/The Period Steriliser/Ideation Top.png")}/>
+                <Image src={require("../../Visuals/Portfolio/Arama/User Research.png")}/>
             </Row>
             <br/>
-            <Row>
-                <Image src={require("../../Visuals/Portfolio/The Period Steriliser/Ideation Bottom.png")}/>
-            </Row>
-            <br/>
-            <Text>The development process included sketching and lo-fi prototyping. 15 ideas were first generated, before being evaluated on an ideation matrix. This was narrowed down to 3 concepts, and a survey was conducted to see which one people would most prefer. The idea of a period product steriliser was most preferred. Lo-fi prototyping was then done to develop each part of the steriliser.</Text>
+            <Text>It was not possible to speak directly to autistic children, so we instead spoke to a variety of adults who could provide different perspectives on the lives of the children. This was done through user interviews and observation.</Text>
             <br/>
             <Divider/>
             <br/>
