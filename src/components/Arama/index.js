@@ -31,7 +31,7 @@ const AramaComponent = () => {
             </Container> 
             <br/>
             <br/>
-            <Text>500 women and girls around the world live in period poverty - without adequate access to menstrual hygiene. They are forced to resort to unhealthy alternatives that can have severe consequences on their physical and mental health.</Text>
+            <Text>Children with severe autism have trouble communicating, even with those closest to them, such as their parents. They struggle to understand spoken instructions, and often cannot ask for help when they need it, even for simple tasks.</Text>
             <br/>
             <Divider/>
             <br/>
