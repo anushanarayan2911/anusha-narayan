@@ -1,4 +1,5 @@
 import React from 'react'
+import ThePeriodProductSteriliser from '../../Visuals/Portfolio/The Period Steriliser/ThePeriodProductSteriliser.pdf'
 
 import { InfoContainer, 
     InfoWrapper, 
@@ -19,6 +20,10 @@ import { InfoContainer,
 } from './ThePeriodSteriliserElements'
 
 const ThePeriodProductSteriliserComponent = () => {
+
+    const downloadPDFFile = () => {
+        alert("Download logic goes here")
+    }
 
   return (
     <InfoContainer>
@@ -69,7 +74,7 @@ const ThePeriodProductSteriliserComponent = () => {
             <br/>
             <Row>
                 <Btn>
-                    <BtnLink>Download Portfolio</BtnLink>
+                    <BtnLink to={ThePeriodProductSteriliser} download="Period-Product-Steriliser-Document" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
                 </Btn>
             </Row>
             <br/>
