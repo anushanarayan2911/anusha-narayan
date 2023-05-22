@@ -117,8 +117,9 @@ export const ButtonRow = styled.div`
 
 export const LeftCol = styled.div`
     margin-bottom: 0px;
-    padding: 0 0% 0 0%;
+    padding: 0 0% 0;
     grid-area: col1;  
+    width: 90%;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -130,11 +131,11 @@ export const LeftCol = styled.div`
 
 export const RightCol = styled.div`
     margin-bottom: 0px;
-    padding: 0 15% 0;
+    padding: 0 0% 0;
     grid-area: col2;
     align-itmes: center;
     justify-content: center;
-    width: 70%;
+    width: 100%;
 
     @media screen and (max-width: 768px) {
         padding: 5% 0 0 0;
