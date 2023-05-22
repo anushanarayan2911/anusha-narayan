@@ -74,7 +74,7 @@ const ThePeriodProductSteriliserComponent = () => {
             <br/>
             <Row>
                 <Btn>
-                    <BtnLink to={ThePeriodProductSteriliser} download="Period-Product-Steriliser-Document" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
+                    <BtnLink to={ThePeriodProductSteriliser} download="The Period Product Steriliser" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
                 </Btn>
             </Row>
             <br/>
