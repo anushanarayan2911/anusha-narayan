@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { InfoContainer, 
     InfoWrapper, 
     TitleImage,
@@ -66,11 +67,11 @@ const ThePeriodProductSteriliserComponent = () => {
             <Divider/>
             <br/>
             <br/>
-            <ButtonRow>
+            <Row>
                 <Btn>
                     <BtnLink>Download Portfolio</BtnLink>
                 </Btn>
-            </ButtonRow>
+            </Row>
             <br/>
             <br/>
             <br/>

@@ -112,7 +112,6 @@ export const ButtonRow = styled.div`
     width: 100%;
     align-items: center;  
     justify-content: center;
-    background-color: red;
     padding: 0% 38% 0%;
 `
 
@@ -148,12 +147,12 @@ export const Image = styled.img`
     width: 100%;
 `
 
-export const Btn = styled.nav`
+export const Btn = styled.a`
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    background-color:
+    margin-left: 30%;
 `
 
 export const BtnLink = styled(LinkR)`
@@ -164,7 +163,7 @@ export const BtnLink = styled(LinkR)`
     text-align: center;
     background: #EFEFEF;
     whitespace: nowrap;
-    padding: 5% 10% 5% 10%;
+    padding: 5% 5% 5% 5%;
     box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.25);
     color: #787878;
     font-size: 16px;
