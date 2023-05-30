@@ -24,15 +24,12 @@ const UMeComponent = () => {
         <InfoWrapper>
             <Container>
                 <Overlay>
-                    <Title>arama</Title>
-                    <Caption>a voice recognition device that provides visual prompts to autistic children to help them understand questions and instructions from carers</Caption>
+                    <Title>u me</Title>
+                    <Caption>a two-way communication device which allows severely autistic, non-verbal children to communicate with their parents and carers</Caption>
                 </Overlay>
-                <TitleImage src={require("../../Visuals/Portfolio/Arama/Arama.png")}/>
+                <TitleImage src={require("../../Visuals/Portfolio/U Me/U Me.png")}/>
             </Container> 
-            <br/>
-            <br/>
-            <br/>
-            <Text>Children with severe autism have trouble communicating, even with those closest to them, such as their parents. They struggle to understand spoken instructions, and often cannot ask for help when they need it, even for simple tasks.</Text>
+            <Text>40% of children who are diagnosed with autistic spectrum disorder are non-verbal. Not being able to communicate their wants and needs is a daily struggle for children with severe autism. This causes frustration, as they struggle to communicate to even the people closest to them, such as parents or carers.</Text>
             <br/>
             <Divider/>
             <br/>
