@@ -10,11 +10,10 @@ import { InfoContainer,
     Text,
     Divider,
     Row,
-    LeftCol,
-    RightCol,
     Image,
     BtnLink,
-    Btn
+    Btn,
+    YoutubeEmbed
 } from './UMeElements'
 
 const UMeComponent = () => {
@@ -34,53 +33,46 @@ const UMeComponent = () => {
             <Divider/>
             <br/>
             <Row>
-                <Image src={require("../../Visuals/Portfolio/Arama/User Research.png")}/>
+                <Image src={require("../../Visuals/Portfolio/U Me/Empathy Mapping.png")}/>
             </Row>
             <br/>
-            <Text>It was not possible to speak directly to autistic children, so we instead spoke to a variety of adults who could provide different perspectives on the lives of the children. This was done through user interviews and observation.</Text>
+            <Text>In order to  accurately identify pain points, an empathy map was constructed, looking at a typical interaction between a parent and a child. Points of high stress to both the parent and child were identified, and used as a basis for ideation and concept development.</Text>
             <br/>
             <Divider/>
             <br/>
             <br/>
             <Row>
-                <LeftCol>
-                    <br/>
-                    <br/>   
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <Text>Instead of choosing one opportunity, ideation consisted of iterating on one idea, incorporating multiple opportunities to come up with a complete design that could address many of the problems currently affecting the lives of autistic children.</Text>
-                </LeftCol>
-                <RightCol>
-                    <Image src={require("../../Visuals/Portfolio/Arama/Concept Development.png")}/>
-                </RightCol>
+                <Image src={require("../../Visuals/Portfolio/U Me/Concept Development.png")}/>
             </Row>
+            <br/>
+            <Text>The idea of a two-way communication device was developed. Children will be able to press buttons on  the device to alert their carers of their needs. Different aspects of the concept were developed. This included development of shape and form through sketching and 3D printing. User research was done to find out what children would want to communicate. </Text>
+            <Divider/>
+            <br/>
+            <Row>
+                <Image src={require("../../Visuals/Portfolio/U Me/Rendering.png")}/>
+            </Row>
+            <Text>Keyshot was used to render CAD models of the U Me</Text>
+            <Divider/>
+            <br/>
+            <Row>
+                <Image src={require("../../Visuals/Portfolio/U Me/App Design.png")}/>
+            </Row>
+            <br/>
+            <Text>The app will be for the carer’s use. They can use it to send instructions to the child’s device, where an alert will appear on the screen, letting them know what to do. Additionally, if the child presses a button on their device to let their carer know that they need help, a notification will appear on the adult’s app. </Text>
+            <br/>
+            <Divider/>
+            <br/>
+            <Text>This project required designing a product within a brand’s existing portfolio. Yoto was not engaged in any consultancy or collaborative capacity with this project, and the outcome is in no way endorsed by them. Any publicity is limited to personal and academic use. </Text>
+            <Row>
+                <Image src={require("../../Visuals/Portfolio/U Me/Yoto Market Analysis.png")}/>
+            </Row>
+            <Text>Yoto’s closest competitors were analysed using a variety of techniques to find where Yoto can fit within the market and how the product might differentiate them from competitors.</Text>
             <br/>
             <Divider/>
             <br/>
             <Row>
-                <Image src={require("../../Visuals/Portfolio/Arama/Prototyping.png")}/>
+                <YoutubeEmbed/>
             </Row>
-            <br/>
-            <Divider/>
-            <br/>
-            <Row>
-                <LeftCol>
-                    <Image src={require("../../Visuals/Portfolio/Arama/CAD.png")}/>
-                </LeftCol>
-                <RightCol>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <Text>SolidWorks and KeyShot were used to generate the CAD models. The mechanical mating feature of SolidWorks was used for simulation of mechanical parts of the device.</Text>
-                </RightCol>
-            </Row>
-            <br/>
-            <Divider/>
-            <br/>
             <br/>
             <Row>
                 <Btn>
