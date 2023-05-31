@@ -102,7 +102,7 @@ const PortfolioSection = () => {
             </Column>
             <Column>
               <LinkWrap>
-                <ImageLink to={"/Pulmo"}>
+                <ImageLink to={"/Pulmo2"}>
                 <Container>
                     <Image src={require('../../Visuals/Portfolio/Landing Page/Pulmo - 2 Title Card.png')} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
                     <Overlay>

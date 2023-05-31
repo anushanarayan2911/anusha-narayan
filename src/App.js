@@ -16,6 +16,7 @@ import HealthTrackerApp from './Pages/HealthTrackerAppPage';
 import TandemBike from './Pages/TandemBikePage';
 import UMe from './Pages/UMePage';
 import Pulmo1 from './Pages/Pulmo1Page';
+import Pulmo2 from './Pages/Pulmo2Page'
 import AdobeBuild from './Pages/AdobeBuildPage';
 import CV from './Pages/CVPage'
 import PDFPortfolio from './Pages/PDFPortfolioPage';
@@ -40,6 +41,7 @@ function App() {
       <Route path="/PDFPortfolio" component={PDFPortfolio} exact/>
       <Route path="/UMe" component={UMe} exact />
       <Route path="/Pulmo1" component={Pulmo1} exact/>
+      <Route path="/Pulmo2" component={Pulmo2} exact/>
       <Route path="/AdobeBuild" component={AdobeBuild} exact/>
     </Switch>
   );
