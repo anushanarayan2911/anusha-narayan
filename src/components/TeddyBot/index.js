@@ -24,15 +24,15 @@ const TeddyBotComponent = () => {
         <InfoWrapper>
             <Container>
                 <Overlay>
-                    <Title>arama</Title>
-                    <Caption>a voice recognition device that provides visual prompts to autistic children to help them understand questions and instructions from carers</Caption>
+                    <Title>teddybot</Title>
+                    <Caption>an robotic maths games making learning maths a fun and interactive experience for young children</Caption>
                 </Overlay>
-                <TitleImage src={require("../../Visuals/Portfolio/Arama/Arama.png")}/>
+                <TitleImage src={require("../../Visuals/Portfolio/TeddyBot/TeddyBot.png")}/>
             </Container> 
             <br/>
             <br/>
             <br/>
-            <Text>Children with severe autism have trouble communicating, even with those closest to them, such as their parents. They struggle to understand spoken instructions, and often cannot ask for help when they need it, even for simple tasks.</Text>
+            <Text>Mathematics is often considered to be the most boring subject for young children. The lack of interactivity means that they are frequently disengaged and do not enjoy the essential subject.</Text>
             <br/>
             <Divider/>
             <br/>
