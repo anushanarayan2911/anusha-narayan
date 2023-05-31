@@ -1,5 +1,5 @@
 import React from 'react'
-import Pulmo1 from '../../Visuals/Portfolio/Pulmo-1/Pulmo1.pdf'
+import Pulmo2 from '../../Visuals/Portfolio/Pulmo-2/Pulmo2.pdf'
 import { InfoContainer, 
     InfoWrapper, 
     TitleImage,
@@ -58,7 +58,7 @@ const Pulmo2Component = () => {
             <br/>
             <Row>
                 <Btn>
-                    <BtnLink to={Pulmo1} download="TeddyBot" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
+                    <BtnLink to={Pulmo2} download="Pulmo" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
                 </Btn>
             </Row>
             <br/>

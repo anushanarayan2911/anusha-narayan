@@ -45,20 +45,28 @@ const Pulmo1Component = () => {
             <br/>
             <br/>
             <Row>
-                <Image src={require("../../Visuals/Portfolio/TeddyBot/Robot Circuit.png")}/>
+                <Image src={require("../../Visuals/Portfolio/Pulmo-1/Concepts.png")}/>
             </Row>
             <br/>
-            <Text>The electronic circuit for the robot consisted of Arduino boards, an LCD screen, 9 LEDs, 2 servo motors, a buzzer and a keypad. All of these components were used to make the robot of the game work.</Text>
+            <Text>An ideation session was conducted, using the technologies that had been researched as a basis. The aim of the session was to generate possible ideas for a product service system that could detect lung disease early. Any concept could be broken into 2 parts: data collection and data analysis. Since the latter would be done using machine learning models combined with the user’s medical data, product ideation focussed on the first part. Ideation was done as a group, with C-Sketching and SCAMPER techniques being used. The top three ideas, a choker sensor, sleepmask sensor and chest ECG were chosen to move forward through a Pugh chart analysis.</Text>
             <br/>
             <Divider/>
             <br/>
             <Row>
-                <YoutubeEmbed/>
+                <Image src={require("../../Visuals/Portfolio/Pulmo-1/Final Concept.png")}/>
             </Row>
+            <br/>
+            <Text>The final concept was chosen to be Pulmo, a wearable device that collects data from a wide variety of biomarkers to detect lung disease. The product service system surrounding Pulmo was also designed.</Text>
+            <br/>
+            <Row>
+                <Image src={require("../../Visuals/Portfolio/Pulmo-1/Final PSS.png")}/>
+            </Row>
+            <br/>
+            <Divider/>
             <br/>
             <Row>
                 <Btn>
-                    <BtnLink to={Pulmo1} download="TeddyBot" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
+                    <BtnLink to={Pulmo1} download="Pulmo" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
                 </Btn>
             </Row>
             <br/>
