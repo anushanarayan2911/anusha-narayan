@@ -35,9 +35,9 @@ export const InfoWrapper = styled.div`
 `
 
 export const TitleImage = styled.img`
-    width: 75%;
-    padding: 5% 0% 0%;
-    opacity: 25%;
+    width: 60%;
+    padding: 0% 22% 0%;
+    opacity: 40%;
 `
 
 export const Container = styled.div`
@@ -58,7 +58,7 @@ export const Title = styled.p`
     font-family: runda;
     font-weight: 100;
     color: #787878;
-    padding: 10% 38% 0;
+    padding: 10% 40% 0;
 `
 
 export const Caption = styled.p`
@@ -74,6 +74,7 @@ export const Caption = styled.p`
     text-align: center;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 `
 
 export const Text = styled.p`

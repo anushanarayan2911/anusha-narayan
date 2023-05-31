@@ -25,15 +25,13 @@ const Pulmo1Component = () => {
         <InfoWrapper>
             <Container>
                 <Overlay>
-                    <Title>teddybot</Title>
-                    <Caption>an robotic maths games making learning maths a fun and interactive experience for young children</Caption>
+                    <Title>pulmo</Title>
+                    <Caption>a product service system designed to detect respiratory disease early, preventing it from becoming too advanced</Caption>
                 </Overlay>
-                <TitleImage src={require("../../Visuals/Portfolio/TeddyBot/TeddyBot.png")}/>
+                <TitleImage src={require("../../Visuals/Portfolio/Pulmo-1/Pulmo - 1.png")}/>
             </Container> 
             <br/>
-            <br/>
-            <br/>
-            <Text>Mathematics is often considered to be the most boring subject for young children. The lack of interactivity means that they are frequently disengaged and do not enjoy the essential subject.</Text>
+            <Text>Respiratory diseases are on the rise, due to an increase in smokers and air pollution. It is likely that by 2042, they will be putting a significant strain on the NHS. The aim of the project was to research into future technologies in order to develop a way of diagnosing conditions early, thus meaning that fewer people will need advanced care, reducing the pressure on the NHS.</Text>
             <br/>
             <Divider/>
             <br/>
