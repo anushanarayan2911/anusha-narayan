@@ -36,20 +36,10 @@ const Pulmo1Component = () => {
             <Divider/>
             <br/>
             <Row>
-                <LeftCol>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <Text>Part of the project was to create a prototype of the design. Due to prototyping limitations, the outer casing was made using plywood. Manufacture involved laser cutting and electronics.</Text>
-                </LeftCol>
-                <RightCol>
-                    <Image src={require("../../Visuals/Portfolio/TeddyBot/Manufacture.png")}/>
-                </RightCol>
+                <Image src={require("../../Visuals/Portfolio/Pulmo-1/Future Contextual Studies.png")}/>
             </Row>
+            <br/>
+            <Text>To help define a future scenario, a STEEPV Wheel was created. Under the theme “The Future of Healthcare”, the overarching drivers, trends and enablers that will drive the project were identified. Key themes included the rise of telemedicine, development of personalised point-of-care healthcare solutions, the shift towards preventative models and the reduction of workload on healthcare workers through the integration of data-driven systems and partial privatisation of the NHS.</Text>
             <br/>
             <Divider/>
             <br/>
