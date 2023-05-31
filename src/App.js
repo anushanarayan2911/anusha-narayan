@@ -15,7 +15,7 @@ import TravelToothpaste from './Pages/TravelToothpastePage';
 import HealthTrackerApp from './Pages/HealthTrackerAppPage';
 import TandemBike from './Pages/TandemBikePage';
 import UMe from './Pages/UMePage';
-import Pulmo from './Pages/PulmoPage';
+import Pulmo1 from './Pages/Pulmo1Page';
 import AdobeBuild from './Pages/AdobeBuildPage';
 import CV from './Pages/CVPage'
 import PDFPortfolio from './Pages/PDFPortfolioPage';
@@ -39,7 +39,7 @@ function App() {
       <Route path="/CV" component={CV} exact/>
       <Route path="/PDFPortfolio" component={PDFPortfolio} exact/>
       <Route path="/UMe" component={UMe} exact />
-      <Route path="/Pulmo" component={Pulmo} exact/>
+      <Route path="/Pulmo1" component={Pulmo1} exact/>
       <Route path="/AdobeBuild" component={AdobeBuild} exact/>
     </Switch>
   );
