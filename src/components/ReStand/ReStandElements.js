@@ -35,9 +35,9 @@ export const InfoWrapper = styled.div`
 `
 
 export const TitleImage = styled.img`
-    width: 60%;
-    padding: 0% 22% 0%;
-    opacity: 40%;
+    width: 45%;
+    padding: 0% 30% 0%;
+    opacity: 20%;
 `
 
 export const Container = styled.div`
@@ -187,7 +187,7 @@ export const BtnLink = styled(LinkR)`
 export const YoutubeEmbed = ({ }) => (
     <div className='video-responsive'>
         <iframe
-        src="https://www.youtube.com/embed/t8diYfsUAZg"
+        src="https://www.youtube.com/embed/2GImMQlsOPo"
         allow="autoplay; encrypted-media; fullscreen"
         allowFullScreen
         title="video"
