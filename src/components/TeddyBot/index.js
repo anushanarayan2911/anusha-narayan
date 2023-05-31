@@ -1,19 +1,20 @@
 import React from 'react'
+import TeddyBot from '../../Visuals/Portfolio/TeddyBot/TeddyBot.pdf'
 import { InfoContainer, 
     InfoWrapper, 
-    InfoRow, 
-    TopLine, 
-    Subtitle,
-    Image,
-    Column,
-    SubHeading,
-    PortfolioGrid,
-    PortfolioRow,
-    SectionHeading1,
-    SectionHeading2,
+    TitleImage,
+    Title,
+    Container,
+    Overlay,
+    Caption,
+    Text,
+    Divider,
     Row,
-    PDFDiv,
-    YoutubeEmbed
+    LeftCol,
+    RightCol,
+    Image,
+    BtnLink,
+    Btn
 } from './TeddyBotElements'
 
 const TeddyBotComponent = () => {
@@ -21,61 +22,81 @@ const TeddyBotComponent = () => {
   return (
     <InfoContainer>
         <InfoWrapper>
-            <br/>
-            <br/>
-            <InfoRow>
-                <TopLine>TeddyBot</TopLine>
-            </InfoRow>
-            <InfoRow>
-                <SubHeading>electronics | robotics | C++ | arduino</SubHeading>
-            </InfoRow>
-            <br/>
+            <Container>
+                <Overlay>
+                    <Title>arama</Title>
+                    <Caption>a voice recognition device that provides visual prompts to autistic children to help them understand questions and instructions from carers</Caption>
+                </Overlay>
+                <TitleImage src={require("../../Visuals/Portfolio/Arama/Arama.png")}/>
+            </Container> 
             <br/>
             <br/>
             <br/>
-            <PortfolioGrid>
-                <PortfolioRow>
-                    <Column>
-                        <Image src={require('../../Visuals/Portfolio/TeddyBot/TeddyBot.png')}/>
-                    </Column>
-                    <Column>
-                        <Subtitle>Duration: 3 weeks</Subtitle>
-                        <br/>
-                        <br/>
-                        <Subtitle>Date: November - December 2021</Subtitle>
-                        <br/>
-                        <br/>
-                        <Subtitle>Nature: a project in response to a brief to create a machine which uses embedded computing and has a strong sense of user interaction as part of a Physical Computing module </Subtitle>
-                    </Column>
-                </PortfolioRow>
-                <br/>
-                <br/>
-                <PortfolioRow>
-                    <Column>
-                      <SectionHeading1>the problem</SectionHeading1>
-                      <Subtitle>Mathematics is considered to be the most boring subject for young children. The lack of interactivity means that children are frequently disengaged and do not enjoy this vital subject.</Subtitle>
-                      <br/>
-                    </Column>
-                    <Column>
-                      <SectionHeading2>the solution</SectionHeading2>
-                      <Subtitle>In order to make learning maths more interactive  experience, I designed a robotic maths game to teach addition and subtraction to young children (3 - 4).</Subtitle>
-                    </Column>
-                </PortfolioRow>
-                <br/>
-                <InfoRow><YoutubeEmbed/></InfoRow>
-                <br/>
-                <Row>
-                    <PDFDiv>
-                        <Image src={require('../../Visuals/Portfolio/TeddyBot/Anusha Narayan Gizmo Poster-1.png')}/>
-                    </PDFDiv>
-                </Row>
-                <br/>  
-                <br/>  
-                <br/>      
-            </PortfolioGrid>
-            
+            <Text>Children with severe autism have trouble communicating, even with those closest to them, such as their parents. They struggle to understand spoken instructions, and often cannot ask for help when they need it, even for simple tasks.</Text>
+            <br/>
+            <Divider/>
+            <br/>
+            <Row>
+                <Image src={require("../../Visuals/Portfolio/Arama/User Research.png")}/>
+            </Row>
+            <br/>
+            <Text>It was not possible to speak directly to autistic children, so we instead spoke to a variety of adults who could provide different perspectives on the lives of the children. This was done through user interviews and observation.</Text>
+            <br/>
+            <Divider/>
+            <br/>
+            <br/>
+            <Row>
+                <LeftCol>
+                    <br/>
+                    <br/>   
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <Text>Instead of choosing one opportunity, ideation consisted of iterating on one idea, incorporating multiple opportunities to come up with a complete design that could address many of the problems currently affecting the lives of autistic children.</Text>
+                </LeftCol>
+                <RightCol>
+                    <Image src={require("../../Visuals/Portfolio/Arama/Concept Development.png")}/>
+                </RightCol>
+            </Row>
+            <br/>
+            <Divider/>
+            <br/>
+            <Row>
+                <Image src={require("../../Visuals/Portfolio/Arama/Prototyping.png")}/>
+            </Row>
+            <br/>
+            <Divider/>
+            <br/>
+            <Row>
+                <LeftCol>
+                    <Image src={require("../../Visuals/Portfolio/Arama/CAD.png")}/>
+                </LeftCol>
+                <RightCol>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <Text>SolidWorks and KeyShot were used to generate the CAD models. The mechanical mating feature of SolidWorks was used for simulation of mechanical parts of the device.</Text>
+                </RightCol>
+            </Row>
+            <br/>
+            <Divider/>
+            <br/>
+            <br/>
+            <Row>
+                <Btn>
+                    <BtnLink to={TeddyBot} download="Arama" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
+                </Btn>
+            </Row>
+            <br/>
+            <br/>
+            <br/>
+            <br/>   
         </InfoWrapper>
     </InfoContainer>
+
   )
 }
 
