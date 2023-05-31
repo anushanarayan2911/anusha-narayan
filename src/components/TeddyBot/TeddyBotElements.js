@@ -153,7 +153,7 @@ export const Btn = styled.a`
     align-items: center;
     justify-content: center;
     position: absolute;
-    margin-left: 30%;
+    margin-left: 33%;
 `
 
 export const BtnLink = styled(LinkR)`
@@ -181,3 +181,16 @@ export const BtnLink = styled(LinkR)`
         color: #787878
     }
 `
+
+export const YoutubeEmbed = ({ }) => (
+    <div className='video-responsive'>
+        <iframe
+        src="https://www.youtube.com/embed/jOqSIPo2E-w"
+        allow="autoplay; encrypted-media; fullscreen"
+        allowFullScreen
+        title="video"
+        width="auto"
+        height="100%"
+      />{" "}
+    </div>
+)

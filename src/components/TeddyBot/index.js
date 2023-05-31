@@ -14,7 +14,8 @@ import { InfoContainer,
     RightCol,
     Image,
     BtnLink,
-    Btn
+    Btn,
+    YoutubeEmbed
 } from './TeddyBotElements'
 
 const TeddyBotComponent = () => {
@@ -37,57 +38,39 @@ const TeddyBotComponent = () => {
             <Divider/>
             <br/>
             <Row>
-                <Image src={require("../../Visuals/Portfolio/Arama/User Research.png")}/>
-            </Row>
-            <br/>
-            <Text>It was not possible to speak directly to autistic children, so we instead spoke to a variety of adults who could provide different perspectives on the lives of the children. This was done through user interviews and observation.</Text>
-            <br/>
-            <Divider/>
-            <br/>
-            <br/>
-            <Row>
                 <LeftCol>
                     <br/>
-                    <br/>   
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
-                    <Text>Instead of choosing one opportunity, ideation consisted of iterating on one idea, incorporating multiple opportunities to come up with a complete design that could address many of the problems currently affecting the lives of autistic children.</Text>
+                    <br/>
+                    <Text>Part of the project was to create a prototype of the design. Due to prototyping limitations, the outer casing was made using plywood. Manufacture involved laser cutting and electronics.</Text>
                 </LeftCol>
                 <RightCol>
-                    <Image src={require("../../Visuals/Portfolio/Arama/Concept Development.png")}/>
+                    <Image src={require("../../Visuals/Portfolio/TeddyBot/Manufacture.png")}/>
                 </RightCol>
             </Row>
             <br/>
             <Divider/>
             <br/>
+            <br/>
             <Row>
-                <Image src={require("../../Visuals/Portfolio/Arama/Prototyping.png")}/>
+                <Image src={require("../../Visuals/Portfolio/TeddyBot/Robot Circuit.png")}/>
             </Row>
+            <br/>
+            <Text>The electronic circuit for the robot consisted of Arduino boards, an LCD screen, 9 LEDs, 2 servo motors, a buzzer and a keypad. All of these components were used to make the robot of the game work.</Text>
             <br/>
             <Divider/>
             <br/>
             <Row>
-                <LeftCol>
-                    <Image src={require("../../Visuals/Portfolio/Arama/CAD.png")}/>
-                </LeftCol>
-                <RightCol>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <Text>SolidWorks and KeyShot were used to generate the CAD models. The mechanical mating feature of SolidWorks was used for simulation of mechanical parts of the device.</Text>
-                </RightCol>
+                <YoutubeEmbed/>
             </Row>
-            <br/>
-            <Divider/>
-            <br/>
             <br/>
             <Row>
                 <Btn>
-                    <BtnLink to={TeddyBot} download="Arama" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
+                    <BtnLink to={TeddyBot} download="TeddyBot" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
                 </Btn>
             </Row>
             <br/>
