@@ -58,7 +58,8 @@ export const Title = styled.p`
     font-family: runda;
     font-weight: 100;
     color: #787878;
-    padding: 10% 40% 0;
+    padding: 8% 40% 0;
+    z-index: 2;
 `
 
 export const Caption = styled.p`
@@ -186,7 +187,7 @@ export const BtnLink = styled(LinkR)`
 export const YoutubeEmbed = ({ }) => (
     <div className='video-responsive'>
         <iframe
-        src="https://www.youtube.com/embed/jOqSIPo2E-w"
+        src="https://www.youtube.com/embed/t8diYfsUAZg"
         allow="autoplay; encrypted-media; fullscreen"
         allowFullScreen
         title="video"
