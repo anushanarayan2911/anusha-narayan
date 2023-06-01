@@ -58,8 +58,8 @@ export const Title = styled.p`
     font-family: runda;
     font-weight: 100;
     color: #787878;
-    padding: 8% 40% 0;
-    z-index: 2;
+    padding: 5% 0% 0 25%;
+    z-index: 5;
 `
 
 export const Caption = styled.p`

@@ -25,27 +25,55 @@ const TravelToothpasteComponent = () => {
         <InfoWrapper>
             <Container>
                 <Overlay>
-                    <Title>restand</Title>
-                    <Caption>a product service system to recycle camping chairs following festivals, to prevent them going to waste</Caption>
+                    <Title>travel toothpaste</Title>
+                    <Caption>a research document detailing the environmental impact of travel toothpastes</Caption>
                 </Overlay>
-                <TitleImage src={require("../../Visuals/Portfolio/ReStand/ReStand.png")}/>
+                <TitleImage src={require("../../Visuals/Portfolio/Travel Toothpaste/Travel Toothpaste.png")}/>
             </Container> 
             <br/>
-            <Text>In 2015, there were 2200 camping chairs left at the Glastonbury festival. There are few product service systems in place to remove the waste left behind and the materials used add to energy wasteage and carbon footprint.</Text>
+            <br/>
+            <br/>
+            <Text>Travel toothpaste is often sold as part of travel toiletries, and have a detrimental effect on the environment. Many toothpaste suppliers are attempting to combat the negative environmental impact that their products have.</Text>
             <br/>
             <Divider/>
             <br/>
             <Row>
-                <Image src={require("../../Visuals/Portfolio/ReStand/System Design.png")}/>
+                <LeftCol>
+                    <Image src={require("../../Visuals/Portfolio/Travel Toothpaste/Product Teardown.png")}/>
+                </LeftCol>
+                <RightCol>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <Text>A product teardown was done, looking at the design, material, manufacture and packaging of travel toothpastes, in order to ascertain the environmental impact of them.</Text>
+                </RightCol>
             </Row>
-            <br/>
-            <Text>When designing the product service system, multiple possible use cases were taken into account, in order to ensure that the system would work to minimise waste caused by camping chairs.</Text>
             <br/>
             <Divider/>
             <br/>
             <Row>
-                <YoutubeEmbed/>
+                <LeftCol>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <Text>The materials used in travel toothpastes were analysed, to determine the embodied energy and carbon dioxide footprint that travel toothpastes have on the environment. Furthermore, an existing product service system designed to recycle products which cannot be done through governmental means.</Text>
+                </LeftCol>
+                <RightCol>
+                    <Image src={require("../../Visuals/Portfolio/Travel Toothpaste/Material and System Analysis.png")}/>
+                </RightCol>
             </Row>
+            <br/>
+            <Divider/>
+            <br/>
+            <Row>
+                <Image src={require("../../Visuals/Portfolio/Travel Toothpaste/Specification.png")}/>
+            </Row>
+            <br/>
+            <Text>Based on the flaws identified in the system analysis, the risks and opportunities for sustainable improvement were decided upon. These then became the basis for specification generation, which included systemic points, social points and market related specification.</Text>
+            <br/>
+            <Divider/>
             <br/>
             <Row>
                 <Btn>
