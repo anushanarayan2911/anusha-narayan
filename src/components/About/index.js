@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import CV from '../../Visuals/About/CV.pdf'
+import Portfolio from '../../Visuals/About/Portfolio.pdf'
 import {Link as LinkR} from 'react-router-dom' 
 
 import {
@@ -34,13 +36,13 @@ const AboutComponent = ({}) => {
             <Row2>
               <LeftCol2>
                 <Btn>
-                  <BtnLink>CV</BtnLink>
+                  <BtnLink to={CV} download="CV" target="_blank" rel="noreferrer">CV</BtnLink>
                 </Btn>
                 <br/>
                 <br/>
                 <br/>
                 <Btn>
-                  <BtnLink>PDF Portfolio</BtnLink>
+                  <BtnLink to={Portfolio} download="PDF Portfolio" target="_blank" rel="noreferrer">PDF Portfolio</BtnLink>
                 </Btn>
               </LeftCol2>
               <RightCol2>

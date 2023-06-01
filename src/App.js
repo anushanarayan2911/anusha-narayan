@@ -18,8 +18,6 @@ import UMe from './Pages/UMePage';
 import Pulmo1 from './Pages/Pulmo1Page';
 import Pulmo2 from './Pages/Pulmo2Page'
 import AdobeBuild from './Pages/AdobeBuildPage';
-import CV from './Pages/CVPage'
-import PDFPortfolio from './Pages/PDFPortfolioPage';
 
 
 function App() {
@@ -37,8 +35,6 @@ function App() {
       <Route path="/TandemBike" component={TandemBike} exact/>
       <Route path="/Arama" component={Arama} exact/>
       <Route path="/HealthTrackerApp" component={HealthTrackerApp} exact/>
-      <Route path="/CV" component={CV} exact/>
-      <Route path="/PDFPortfolio" component={PDFPortfolio} exact/>
       <Route path="/UMe" component={UMe} exact />
       <Route path="/Pulmo1" component={Pulmo1} exact/>
       <Route path="/Pulmo2" component={Pulmo2} exact/>

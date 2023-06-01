@@ -154,7 +154,7 @@ export const RightCol2 = styled.div`
     }
 `
 
-export const Btn = styled.nav`
+export const Btn = styled.a`
     display: flex;
     align-items: center;
     justify-content: center;
