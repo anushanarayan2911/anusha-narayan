@@ -92,6 +92,20 @@ export const NavLinks = styled(LinkR)`
     }
 `
 
+export const AboutBtn = styled(LinkS)`
+    color: #787878;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+
+    &.active {
+        border-bottom: 1.5px solid #4b4b4b;
+    }
+`
+
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 0 0;

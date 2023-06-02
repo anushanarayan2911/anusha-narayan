@@ -18,11 +18,18 @@ import UMe from './Pages/UMePage';
 import Pulmo1 from './Pages/Pulmo1Page';
 import Pulmo2 from './Pages/Pulmo2Page'
 import AdobeBuild from './Pages/AdobeBuildPage';
+import createHistory from "history/createBrowserHistory"
 
 
 function App() {
+    
+  const history = createHistory()
+
+  history.listen((location, action) => {
+      window.scrollTo(0, 0)
+})
   return (
-    <Switch>
+    <Switch history={history}>
       <Route exact path="/" component={Home}/>
       <Route exact path="/About" component={About}/>
       <Route path="/Portfolio" component={Portfolio} exact/>
