@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import AboutComponent from '../components/About'
-import { homeObjOne } from '../components/About/data'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 

@@ -3,13 +3,14 @@ import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
 import {Link as LinkR} from 'react-router-dom' 
 
 export const HeroContainer = styled.div`
-    background: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: auto;
-    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden
+
+    @media screen and (max-width: 768px) {
+        padding: 0px
+    }
 
     :before {
         content: '';
