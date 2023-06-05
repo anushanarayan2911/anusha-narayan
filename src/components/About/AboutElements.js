@@ -62,7 +62,7 @@ export const LeftCol = styled.div`
     margin-bottom: 0px;
     padding: 0 0% 0 0%;
     grid-area: col1;  
-    width: 30vw;
+    width: 100%;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -74,7 +74,7 @@ export const LeftCol = styled.div`
 
 export const RightCol = styled.div`
     margin-bottom: 0px;
-    padding: 10% 10% 0 0%;
+    padding: 2% 5% 0;
     grid-area: col2;
     align-itmes: center;
     justify-content: center;
@@ -114,6 +114,7 @@ export const BottomParapgraph = styled.p`
 
 export const Image = styled.img`
     width: 100%;
+    margin-top: 5%;
 `
 
 export const Row2 = styled.div`
