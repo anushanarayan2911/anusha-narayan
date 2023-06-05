@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.4bf5a7c8.css",
-    "main.js": "/static/js/main.85020778.js",
+    "main.js": "/static/js/main.ac2a189f.js",
     "static/js/787.b32fe4f8.chunk.js": "/static/js/787.b32fe4f8.chunk.js",
     "static/media/UMe.pdf": "/static/media/UMe.b59b7a4e2a1a48b699ef.pdf",
+    "static/media/Anusha.png": "/static/media/Anusha.da414a64e4fa1be7d305.png",
     "static/media/Pulmo1.pdf": "/static/media/Pulmo1.635043b383b1a516f5cb.pdf",
     "static/media/Portfolio.pdf": "/static/media/Portfolio.36a96a0fb46ea19b1305.pdf",
     "static/media/Pulmo2.pdf": "/static/media/Pulmo2.b2cc1001eaf64b6205ce.pdf",
@@ -11,7 +12,7 @@
     "static/media/AdobeBuild.pdf": "/static/media/AdobeBuild.1c9a1e8246b987b46973.pdf",
     "static/media/ThePeriodProductSteriliser.pdf": "/static/media/ThePeriodProductSteriliser.aa0d09095bf0bc19d881.pdf",
     "static/media/ReStand.pdf": "/static/media/ReStand.f491fd301733f526d58f.pdf",
-    "static/media/Talk.png": "/static/media/Talk.e0c2ef8ae24837f1d954.png",
+    "static/media/Talk.png": "/static/media/Talk.7f65d63a9396a0f3b3a5.png",
     "static/media/1.png": "/static/media/1.00c5317aba37165facd9.png",
     "static/media/App Design.png": "/static/media/App Design.ae6965fe5338bba69c9c.png",
     "static/media/TravelToothpaste.pdf": "/static/media/TravelToothpaste.4aec16d3e2ae898b7bb0.pdf",
@@ -80,11 +81,11 @@
     "static/media/Arama.png": "/static/media/Arama.95af738dc830fa11b0ca.png",
     "index.html": "/index.html",
     "main.4bf5a7c8.css.map": "/static/css/main.4bf5a7c8.css.map",
-    "main.85020778.js.map": "/static/js/main.85020778.js.map",
+    "main.ac2a189f.js.map": "/static/js/main.ac2a189f.js.map",
     "787.b32fe4f8.chunk.js.map": "/static/js/787.b32fe4f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bf5a7c8.css",
-    "static/js/main.85020778.js"
+    "static/js/main.ac2a189f.js"
   ]
 }
