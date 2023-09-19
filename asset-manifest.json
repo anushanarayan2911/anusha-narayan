@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.4bf5a7c8.css",
-    "main.js": "/static/js/main.ac2a189f.js",
+    "main.js": "/static/js/main.d8edde7d.js",
     "static/js/787.b32fe4f8.chunk.js": "/static/js/787.b32fe4f8.chunk.js",
     "static/media/UMe.pdf": "/static/media/UMe.b59b7a4e2a1a48b699ef.pdf",
-    "static/media/Anusha.png": "/static/media/Anusha.da414a64e4fa1be7d305.png",
     "static/media/Pulmo1.pdf": "/static/media/Pulmo1.635043b383b1a516f5cb.pdf",
     "static/media/Portfolio.pdf": "/static/media/Portfolio.36a96a0fb46ea19b1305.pdf",
     "static/media/Pulmo2.pdf": "/static/media/Pulmo2.b2cc1001eaf64b6205ce.pdf",
@@ -12,7 +11,7 @@
     "static/media/AdobeBuild.pdf": "/static/media/AdobeBuild.1c9a1e8246b987b46973.pdf",
     "static/media/ThePeriodProductSteriliser.pdf": "/static/media/ThePeriodProductSteriliser.aa0d09095bf0bc19d881.pdf",
     "static/media/ReStand.pdf": "/static/media/ReStand.f491fd301733f526d58f.pdf",
-    "static/media/Talk.png": "/static/media/Talk.7f65d63a9396a0f3b3a5.png",
+    "static/media/Talk.png": "/static/media/Talk.e0c2ef8ae24837f1d954.png",
     "static/media/1.png": "/static/media/1.00c5317aba37165facd9.png",
     "static/media/App Design.png": "/static/media/App Design.ae6965fe5338bba69c9c.png",
     "static/media/TravelToothpaste.pdf": "/static/media/TravelToothpaste.4aec16d3e2ae898b7bb0.pdf",
@@ -26,9 +25,9 @@
     "static/media/Yoto Market Analysis.png": "/static/media/Yoto Market Analysis.cc588269ee0ac36f8544.png",
     "static/media/Adobe Build.png": "/static/media/Adobe Build.cc4df6b88cfa841a5a84.png",
     "static/media/Concept.png": "/static/media/Concept.bc2a7d5920f5ae0e7e0f.png",
+    "static/media/CV.pdf": "/static/media/CV.9e771aba4bee15da74dc.pdf",
     "static/media/Anusha Narayan FEA Report-7.png": "/static/media/Anusha Narayan FEA Report-7.5e107c04ac9a933ba153.png",
     "static/media/Concept Development.png": "/static/media/Concept Development.b48780025e313acc8b43.png",
-    "static/media/CV.pdf": "/static/media/CV.5db27b1be254f6453aa2.pdf",
     "static/media/Anusha Narayan FEA Report-3.png": "/static/media/Anusha Narayan FEA Report-3.036f55596239c558c345.png",
     "static/media/Ideation Bottom.png": "/static/media/Ideation Bottom.f8175946616b5f47747f.png",
     "static/media/ReStand.png": "/static/media/ReStand.ac8bf61839bb2e6ed27d.png",
@@ -81,11 +80,11 @@
     "static/media/Arama.png": "/static/media/Arama.95af738dc830fa11b0ca.png",
     "index.html": "/index.html",
     "main.4bf5a7c8.css.map": "/static/css/main.4bf5a7c8.css.map",
-    "main.ac2a189f.js.map": "/static/js/main.ac2a189f.js.map",
+    "main.d8edde7d.js.map": "/static/js/main.d8edde7d.js.map",
     "787.b32fe4f8.chunk.js.map": "/static/js/787.b32fe4f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bf5a7c8.css",
-    "static/js/main.ac2a189f.js"
+    "static/js/main.d8edde7d.js"
   ]
 }
