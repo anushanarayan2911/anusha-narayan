@@ -63,6 +63,7 @@ export const LeftCol = styled.div`
     padding: 0 0% 0 0%;
     grid-area: col1;  
     width: 100%;
+    position: sticky;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -115,6 +116,7 @@ export const BottomParapgraph = styled.p`
 export const Image = styled.img`
     width: 100%;
     margin-top: 5%;
+    position: sticky;
 `
 
 export const Row2 = styled.div`
@@ -144,10 +146,9 @@ export const LeftCol2 = styled.div`
 `
 
 export const RightCol2 = styled.div`
-    margin-bottom: -10%;
-    padding: 0% 0% 0 15%;
+    margin-top: -20%;
+    padding: 0% 0% 0% 0%;
     grid-area: column2;
-
 
     @media screen and (max-width: 768px) {
         padding: 10% 0 0 0;
@@ -193,11 +194,14 @@ export const YoutubeEmbed = ({ }) => (
     <div className='video-responsive'>
         <iframe
         src="https://www.youtube.com/embed/-4SfyQuGzrU"
-        allow="autoplay; encrypted-media; fullscreen"
-        allowFullScreen
+        allow="autoplay; encrypted-media; fullscreen; accelerometer"
+        allowullScreen
+        webkitallowfullscreen
+        mozallowfullscreen
         title="video"
         width="auto"
         height="100%"
       />{" "}
     </div>
 )
+
