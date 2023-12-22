@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4bf5a7c8.css",
-    "main.js": "/static/js/main.f0b77ef8.js",
+    "main.js": "/static/js/main.06bee73e.js",
     "static/js/787.b32fe4f8.chunk.js": "/static/js/787.b32fe4f8.chunk.js",
     "static/media/UMe.pdf": "/static/media/UMe.b59b7a4e2a1a48b699ef.pdf",
     "static/media/Pulmo1.pdf": "/static/media/Pulmo1.635043b383b1a516f5cb.pdf",
@@ -12,11 +12,11 @@
     "static/media/ThePeriodProductSteriliser.pdf": "/static/media/ThePeriodProductSteriliser.aa0d09095bf0bc19d881.pdf",
     "static/media/Anusha.png": "/static/media/Anusha.575e6ced494f12d9c34f.png",
     "static/media/ReStand.pdf": "/static/media/ReStand.f491fd301733f526d58f.pdf",
-    "static/media/Talk.png": "/static/media/Talk.7f65d63a9396a0f3b3a5.png",
     "static/media/1.png": "/static/media/1.00c5317aba37165facd9.png",
     "static/media/App Design.png": "/static/media/App Design.ae6965fe5338bba69c9c.png",
     "static/media/TravelToothpaste.pdf": "/static/media/TravelToothpaste.4aec16d3e2ae898b7bb0.pdf",
     "static/media/7.png": "/static/media/7.4b0cc3c765f520dc577f.png",
+    "static/media/Official Picture.png": "/static/media/Official Picture.1a6b51709f314bc57568.png",
     "static/media/Health Tracker App.png": "/static/media/Health Tracker App.96b64829c7d3f3e6958f.png",
     "static/media/8.png": "/static/media/8.ef1e9fb286cdb4448a34.png",
     "static/media/5.png": "/static/media/5.a2260f1cbd1a46af3fa7.png",
@@ -81,11 +81,11 @@
     "static/media/Arama.png": "/static/media/Arama.95af738dc830fa11b0ca.png",
     "index.html": "/index.html",
     "main.4bf5a7c8.css.map": "/static/css/main.4bf5a7c8.css.map",
-    "main.f0b77ef8.js.map": "/static/js/main.f0b77ef8.js.map",
+    "main.06bee73e.js.map": "/static/js/main.06bee73e.js.map",
     "787.b32fe4f8.chunk.js.map": "/static/js/787.b32fe4f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bf5a7c8.css",
-    "static/js/main.f0b77ef8.js"
+    "static/js/main.06bee73e.js"
   ]
 }
