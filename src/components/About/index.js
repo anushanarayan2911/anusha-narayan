@@ -55,7 +55,9 @@ const AboutComponent = ({}) => {
                 </Btn>
               </LeftCol>
               <RightCol2>
-                <YoutubeEmbed/>
+                <Row>
+                  <YoutubeEmbed/>
+                </Row>
               </RightCol2>
             </Row>
           </RightCol>

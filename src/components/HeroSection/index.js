@@ -12,7 +12,7 @@ const HeroSection = () => {
       <HeroBg>
         <Row>
           <LeftCol>
-            <Image src={require("../../Visuals/Home/Talk.png")}></Image>
+            <Image src={require("../../Visuals/Home/Official Picture.png")}></Image>
           </LeftCol>
           <RightCol>
             <Subtitle>I'm Anusha, a human-centred design engineer</Subtitle>

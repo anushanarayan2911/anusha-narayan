@@ -123,6 +123,8 @@ export const Row2 = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);   
     align-items: center;   
+    justify-content: center;
+    vertical-align: center;
     border-color: black;
     grid-template-areas: ${({ imgStart }) => (imgStart ? `'column2 column1'` : `'column1 column2'`)};
 
@@ -193,11 +195,9 @@ export const BtnLink = styled(LinkR)`
 export const YoutubeEmbed = ({ }) => (
     <div className='video-responsive'>
         <iframe
-        src="https://www.youtube.com/embed/-4SfyQuGzrU"
-        allow="autoplay; encrypted-media; fullscreen; accelerometer"
-        allowullScreen
-        webkitallowfullscreen
-        mozallowfullscreen
+        src="https://www.youtube.com/embed/wKDtOdrC4XY?si=_L4ZX5TfdkGQAYCy"
+        allow="autoplay; encrypted-media; fullscreen"
+        allowFullScreen
         title="video"
         width="auto"
         height="100%"
