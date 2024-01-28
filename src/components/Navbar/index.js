@@ -34,47 +34,15 @@ const Navbar = ({toggle, id}) => {
   return (
     <>
       <Nav id={id}>
-          <NavLogo to="/" onClick={toggleHome}>
-            <Img src={require("../../Visuals/Home/Images/Logo.png")}/>
-          </NavLogo>
-          <MobileIcon onClick={toggle}>
-            <FaBars/>
-          </MobileIcon>
-          <NavMenu>
-            <NavItem>
-              <NavLinks to={"/About"} 
-                smooth={true} 
-                duration={500}
-                spy={true}
-                exact
-                offset={-100}
-              >ABOUT</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to={"/Portfolio"}
-              smooth={true} 
-              duration={500}
-              spy={true}
-              exact='true'
-              offset={-80}>PORTFOLIO</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to={"/Gallery"}
-              smooth={true} 
-              duration={500}
-              spy={true}
-              exact='true'
-              offset={-80}>GALLERY</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to={"/Contact"}
-              smooth={true} 
-              duration={500}
-              spy={true}
-              exact='true'
-              offset={-80}>CONTACT</NavLinks>
-            </NavItem>
-          </NavMenu>
+        <NavbarContainer>
+          <NavLogo to={"/"}>
+            <Img src={require("../../Visuals/Home/Images/Logo.png")}></Img>
+          </NavLogo>    
+          <NavLinks to={"/Portfolio"}>my work</NavLinks>
+          <NavLinks to={"/Gallery"}>gallery</NavLinks>
+          <NavLinks to={"/Contact"}>contact</NavLinks>
+        </NavbarContainer>
+        
       </Nav>
     </>
   )

@@ -4,16 +4,14 @@ import {Link as LinkR} from 'react-router-dom'
 
 export const Nav = styled.nav`
     background: #ffffff;
-    border-width: 2px;
     height: 10vh;
     width: 100vw;
-    margin-top: -80 px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1rem;
     position: sticky;
-    top: 0;
+    margin-right: 5%;
     z-index: 10;
     
     @media screen and (max-width: 960 px) {
@@ -24,23 +22,21 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 80px;
     z-index: 1;
-    width: 100%;
-    padding: 0;
-    max-width: 1100px;
-    color: #000000
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 `
 
 export const NavLogo = styled(LinkR)`
     color: white;
-    max-width: 3%;
+    max-width: 5%;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 5%;
     
 `
 
@@ -59,50 +55,26 @@ export const MobileIcon = styled.div`
     }
 `
 
-export const NavMenu = styled.ul `
-    background: #ffffff;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    text-align: center;
-    margin-right: 5%;
-
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
-`
-
 export const NavItem = styled.li`
     height: 10vh;
     color: #ffffff;
 `
 
 export const NavLinks = styled(LinkR)`
-    color: #787878;
-    display: flex;
-    align-items: center;
+    color: #66ABC6;
+    font-family: Runda;
+    font-size: 2vw;
+    font-style: light;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: lowercase;
     text-decoration: none;
-    padding: 0 1rem;
-    height: 100%;
-    cursor: pointer;
-    
-    &.active {
-        border-bottom: 1.5px solid #4b4b4b;
-    }
-`
 
-export const AboutBtn = styled(LinkS)`
-    color: #787878;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    padding: 0 1rem;
-    height: 100%;
-    cursor: pointer;
-
-    &.active {
-        border-bottom: 1.5px solid #4b4b4b;
+    &:hover{
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 50%;
+        border-bottom-width: 2,
     }
 `
 
