@@ -36,7 +36,7 @@ const Navbar = ({toggle, id}) => {
       <Nav id={id}>
         <NavbarContainer>
           <NavLogo to={"/"}>
-            <Img src={require("../../Visuals/Home/Images/Logo.png")}></Img>
+            <Img src={require("../../Visuals/Home/Logo.png")}></Img>
           </NavLogo>    
           <NavLinks to={"/Portfolio"}>my work</NavLinks>
           <NavLinks to={"/Gallery"}>gallery</NavLinks>
