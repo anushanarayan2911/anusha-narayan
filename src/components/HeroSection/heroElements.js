@@ -24,12 +24,9 @@ export const HeroContainer = styled.div`
 export const HeroBg = styled.div`
     display: flex;
     z-index: 1;
-    background-color: white;
-    height: auto;
-    width: auto;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 5%;
+    background-color: #66ABC6;
+    height: 100vh;
+    width: 100vw;
 
     @media screen and (max-width: 768px) {
         margin-right: 5%;
@@ -40,6 +37,18 @@ export const HeroBg = styled.div`
         margin-right: 0%;
         margin-left: 0%;
     }
+`
+
+export const WhiteBg = styled.div`
+    display: flex;
+    z-index: 2;
+    background-color: #ffffff;
+    width: 92vw;
+    height: 80vh;
+    margin-left: 8vw;
+    margin-top: 5vh;
+    border-top-left-radius: 4vw;
+    border-bottom-left-radius: 4vw;
 `
 
 export const Row = styled.div`
