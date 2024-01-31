@@ -69,6 +69,7 @@ export const LeftCol = styled.div`
     padding: 0 0 0 0;
     grid-area: col1; 
     align-items: left; 
+<<<<<<< HEAD
 
     @media screen and (max-width: 768px) {
         padding: 10% 0 0 0;
@@ -81,6 +82,8 @@ export const LeftCol2 = styled.div`
     padding: 0 0 0 0;
     grid-area: col1; 
     align-items: left; 
+=======
+>>>>>>> 4aa459fdca9ad2f222239bcd4d36e41497f9cbd2
 
     @media screen and (max-width: 768px) {
         padding: 10% 0 0 0;
@@ -90,7 +93,11 @@ export const LeftCol2 = styled.div`
 
 export const RightCol = styled.div`
     grid-area: col2;
+<<<<<<< HEAD
     margin-left: 0;
+=======
+    margin-left: 16vw;
+>>>>>>> 4aa459fdca9ad2f222239bcd4d36e41497f9cbd2
 
     @media screen and (max-width: 768px) {
         padding: 10% 0 0 0;
@@ -105,18 +112,28 @@ export const Title = styled.p`
     color: #66ABC6;
     text-align: left; 
     margin-left: 0vw;
+<<<<<<< HEAD
     margin-top: 10vh;
+=======
+>>>>>>> 4aa459fdca9ad2f222239bcd4d36e41497f9cbd2
      
 `
 
 export const Text = styled.p`
     max-width: max-content;
     font-size: 1.5em;
+<<<<<<< HEAD
     line-height: 150%;
     font-weight: 400;
     color: #787878;
     text-align: left;  
     width: 50vw;
+=======
+    line-height: 75%;
+    font-weight: 400;
+    color: #787878;
+    text-align: left;  
+>>>>>>> 4aa459fdca9ad2f222239bcd4d36e41497f9cbd2
 `
 
 export const Image = styled.img`
@@ -132,25 +149,46 @@ export const Btn = styled.a`
 `
 
 export const BtnLink = styled(LinkR)`
+<<<<<<< HEAD
     border-radius: 4em;
     border: 0.05em solid #66ABC6;
+=======
+    border-radius: 50px;
+>>>>>>> 4aa459fdca9ad2f222239bcd4d36e41497f9cbd2
     width: 15vw;
     align-itmes: center;
     justify-content: center;
     text-align: center;
+<<<<<<< HEAD
     background: white;
     whitespace: nowrap;
     padding: 5% 10% 5% 10%;
     color: #66ABC6;
     font-size: 1em;
     font-weight: 200;
+=======
+    background: #EFEFEF;
+    whitespace: nowrap;
+    padding: 5% 10% 5% 10%;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.25);
+    color: #787878;
+    font-size: 16px;
+    font-weight: 200;
+    outline: none;
+    border: none;
+>>>>>>> 4aa459fdca9ad2f222239bcd4d36e41497f9cbd2
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
     
     &:hover {
         transition: all 0.2s ease-in-out;
+<<<<<<< HEAD
         background: #66ABC6;
         color: white;
+=======
+        background: #ffffff;
+        color: #787878
+>>>>>>> 4aa459fdca9ad2f222239bcd4d36e41497f9cbd2
     }
 `
