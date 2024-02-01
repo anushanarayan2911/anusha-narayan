@@ -2,21 +2,60 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom'
 
 export const InfoContainer = styled.div`
-    background-color: #ffffff;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden
-    
-    @media screen and (max-width: 768px) {
-        padding: 0px
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    position: relative;
+
+    :before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), linear-gradient (180 deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     }
+`
+export const HeroBg = styled.div`
+    display: flex;
+    z-index: 1;
+    background-color: #66ABC6;
+    height: 100vh;
+    width: 100vw;
+
+    @media screen and (max-width: 768px) {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    @media screen and (max-width: 400px) {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+`
+
+export const WhiteBg = styled.div`
+    display: flex;
+    z-index: 2;
+    background-color: #ffffff;
+    width: 92vw;
+    height: 92vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 8vh;
+    border-top-left-radius: 4vw;
+    border-top-right-radius: 4vw;
 `
 
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
     background-color: #ffffff;
-    height: 100%;
+    height: 100vh;
     width: auto;
     margin-right: 10%;
     margin-left: 10%;
@@ -49,17 +88,17 @@ export const TopLine = styled.p`
 `
 
 export const PortfolioGrid = styled.div`
-    width: 80%;
+    width: 72vw;
     overflow-x: none;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 8vh;
     overflow-x: no-scroll;
 `
 export const PortfolioRow = styled.div`
     display: flex;
-    width: 100%;
-    overflow-x: no-scroll;
+    background-color: red;
+    width: 72vw;
+    margin-left: -4vw;
+    margin-top: 4vw;
     justify-content: space-between;
     flex-direction: row;
     @media screen and (max-width: 768px) {
@@ -117,16 +156,6 @@ export const HeaderCaption = styled.p`
     align-items: center;
 `
 
-export const SecondCaption = styled.p`
-    color: #787878;
-    font-size: 0.9em;
-    font-weight: 200;
-    position: absolute;
-    text-align: center;
-    top: 55%;
-    left: 5%;
-    right: 5%;
-`
 export const ImageLink = styled(LinkR)`
     background: #ffffff;
     overflow: no-scroll;
