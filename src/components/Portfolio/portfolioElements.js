@@ -53,61 +53,82 @@ export const WhiteBg = styled.div`
     }
 `
 
-export const InfoRow = styled.div`
-    display: grid;
-    margin-top: 0px;
-    grid-auto-columns: minmax(auto, 1fr)
-    align-items: left;
-    overflow: hidden;
-`
-
-export const TopLine = styled.p`
-    color: #4b4b4b;
-    font-size: 30px;
-    font-weight: 200;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-`
-
-export const PortfolioGrid = styled.div`
-    width: 72vw;
-    overflow-x: none;
-    margin-top: 8vh;
-    overflow-x: no-scroll;
-`
-export const PortfolioRow = styled.div`
+export const WorkContainer = styled.div`
     display: flex;
-    background-color: red;
-    width: 72vw;
-    margin-left: -4vw;
-    margin-top: 4vw;
-    justify-content: space-between;
+    flex-direction: column
+`
+
+export const Row = styled.div`
+    display: flex;
     flex-direction: row;
+    width: 84vw;
+
+
     @media screen and (max-width: 768px) {
         flex-direction: column;
+        width: 90vw;
+        height: fit-content;
     }
 `
 
-export const Column = styled.div`
-    max-width: max-content;
-    padding: 10px 10px 10px 10px; 
-    overflow-x: no-scroll;
+export const Column1 = styled.div`
+    width: 30vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    @media screen and (max-width: 768px) {
+        width: 84vw;
+        padding-top: 1vh;
+        padding-right: 4vw
+    }
 `
 
+export const Column2 = styled.div`
+    width: 30vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    @media screen and (max-width: 768px) {
+        width: 84vw;
+        padding-top: 1vh;
+        padding-right: 4vw
+    }
+`
+
+export const Column3 = styled.div`
+    width: 30vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    @media screen and (max-width: 768px) {
+        width: 84vw;
+        padding-top: 1vh;
+        padding-right: 4vw
+    }
+`
 export const LinkWrap = styled.nav`
     display: flex;
     align-items: center
     overflow-x: no-scroll;
 `
+
+export const ImageLink = styled(LinkR)`
+    background: #ffffff;
+    overflow: no-scroll;
+`
+export const Image = styled.img`
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow-x: no-scroll;
+`
+
 export const Container = styled.div`
     position: relative;
     justify-content: center;
     align-items: center;
     vertical-align: middle;
-
 `
-
 export const Overlay = styled.div`
     position: absolute;
     justify-content: center;
@@ -122,7 +143,6 @@ export const Overlay = styled.div`
     opacity: 0;
     transition: .5s ease;
     background-color: #ffffff;
-
     &: hover{
         opacity: 80%;
     }
@@ -132,21 +152,11 @@ export const HeaderCaption = styled.p`
     font-size: 2em;
     font-weight: 300;
     width: 100%;
-    bottom: 37%;
+    height: 50%;
+    top: 25%;
     position: absolute;
     text-align: center;
     justify-content: center;
     align-items: center;
 `
 
-export const ImageLink = styled(LinkR)`
-    background: #ffffff;
-    overflow: no-scroll;
-`
-
-export const Image = styled.img`
-    width: 100%;
-    height: auto;
-    display: block;
-    overflow-x: no-scroll;
-`
