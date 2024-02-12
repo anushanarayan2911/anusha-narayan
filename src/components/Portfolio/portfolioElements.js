@@ -177,10 +177,15 @@ export const HeaderCaption = styled.p`
     font-weight: 300;
     width: 100%;
     height: 50%;
-    top: 25%;
+    top: 30%;
     position: absolute;
     text-align: center;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 768px){
+        font-size: 4em;
+        top: 32%;
+    }
 `
 
