@@ -2,11 +2,11 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom'
 
 export const InfoContainer = styled.div`
-    background: #ffffff;
+    background: #66ABC6;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     position: relative;
 
@@ -38,7 +38,7 @@ export const WhiteBg = styled.div`
     z-index: 2;
     background-color: #ffffff;
     width: 84vw;
-    height: 92vh;
+    height: 100%;
     margin-left: 8vw;
     margin-rigth: 8vw;
     margin-top: 8vh;
@@ -48,8 +48,8 @@ export const WhiteBg = styled.div`
     @media screen and (max-width: 768px) {
         margin-top: 4vh;
         margin-left: 4vw;
-        width: 90vw;
-        height: 92vh;
+        width: 88vw;
+        height: 100%;
     }
 `
 
@@ -58,11 +58,37 @@ export const WorkContainer = styled.div`
     flex-direction: column
 `
 
-export const Row = styled.div`
+export const Row1 = styled.div`
     display: flex;
     flex-direction: row;
     width: 84vw;
+    margin-top: 6vh;
 
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 90vw;
+        height: fit-content;
+    }
+`
+
+export const Row2 = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 84vw;
+    margin-top: 4vh;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 90vw;
+        height: fit-content;
+    }
+`
+export const Row3 = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 84vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -73,8 +99,7 @@ export const Row = styled.div`
 
 export const Column1 = styled.div`
     width: 30vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    margin-left: 2vw;
 
     @media screen and (max-width: 768px) {
         width: 84vw;
@@ -86,7 +111,6 @@ export const Column1 = styled.div`
 export const Column2 = styled.div`
     width: 30vw;
     padding-left: 2vw;
-    padding-right: 2vw;
 
     @media screen and (max-width: 768px) {
         width: 84vw;

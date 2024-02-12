@@ -4,7 +4,9 @@ import { InfoContainer,
   HeroBg,
   WhiteBg,
   WorkContainer,
-  Row,
+  Row1,
+  Row2,
+  Row3,
   Column1,
   Column2,
   Column3,
@@ -33,7 +35,7 @@ const PortfolioSection = () => {
       <HeroBg>
         <WhiteBg>
           <WorkContainer>
-            <Row>
+            <Row1>
               <Column1>
                 <LinkWrap>
                   <ImageLink to={"/ThePeriodProductSteriliser"}>
@@ -70,8 +72,8 @@ const PortfolioSection = () => {
                   </ImageLink>
                 </LinkWrap>
               </Column3>
-            </Row>
-            <Row>
+            </Row1>
+            <Row2>
               <Column1>
                 <LinkWrap>
                   <ImageLink to={"/Pulmo2"}>
@@ -108,8 +110,8 @@ const PortfolioSection = () => {
                   </ImageLink>
                 </LinkWrap>
               </Column3>
-            </Row>
-            <Row>
+            </Row2>
+            <Row3>
               <Column1>
               <LinkWrap>
                   <ImageLink to={"/ReStand"}>
@@ -146,7 +148,7 @@ const PortfolioSection = () => {
                   </ImageLink>
                 </LinkWrap>
               </Column3>
-            </Row>
+            </Row3>
           </WorkContainer>
           
         </WhiteBg>
