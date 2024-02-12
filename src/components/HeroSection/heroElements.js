@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 100vh;
     width: 100vw;
     position: relative;
 
@@ -20,13 +20,17 @@ export const HeroContainer = styled.div`
         bottom: 0;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), linear-gradient (180 deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     }
+
+    @media screen and (max-width: 768px) {
+        height: 100%;
+    }
 `
 
 export const HeroBg = styled.div`
     display: flex;
     z-index: 1;
     background-color: #66ABC6;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     align-items: center;
 `
@@ -46,7 +50,7 @@ export const WhiteBg = styled.div`
         margin-top: 4vh;
         margin-left: 4vw;
         width: 90vw;
-        height: 96vh;
+        height: 100%;
         border-top-left-radius: 4vw;
         border-top-right-radius: 4vw;
         border-bottom-left-radius: 0vw;
@@ -80,7 +84,7 @@ export const Column1 = styled.div`
 `
 export const Column2 = styled.div`
     width: 50%;
-    background-color: green;
+    padding-top: 2vh
 
     @media screen and (max-width: 768px) {
         width: 84vw;
@@ -92,7 +96,6 @@ export const Heading = styled.h1`
     font-size: 6vw;
     font-weight: 200;
     color: #66ABC6;
-    
 `
 
 export const Text = styled.p`
@@ -105,7 +108,7 @@ export const Text = styled.p`
     @media screen and (max-width: 768px) {
         font-size: 2vw;
         margin-top: 0vh;
-        line-height: 3vh;
+        line-height: 4vh;
     }
 `
 
@@ -113,7 +116,7 @@ export const BtnRow = styled.div`
     display: flex;
     flex-direction: row;
     width: 50vw;
-    height: 100%;
+    margin-top: 4vh;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -122,7 +125,7 @@ export const BtnRow = styled.div`
 `
 
 export const BtnCol1 = styled.div`
-    width: 25vw;
+    width: 16vw;
     height: 6vh;
 
     @media screen and (max-width: 768 px) {
@@ -130,7 +133,7 @@ export const BtnCol1 = styled.div`
     }
 `
 export const BtnCol2 = styled.div`
-    width: 25vw;
+    width: 16vw;
     height: 6vh;
 
     @media screen and (max-width: 768 px) {
@@ -162,8 +165,17 @@ export const BtnLink = styled(LinkR)`
     font-size: 2vw;
     font-weight: 200;
     text-decoration: none;
+
+    @media screen and (max-width: 768px) {
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+    }
 `
 
 export const Img = styled.img`
-    width: 50%;
+    height: 96%;
+
+    @media screen and (max-width: 768px) {
+        width: 84vw;
+    }
 `

@@ -36,7 +36,7 @@ const HeroSection = () => {
               </BtnRow>
             </Column1>
             <Column2>
-              <p>bye</p>
+              <Img src={require("../../Visuals/Home/Anusha.png")}/>
             </Column2>
           </Row>
         </WhiteBg>
