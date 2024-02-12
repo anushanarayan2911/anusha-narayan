@@ -28,16 +28,7 @@ export const HeroBg = styled.div`
     background-color: #66ABC6;
     height: 100vh;
     width: 100vw;
-
-    @media screen and (max-width: 768px) {
-        margin-right: 5vw;
-        margin-left: 5vw;
-    }
-
-    @media screen and (max-width: 400px) {
-        margin-right: 0vw;
-        margin-left: 0vw;
-    }
+    align-items: center;
 `
 
 export const WhiteBg = styled.div`
@@ -47,9 +38,19 @@ export const WhiteBg = styled.div`
     width: 92vw;
     height: 80vh;
     margin-left: 8vw;
-    margin-top: 5vh;
+    margin-top: -8vh;
     border-top-left-radius: 4vw;
     border-bottom-left-radius: 4vw;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 4vh;
+        margin-left: 4vw;
+        width: 90vw;
+        height: 96vh;
+        border-top-left-radius: 4vw;
+        border-top-right-radius: 4vw;
+        border-bottom-left-radius: 0vw;
+    }
 `
 
 export const Row = styled.div`

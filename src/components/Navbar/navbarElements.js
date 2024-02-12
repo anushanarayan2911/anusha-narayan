@@ -31,13 +31,10 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-    color: white;
     max-width: 5vw;
     justify-self: flex-start;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    
+    align-items: center; 
 `
 
 export const MobileIcon = styled.div`
@@ -46,14 +43,24 @@ export const MobileIcon = styled.div`
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
-        top: 3vw;
+        top: 3vh;
         right: 5vw;
         transform: translate (-100%, -60%);
         font-size: 1.8rem;
         cursor: pointer;
         color: #66ABC6;
-        width: 3vw;
+    }
 
+    @media screen and (max-width: 400px) {
+        display: block;
+        position: absolute;
+        top: 3vh;
+        right: 5vw;
+        width: 10vw;
+        transform: translate (-100%, -60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #66ABC6;
     }
 `
 
@@ -95,7 +102,7 @@ export const NavLinks = styled(LinkR)`
 `
 
 export const Img = styled.img`
-    width: 100%;
+    width: 5vw;
     margin: 0 0 0 0;
     padding-right: 0;  
 `

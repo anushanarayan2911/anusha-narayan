@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        
+        <WhiteBg></WhiteBg>
       </HeroBg>
     </HeroContainer>
   )
