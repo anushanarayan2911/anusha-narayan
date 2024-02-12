@@ -6,7 +6,7 @@ export const InfoContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 100vh;
     width: 100vw;
     position: relative;
 
@@ -19,54 +19,37 @@ export const InfoContainer = styled.div`
         bottom: 0;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), linear-gradient (180 deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     }
+
+    @media screen and (max-width: 768px) {
+        height: 100%;
+    }
 `
 export const HeroBg = styled.div`
     display: flex;
     z-index: 1;
     background-color: #66ABC6;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
-
-    @media screen and (max-width: 768px) {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    @media screen and (max-width: 400px) {
-        margin-right: 0%;
-        margin-left: 0%;
-    }
+    align-items: center;
 `
 
 export const WhiteBg = styled.div`
     display: flex;
     z-index: 2;
     background-color: #ffffff;
-    width: 92vw;
+    width: 84vw;
     height: 92vh;
     margin-left: 8vw;
-    margin-right: 8vw;
+    margin-rigth: 8vw;
     margin-top: 8vh;
     border-top-left-radius: 4vw;
     border-top-right-radius: 4vw;
-`
 
-export const InfoWrapper = styled.div`
-    display: grid;
-    z-index: 1;
-    background-color: #ffffff;
-    height: 100vh;
-    width: auto;
-    margin-right: 10%;
-    margin-left: 10%;
-    overflow-x: no-scroll;
     @media screen and (max-width: 768px) {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-    @media screen and (max-width: 400px) {
-        margin-right: 0%;
-        margin-left: 0%;
+        margin-top: 4vh;
+        margin-left: 4vw;
+        width: 90vw;
+        height: 92vh;
     }
 `
 
