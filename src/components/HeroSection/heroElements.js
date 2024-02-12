@@ -54,104 +54,116 @@ export const WhiteBg = styled.div`
 `
 
 export const Row = styled.div`
-    display: grid;
-    grid-auto-columns: minmax(auto, 1fr)
-    align-items: left;   border-color: black;
-    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+
 
     @media screen and (max-width: 768px) {
-        grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+        flex-direction: column;
+        width: 90vw;
+        height: fit-content;
     }
 `
 
-export const LeftCol = styled.div`
-    margin-left: 4vw;
-    margin-top: -4vh;
-    padding: 0 0 0 0;
-    grid-area: col1; 
-    align-items: left; 
+export const Column1 = styled.div`
+    width: 50vw;
+    padding-left: 4vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
 
     @media screen and (max-width: 768px) {
-        padding: 10% 0 0 0;
-        align-items: center;
+        width: 84vw;
+        padding-top: 1vh;
+        padding-right: 4vw
     }
 `
-export const LeftCol2 = styled.div`
-    margin-left: 4vw;
-    margin-top: 0;
-    padding: 0 0 0 0;
-    grid-area: col1; 
-    align-items: left; 
+export const Column2 = styled.div`
+    width: 50%;
+    background-color: green;
 
     @media screen and (max-width: 768px) {
-        padding: 10% 0 0 0;
-        align-items: center;
+        width: 84vw;
+        margin-top: 4vh;
     }
 `
 
-export const RightCol = styled.div`
-    grid-area: col2;
-    margin-left: 0;
-
-    @media screen and (max-width: 768px) {
-        padding: 10% 0 0 0;
-        align-items: center;
-        justify-content: center;
-    }
-`
-
-export const Title = styled.p`
-    font-size: 4em;
-    font-weight: 100;
+export const Heading = styled.h1`
+    font-size: 6vw;
+    font-weight: 200;
     color: #66ABC6;
-    text-align: left; 
-    margin-left: 0vw;
-    margin-top: 10vh;
-     
+    
 `
 
 export const Text = styled.p`
-    max-width: max-content;
-    font-size: 1.5em;
-    line-height: 150%;
-    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 200%;
+    font-weight: 200;
     color: #787878;
-    text-align: left;  
-    width: 50vw;
+    margin-top: -6vh;
+
+    @media screen and (max-width: 768px) {
+        font-size: 2vw;
+        margin-top: 0vh;
+        line-height: 3vh;
+    }
 `
 
-export const Image = styled.img`
-    width: 30vw;
-    margin-top: 3vh;
-`
-
-export const Btn = styled.a`
+export const BtnRow = styled.div`
     display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 100%;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 84vw;
+    }
+`
+
+export const BtnCol1 = styled.div`
+    width: 25vw;
+    height: 6vh;
+
+    @media screen and (max-width: 768 px) {
+        height: 1vh;
+    }
+`
+export const BtnCol2 = styled.div`
+    width: 25vw;
+    height: 6vh;
+
+    @media screen and (max-width: 768 px) {
+        height: 1vh;
+    }
+`
+
+
+export const Btn = styled.div`
     align-items: center;
     justify-content: center;
     position: absolute;
 `
 
 export const BtnLink = styled(LinkR)`
-    border-radius: 4em;
+    border-radius: 4vw;
     border: 0.05em solid #66ABC6;
-    width: 15vw;
+    width: 25vw;
     align-itmes: center;
     justify-content: center;
     text-align: center;
     background: white;
     whitespace: nowrap;
-    padding: 5% 10% 5% 10%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     color: #66ABC6;
-    font-size: 1em;
+    font-size: 2vw;
     font-weight: 200;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
     text-decoration: none;
-    
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #66ABC6;
-        color: white;
-    }
+`
+
+export const Img = styled.img`
+    width: 50%;
 `
