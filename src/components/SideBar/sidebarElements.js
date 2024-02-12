@@ -4,7 +4,7 @@ import {Link as LinkR} from 'react-router-dom'
 
 export const SidebarContainer = styled.aside`
     position: fixed;
-    z-index: 10;
+    z-index: 999;
     width: 100%;
     height: 100%;
     background: #ffffff;
@@ -18,7 +18,7 @@ export const SidebarContainer = styled.aside`
 `
 
 export const CloseIcon = styled(FaTimes)`
-    color: #787878;
+    color: #66ABC6;
 `
 
 export const Icon = styled.div`
@@ -50,7 +50,7 @@ export const SidebarLink = styled(LinkR)`
     transition: 0.2s ease-in-out;
     padding: 5%;
     text-decoration: none;
-    color: #4b4b4b;
+    color: #66ABC6;
     cursor: pointer;
 
     &:hover: {

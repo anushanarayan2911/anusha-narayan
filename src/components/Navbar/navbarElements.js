@@ -23,16 +23,16 @@ export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 2vh;
     z-index: 1;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 `
 
 export const NavLogo = styled(LinkR)`
     color: white;
-    max-width: 5%;
+    max-width: 5vw;
     justify-self: flex-start;
     cursor: pointer;
     display: flex;
@@ -46,24 +46,40 @@ export const MobileIcon = styled.div`
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
-        top: 20px;
-        right: 5px;
+        top: 3vw;
+        right: 5vw;
         transform: translate (-100%, -60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #787878;
+        color: #66ABC6;
+        width: 3vw;
+
     }
 `
 
+export const NavMenu = styled.ul`
+    display: flex;
+    width: 72vw;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }  
+`
+
 export const NavItem = styled.li`
-    height: 10vh;
+    margin-top: 
     color: #ffffff;
+    align-items: center;
 `
 
 export const NavLinks = styled(LinkR)`
     color: #66ABC6;
     font-family: Runda;
-    font-size: 2vw;
+    font-size: 1.5em;
     font-style: light;
     font-weight: 200;
     line-height: normal;

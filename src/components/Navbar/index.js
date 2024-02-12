@@ -10,7 +10,6 @@ import {Nav,
   Img 
 } from './navbarElements'
 import {FaBars} from 'react-icons/fa'
-import About from '../../Pages/About'
 
 const Navbar = ({toggle, id}) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -38,9 +37,21 @@ const Navbar = ({toggle, id}) => {
           <NavLogo to={"/"}>
             <Img src={require("../../Visuals/Home/Logo.png")}></Img>
           </NavLogo>    
-          <NavLinks to={"/Portfolio"}>my work</NavLinks>
-          <NavLinks to={"/Gallery"}>gallery</NavLinks>
-          <NavLinks to={"/Contact"}>contact</NavLinks>
+          <MobileIcon onClick={toggle}>
+            <FaBars style={{width:"3vw"}}/>
+          </MobileIcon>
+          <NavMenu>
+            <NavItem>
+              <NavLinks to={"/Portfolio"}>my work</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to={"/Gallery"}>gallery</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to={"/Contact"}>contact</NavLinks>
+            </NavItem>
+          </NavMenu>
+          
         </NavbarContainer>
         
       </Nav>

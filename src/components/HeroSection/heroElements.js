@@ -30,13 +30,13 @@ export const HeroBg = styled.div`
     width: 100vw;
 
     @media screen and (max-width: 768px) {
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 5vw;
+        margin-left: 5vw;
     }
 
     @media screen and (max-width: 400px) {
-        margin-right: 0%;
-        margin-left: 0%;
+        margin-right: 0vw;
+        margin-left: 0vw;
     }
 `
 
