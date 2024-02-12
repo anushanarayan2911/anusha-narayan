@@ -84,7 +84,7 @@ export const Column1 = styled.div`
 `
 export const Column2 = styled.div`
     width: 50%;
-    padding-top: 2vh
+    padding-top: 10vh
 
     @media screen and (max-width: 768px) {
         width: 84vw;
@@ -93,22 +93,21 @@ export const Column2 = styled.div`
 `
 
 export const Heading = styled.h1`
-    font-size: 6vw;
+    font-size: 3.6em;
     font-weight: 200;
     color: #66ABC6;
 `
 
 export const Text = styled.p`
-    font-size: 1.6vw;
+    font-size: 1.2em;
     line-height: 200%;
     font-weight: 200;
     color: #787878;
-    margin-top: -6vh;
 
     @media screen and (max-width: 768px) {
-        font-size: 2vw;
+        font-size: 1.2em;
         margin-top: 0vh;
-        line-height: 4vh;
+        line-height: 200%;
     }
 `
 
@@ -116,7 +115,7 @@ export const BtnRow = styled.div`
     display: flex;
     flex-direction: row;
     width: 50vw;
-    margin-top: 4vh;
+    margin-top: 8vh;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -162,7 +161,7 @@ export const BtnLink = styled(LinkR)`
     padding-top: 1vh;
     padding-bottom: 1vh;
     color: #66ABC6;
-    font-size: 2vw;
+    font-size: 1.2em;
     font-weight: 200;
     text-decoration: none;
 
@@ -174,6 +173,7 @@ export const BtnLink = styled(LinkR)`
 
 export const Img = styled.img`
     height: 96%;
+    padding-top: 4%;
 
     @media screen and (max-width: 768px) {
         width: 84vw;
