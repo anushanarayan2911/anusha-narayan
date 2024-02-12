@@ -2,181 +2,57 @@ import styled, { css } from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 
 export const InfoContainer = styled.div`
-    background: #ffffff;
-    width: 100%;
-    height: 100%
-    overflow: hidden;
-    align-items: center;
-
-    @media screen and (max-width: 768px) {
-        padding: 0px
-    }
-`
-
-export const InfoWrapper = styled.div`
-    display: grid;
-    z-index: 1;
-    height: 100%;
-    width: auto;
-    margin-right: 10%;
-    margin-left: 10%;
-    overflow: hidden;
-    align-items: center;
-
-    @media screen and (max-width: 768px) {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    @media screen and (max-width: 400px) {
-        margin-right: 0%;
-        margin-left: 0%;
-    }
-`
-
-export const TitleImage = styled.img`
-    width: 30%;
-    padding: 0% 0% 0% 35%;
-`
-
-export const Container = styled.div`
-    position: relative;
-    justify-content: center;
-    width: 100%;
-`
-
-export const Overlay = styled.div`
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    opacity: 80%;
-`
-
-export const Title = styled.p`
-    font-size: 450%;
-    font-family: runda;
-    font-weight: 100;
-    color: #787878;
-    padding: 10% 11% 0;
-`
-
-export const Caption = styled.p`
-    position: absolute;
-    top: 75%;
-    left: 12.5%;
-    font-size: 200%;
-    font-family: runda;
-    font-weight: 100;
-    width: 75%;
-    padding: 0% 0% 10%;
-    color: #787878;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-`
-
-export const Text = styled.p`
-    font-size: 90%;
-    font-weight: 100;
-    color: #787878;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    line-height: 150%;
-`
-
-export const Divider = styled.span`
-    width: 100%;
-    opacity: 50%;
-    background-color: #787878;
-    height: 1px;
-`
-
-export const Row = styled.div`
-    display: grid;
-    grid-auto-columns: minmax(auto, 1fr)
-    align-items: center;  
-    justify-content: center;
-    border-color: black;
-    vertical-align: center;
-    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
-    
-    @media screen and (max-width: 768px) {
-        grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
-        align-items: center;
-    }
-`
-
-export const ButtonRow = styled.div`
-    width: 100%;
-    align-items: center;  
-    justify-content: center;
-    padding: 0% 38% 0%;
-`
-
-export const LeftCol = styled.div`
-    margin-bottom: 0px;
-    padding: 0 0% 0 0%;
-    grid-area: col1;  
-
-    @media screen and (max-width: 768px) {
-        width: 100%;
-        padding: 0 0% 0 5%;
-        align-items: center;
-        justify-content: center;
-    }
-`
-
-export const RightCol = styled.div`
-    margin-bottom: 0px;
-    padding: 0 15% 0;
-    grid-area: col2;
-    align-itmes: center;
-    justify-content: center;
-    width: 70%;
-
-    @media screen and (max-width: 768px) {
-        padding: 5% 0 0 0;
-        align-items: center;
-        justify-content: center;
-    }
-`
-
-export const Image = styled.img`
-    width: 100%;
-`
-
-export const Btn = styled.a`
+    background: #F5D5E1;
     display: flex;
-    align-items: center;
     justify-content: center;
-    position: absolute;
-    margin-left: 30%;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    :before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), linear-gradient (180 deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    }
+
+    @media screen and (max-width: 768px) {
+        height: 100%;
+    }
 `
 
-export const BtnLink = styled(LinkR)`
-    border-radius: 50px;
-    width: 15vw;
-    align-itmes: center;
-    justify-content: center;
-    text-align: center;
-    background: #EFEFEF;
-    whitespace: nowrap;
-    padding: 5% 5% 5% 5%;
-    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.25);
-    color: #787878;
-    font-size: 16px;
-    font-weight: 200;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #ffffff;
-        color: #787878
+export const HeroBg = styled.div`
+    display: flex;
+    z-index: 1;
+    background-color: #F5D5E1;
+    height: 100%;
+    width: 100vw;
+    align-items: center;
+`
+
+export const WhiteBg = styled.div`
+    display: flex;
+    z-index: 2;
+    background-color: #ffffff;
+    width: 92vw;
+    height: 72vh;
+    margin-left: 8vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    border-top-left-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 4vh;
+        margin-left: 4vw;
+        width: 90vw;
+        height: 100%;
+        border-top-left-radius: 4vw;
+        border-top-right-radius: 4vw;
+        border-bottom-left-radius: 0vw;
     }
 `
