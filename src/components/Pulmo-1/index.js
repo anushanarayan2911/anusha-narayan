@@ -1,82 +1,90 @@
 import React from 'react'
 import Pulmo1 from '../../Visuals/Portfolio/Pulmo-1/Pulmo1.pdf'
-import { InfoContainer, 
-    InfoWrapper, 
-    TitleImage,
-    Title,
-    Container,
-    Overlay,
-    Caption,
-    Text,
-    Divider,
+import { HeroContainer,  
+    HeroBg, 
+    LeftWhiteBg,
+    RightWhiteBg,
     Row,
-    LeftCol,
-    RightCol,
-    Image,
-    BtnLink,
+    Column1,
+    Column2,
+    SingleCol,
+    Heading,
+    Text,
+    Img1,
+    Img2,
+    Img3,
+    BtnRow,
     Btn,
-    YoutubeEmbed
+    BtnLink,
 } from './Pulmo-1-Elements'
 
 const Pulmo1Component = () => {
 
   return (
-    <InfoContainer>
-        <InfoWrapper>
-            <Container>
-                <Overlay>
-                    <Title>pulmo</Title>
-                    <Caption>a product service system designed to detect respiratory disease early, preventing it from becoming too advanced</Caption>
-                </Overlay>
-                <TitleImage src={require("../../Visuals/Portfolio/Pulmo-1/Pulmo - 1.png")}/>
-            </Container> 
-            <br/>
-            <Text>This is part 1 of a 2 part project</Text>
-            <br/>
-            <Text>Respiratory diseases are on the rise, due to an increase in smokers and air pollution. It is likely that by 2042, they will be putting a significant strain on the NHS. The aim of the project was to research into future technologies in order to develop a way of diagnosing conditions early, thus meaning that fewer people will need advanced care, reducing the pressure on the NHS.</Text>
-            <br/>
-            <Divider/>
-            <br/>
-            <Row>
-                <Image src={require("../../Visuals/Portfolio/Pulmo-1/Future Contextual Studies.png")}/>
-            </Row>
-            <br/>
-            <Text>To help define a future scenario, a STEEPV Wheel was created. Under the theme “The Future of Healthcare”, the overarching drivers, trends and enablers that will drive the project were identified. Key themes included the rise of telemedicine, development of personalised point-of-care healthcare solutions, the shift towards preventative models and the reduction of workload on healthcare workers through the integration of data-driven systems and partial privatisation of the NHS.</Text>
-            <br/>
-            <Divider/>
-            <br/>
-            <br/>
-            <Row>
-                <Image src={require("../../Visuals/Portfolio/Pulmo-1/Concepts.png")}/>
-            </Row>
-            <br/>
-            <Text>An ideation session was conducted, using the technologies that had been researched as a basis. The aim of the session was to generate possible ideas for a product service system that could detect lung disease early. Any concept could be broken into 2 parts: data collection and data analysis. Since the latter would be done using machine learning models combined with the user’s medical data, product ideation focussed on the first part. Ideation was done as a group, with C-Sketching and SCAMPER techniques being used. The top three ideas, a choker sensor, sleepmask sensor and chest ECG were chosen to move forward through a Pugh chart analysis.</Text>
-            <br/>
-            <Divider/>
-            <br/>
-            <Row>
-                <Image src={require("../../Visuals/Portfolio/Pulmo-1/Final Concept.png")}/>
-            </Row>
-            <br/>
-            <Text>The final concept was chosen to be Pulmo, a wearable device that collects data from a wide variety of biomarkers to detect lung disease. The product service system surrounding Pulmo was also designed.</Text>
-            <br/>
-            <Row>
-                <Image src={require("../../Visuals/Portfolio/Pulmo-1/Final PSS.png")}/>
-            </Row>
-            <br/>
-            <Divider/>
-            <br/>
-            <Row>
-                <Btn>
-                    <BtnLink to={Pulmo1} download="Pulmo" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
-                </Btn>
-            </Row>
-            <br/>
-            <br/>
-            <br/>
-            <br/>   
-        </InfoWrapper>
-    </InfoContainer>
+    <HeroContainer id="portfolio">
+      <HeroBg>
+        <RightWhiteBg>
+          <Row>
+            <Column1>
+              <Heading>u me</Heading>
+              <Text>40% of children who are diagnosed with autistic spectrum disorder 
+                are non-verbal. Not being able to communicate their wants and needs is 
+                a daily struggle for children with severe autism. This causes frustration, 
+                as they struggle to communicate to even the people closest to them, such as 
+                parents or carers.
+              </Text>
+              <Text>
+                I designed the U Me, a two way communication device.
+              </Text>
+            </Column1>
+            <Column2>
+              <Img1 src={require("../../Visuals/Portfolio/U Me/U Me.png")}/>
+            </Column2>
+          </Row>
+        </RightWhiteBg>
+        <LeftWhiteBg>
+          <Row>
+            <SingleCol>
+              <Img2 src={require("../../Visuals/Portfolio/U Me/Empathy Mapping.png")}/>
+              <Heading>empathy mapping</Heading>
+              <Text>
+              In order to accurately identify pain points, an empathy map was constructed, 
+              looking at a typical interaction between a parent and a child. Points of high 
+              stress to both the parent and child were identified, and used as a basis for 
+              ideation and concept development.
+              </Text>
+            </SingleCol>
+          </Row>
+        </LeftWhiteBg>
+        <RightWhiteBg>
+          <Row>
+            <Column1>
+              <Heading>UX/UI design</Heading>
+              <Text>The app is for the carer's use. They can use it to send instructions to 
+                the child's device, where an alert will appear on the screen, letting them 
+                know what to do. Additionally, if the child presses a button on their device 
+                to let their carer know that they need help, a notification will appear on 
+                the adult's app. Carers can also add instructions to their library, so that 
+                they can easily access instructions that they frequently use.
+              </Text>
+            </Column1>
+            <Column2>
+              <Img3 src={require("../../Visuals/Portfolio/U Me/App Design.png")}/>
+            </Column2>
+          </Row>
+        </RightWhiteBg>
+        <LeftWhiteBg>
+          <Row>
+            
+          </Row>
+        </LeftWhiteBg>
+        <BtnRow>
+          <Btn>
+            <BtnLink to={Pulmo1} download="Portfolio" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
+          </Btn>
+        </BtnRow>
+      </HeroBg>
+    </HeroContainer>
   )
 }
 
