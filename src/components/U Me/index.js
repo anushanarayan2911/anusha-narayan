@@ -13,6 +13,7 @@ import {
   Text,
   Img1,
   Img2,
+  Img3,
   BtnRow,
   Btn,
   BtnLink
@@ -59,14 +60,17 @@ const UMeComponent = () => {
         <RightWhiteBg>
           <Row>
             <Column1>
-              <Heading>how it works</Heading>
-              <Text>The user opens the top latch and places the product in. It is first soaked in cold water to remove 
-                the stain. The product is then washed in hot water to remove bacteria. Finally, steam is injected to 
-                kill microorganisms. The products can then be removed and reused. 
+              <Heading>UX/UI design</Heading>
+              <Text>The app is for the carer's use. They can use it to send instructions to 
+                the child's device, where an alert will appear on the screen, letting them 
+                know what to do. Additionally, if the child presses a button on their device 
+                to let their carer know that they need help, a notification will appear on 
+                the adult's app. Carers can also add instructions to their library, so that 
+                they can easily access instructions that they frequently use.
               </Text>
             </Column1>
             <Column2>
-              <Img1 src={require("../../Visuals/Portfolio/The Period Steriliser/Internal.png")}/>
+              <Img3 src={require("../../Visuals/Portfolio/U Me/App Design.png")}/>
             </Column2>
           </Row>
         </RightWhiteBg>

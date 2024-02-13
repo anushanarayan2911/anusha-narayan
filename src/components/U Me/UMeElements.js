@@ -173,6 +173,17 @@ export const Img2 = styled.img`
     }
 `
 
+export const Img3 = styled.img`
+    padding-top: 4vh;
+    padding-left: 4vw;
+    width: 18vw;
+
+    @media screen and (max-width: 768px) {
+        width: 40vw;
+        height: 100%;
+    }
+`
+
 export const BtnRow = styled.div`
     align-items: center;
     justify-content: center;
