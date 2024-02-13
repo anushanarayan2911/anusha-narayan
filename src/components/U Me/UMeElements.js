@@ -47,7 +47,9 @@ export const RightWhiteBg = styled.div`
     width: 92vw;
     height: auto;
     margin-left: 8vw;
-    margin-bottom: 8vh;
+    margin-bottom: 12vh;
+    padding-right: 0vw;
+    padding-bottom: 4vh;
     border-top-left-radius: 4vw;
     border-bottom-left-radius: 4vw;
 
@@ -115,7 +117,6 @@ export const Column1 = styled.div`
 `
 export const Column2 = styled.div`
     width: 50vw
-
     @media screen and (max-width: 768px) {
         width: 84vw;
         margin-top: 4vh;
@@ -137,7 +138,7 @@ export const SingleCol = styled.div`
 export const Heading = styled.h1`
     font-size: 3.6em;
     font-weight: 200;
-    color: #E491AF;
+    color: #E78C7A;
 `
 
 export const Text = styled.p`
@@ -156,7 +157,7 @@ export const Text = styled.p`
 `
 
 export const Img1 = styled.img`
-    height: 80vh;
+    width: 40vw;
 
     @media screen and (max-width: 768px) {
         width: 40vw;

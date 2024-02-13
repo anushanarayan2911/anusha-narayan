@@ -26,22 +26,19 @@ const UMeComponent = () => {
         <RightWhiteBg>
           <Row>
             <Column1>
-              <Heading>period product steriliser</Heading>
-              <Text>There are 500 million girls and women
-                around the world living in period poverty. 
-                They are frequently forced to resort to 
-                unhealthy alternatives in order to pay for 
-                period products.
+              <Heading>u me</Heading>
+              <Text>40% of children who are diagnosed with autistic spectrum disorder 
+                are non-verbal. Not being able to communicate their wants and needs is 
+                a daily struggle for children with severe autism. This causes frustration, 
+                as they struggle to communicate to even the people closest to them, such as 
+                parents or carers.
               </Text>
               <Text>
-                I designed a steriliser which can clean 
-                period products, allowing them to be reused.
-                This creates a long-lasting, hygienic supply
-                of period products.
+                I designed the U Me, a two way communication device.
               </Text>
             </Column1>
             <Column2>
-              <Img1 src={require("../../Visuals/Portfolio/The Period Steriliser/The Period Product Steriliser.png")}/>
+              <Img1 src={require("../../Visuals/Portfolio/U Me/U Me.png")}/>
             </Column2>
           </Row>
         </RightWhiteBg>
