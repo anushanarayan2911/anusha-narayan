@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 
 export const HeroContainer = styled.div`
-    background: #EFC6BE;
+    background: #C5E7F3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ export const HeroBg = styled.div`
     display: flex;
     flex-direction: column;
     z-index: 1;
-    background-color: #EFC6BE;
+    background-color: #C5E7F3;
     height: auto;
     width: 100vw;
     align-items: center;
@@ -155,7 +155,7 @@ export const VideoCol = styled.div`
 export const Heading = styled.h1`
     font-size: 3.6em;
     font-weight: 200;
-    color: #E78C7A;
+    color: #71B0C5;
 `
 
 export const Text = styled.p`
