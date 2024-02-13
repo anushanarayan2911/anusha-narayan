@@ -107,7 +107,7 @@ export const Row = styled.div`
 export const Column1 = styled.div`
     width: 50vw;
     padding-left: 4vw;
-    padding-right: 2vw;
+    padding-right: 4vw;
 
     @media screen and (max-width: 768px) {
         width: 84vw;
@@ -117,6 +117,7 @@ export const Column1 = styled.div`
 `
 export const Column2 = styled.div`
     width: 50vw
+    padding-right: 12vw;
     @media screen and (max-width: 768px) {
         width: 84vw;
         margin-top: 4vh;
@@ -174,10 +175,10 @@ export const Text = styled.p`
 `
 
 export const Img1 = styled.img`
-    width: 40vw;
-
+    width: 50vw;
+    padding-right: 4vw;
     @media screen and (max-width: 768px) {
-        width: 40vw;
+        width: 84vw;
         height: 100%;
     }
 `

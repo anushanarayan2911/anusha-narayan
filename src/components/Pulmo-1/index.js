@@ -26,19 +26,18 @@ const Pulmo1Component = () => {
         <RightWhiteBg>
           <Row>
             <Column1>
-              <Heading>u me</Heading>
-              <Text>40% of children who are diagnosed with autistic spectrum disorder 
-                are non-verbal. Not being able to communicate their wants and needs is 
-                a daily struggle for children with severe autism. This causes frustration, 
-                as they struggle to communicate to even the people closest to them, such as 
-                parents or carers.
+              <Heading>pulmo - part I</Heading>
+              <Text>Respiratory diseases are on the rise, due to an increase 
+                in smokers and air pollution. It is likely that by 2042, they 
+                will be putting a significant strain on the NHS. 
               </Text>
               <Text>
-                I designed the U Me, a two way communication device.
+                I designed a product service system that would detect respiratory 
+                disease early, preventing it from becoming too advanced
               </Text>
             </Column1>
             <Column2>
-              <Img1 src={require("../../Visuals/Portfolio/U Me/U Me.png")}/>
+              <Img1 src={require("../../Visuals/Portfolio/Pulmo-1/Pulmo - 1.png")}/>
             </Column2>
           </Row>
         </RightWhiteBg>
