@@ -146,8 +146,8 @@ export const VideoCol = styled.div`
 
     @media screen and (max-width: 768px) {
         width: 80vw;
-        margin-top: 4vh;
-        margin-left: 2vw;
+        margin-top: 5vh;
+        margin-left: 1vw;
         margin-bottom: 4vh;
     }
 `
