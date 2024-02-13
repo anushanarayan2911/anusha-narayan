@@ -16,7 +16,9 @@ import {
   Img3,
   BtnRow,
   Btn,
-  BtnLink
+  BtnLink,
+  VideoCol,
+  YoutubeEmbed
 } from './UMeElements'
 
 const UMeComponent = () => {
@@ -74,6 +76,13 @@ const UMeComponent = () => {
             </Column2>
           </Row>
         </RightWhiteBg>
+        <LeftWhiteBg>
+          <Row>
+            <VideoCol>
+              <YoutubeEmbed/>
+            </VideoCol>
+          </Row>
+        </LeftWhiteBg>
         <BtnRow>
           <Btn>
             <BtnLink to={UMe} download="Portfolio" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>

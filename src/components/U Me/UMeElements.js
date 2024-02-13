@@ -80,7 +80,7 @@ export const LeftWhiteBg = styled.div`
 
     @media screen and (max-width: 768px) {
         margin-top: 4vh;
-        margin-bottom: -12vh;
+        margin-bottom: 0vh;
         margin-left: 0vw;
         width: 90vw;
         height: 100%;
@@ -127,11 +127,28 @@ export const SingleCol = styled.div`
     width: 80vw;
     margin-left: 8vw;
     margin-top: 4vh;
+    align-items: center;
+    justify-content: center;
 
     @media screen and (max-width: 768px) {
         width: 80vw;
         margin-top: 4vh;
         margin-left: 2vw;
+    }
+`
+export const VideoCol = styled.div`
+    width: 80vw;
+    margin-left: 8vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        width: 80vw;
+        margin-top: 4vh;
+        margin-left: 2vw;
+        margin-bottom: 4vh;
     }
 `
 
@@ -194,6 +211,7 @@ export const BtnRow = styled.div`
     @media screen and (max-width: 768px) {
         flex-direction: column;
         width: 84vw;
+        margin-top: 8vh;
     }
 `
 
@@ -212,7 +230,7 @@ export const Btn = styled.div`
 
 export const BtnLink = styled(LinkR)`
     border-radius: 4vw;
-    border: 0.05em solid #E491AF;
+    border: 0.05em solid #E78C7A;
     width: 25vw;
     align-itmes: center;
     justify-content: center;
@@ -223,7 +241,7 @@ export const BtnLink = styled(LinkR)`
     padding-right: 4vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    color: #E491AF;
+    color: #E78C7A;
     font-size: 1.2em;
     font-weight: 200;
     text-decoration: none;
@@ -233,6 +251,7 @@ export const BtnLink = styled(LinkR)`
         padding-bottom: 0.5vh;
     }
 `
+
 export const YoutubeEmbed = ({ }) => (
     <div className='video-responsive'>
         <iframe
@@ -240,8 +259,9 @@ export const YoutubeEmbed = ({ }) => (
         allow="autoplay; encrypted-media; fullscreen"
         allowFullScreen
         title="video"
-        width="auto"
-        height="100%"
+        width="100%"
+        height="400vh"
+        padding-bottom="4vh"
       />{" "}
     </div>
 )
