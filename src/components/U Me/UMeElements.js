@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 
 export const HeroContainer = styled.div`
-    background: #F5D5E1;
+    background: #EFC6BE;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ export const HeroBg = styled.div`
     display: flex;
     flex-direction: column;
     z-index: 1;
-    background-color: #F5D5E1;
+    background-color: #EFC6BE;
     height: auto;
     width: 100vw;
     align-items: center;
@@ -177,7 +177,7 @@ export const BtnRow = styled.div`
     justify-content: center;
     width: 100vw;
     margin-bottom: 8vh;
-    background-color: #F5D5E1;
+    background-color: #EFC6BE;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -191,7 +191,7 @@ export const Btn = styled.div`
     position: absolute;
     padding-left: 40vw;
     width: 100vw;
-    background-color: #F5D5E1;
+    background-color: #EFC6BE;
 
     @media screen and (max-width: 768px) {
         padding-left: 25vw;
