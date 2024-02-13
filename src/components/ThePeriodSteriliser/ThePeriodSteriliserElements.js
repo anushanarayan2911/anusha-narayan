@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     position: relative;
 
@@ -33,6 +33,11 @@ export const HeroBg = styled.div`
     height: auto;
     width: 100vw;
     align-items: center;
+    padding-top: 16vh;
+
+    @media screen and (max-width: 768px) {
+        padding-top: 4vh;
+    }
 `
 
 export const RightWhiteBg = styled.div`
@@ -42,7 +47,6 @@ export const RightWhiteBg = styled.div`
     width: 92vw;
     height: auto;
     margin-left: 8vw;
-    margin-top: 160vh;
     border-top-left-radius: 4vw;
     border-bottom-left-radius: 4vw;
 
@@ -67,11 +71,13 @@ export const LeftWhiteBg = styled.div`
     height: auto;
     margin-top: 16vh;
     margin-left: -8vw;
+    margin-bottom: 16vh;
     border-top-right-radius: 4vw;
     border-bottom-right-radius: 4vw;
 
     @media screen and (max-width: 768px) {
         margin-top: 4vh;
+        margin-bottom: -12vh;
         margin-left: 0vw;
         width: 90vw;
         height: 100%;
