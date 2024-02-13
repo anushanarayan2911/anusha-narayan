@@ -27,6 +27,7 @@ export const HeroContainer = styled.div`
 
 export const HeroBg = styled.div`
     display: flex;
+    flex-direction: column;
     z-index: 1;
     background-color: #F5D5E1;
     height: auto;
@@ -34,14 +35,14 @@ export const HeroBg = styled.div`
     align-items: center;
 `
 
-export const LeftWhiteBg = styled.div`
+export const RightWhiteBg = styled.div`
     display: flex;
-    z-index: 2;
+    z-index: 1;
     background-color: #ffffff;
     width: 92vw;
     height: auto;
     margin-left: 8vw;
-    margin-top: 8vh;
+    margin-top: 16vh;
     border-top-left-radius: 4vw;
     border-bottom-left-radius: 4vw;
 
@@ -57,14 +58,14 @@ export const LeftWhiteBg = styled.div`
     }
 `
 
-export const RightWhiteBg = styled.div`
+export const LeftWhiteBg = styled.div`
     display: flex;
-    z-index: 2;
-    background-color: #ffffff;
-    width: 92vw;
+    z-index: 1;
+    background-color: #fff;
+    width: 84vw;
     height: auto;
-    margin-right: 8vw;
-    margin-top: -8vh;
+    margin-top: 16vh;
+    margin-left: -16vw;
     border-top-right-radius: 4vw;
     border-bottom-right-radius: 4vw;
 
@@ -113,6 +114,17 @@ export const Column2 = styled.div`
     }
 `
 
+export const SingleCol = styled.div`
+    width: 80vw;
+    margin-left: 4vw;
+    margin-top: 4vh;
+
+    @media screen and (max-width: 768px) {
+        width: 84vw;
+        margin-top: 4vh;
+    }
+`
+
 export const Heading = styled.h1`
     font-size: 3.6em;
     font-weight: 200;
@@ -134,12 +146,19 @@ export const Text = styled.p`
     }
 `
 
-export const Img = styled.img`
+export const Img1 = styled.img`
     height: 80vh;
-
 
     @media screen and (max-width: 768px) {
         width: 40vw;
+        height: 100%;
+    }
+`
+export const Img2 = styled.img`
+    height: 60vh;
+
+    @media screen and (max-width: 768px) {
+        width: 80vw;
         height: 100%;
     }
 `

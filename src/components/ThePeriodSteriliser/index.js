@@ -8,9 +8,11 @@ import { InfoContainer,
     Row,
     Column1,
     Column2,
+    SingleCol,
     Heading,
     Text,
-    Img,
+    Img1,
+    Img2,
     HeroContainer
 } from './ThePeriodSteriliserElements'
 
@@ -22,8 +24,8 @@ const ThePeriodProductSteriliserComponent = () => {
 
   return (
     <HeroContainer id="portfolio">
-        <HeroBg>
-        <LeftWhiteBg>
+      <HeroBg>
+        <RightWhiteBg>
           <Row>
             <Column1>
               <Heading>period product steriliser</Heading>
@@ -41,11 +43,18 @@ const ThePeriodProductSteriliserComponent = () => {
               </Text>
             </Column1>
             <Column2>
-              <Img src={require("../../Visuals/Portfolio/The Period Steriliser/The Period Product Steriliser.png")}/>
+              <Img1 src={require("../../Visuals/Portfolio/The Period Steriliser/The Period Product Steriliser.png")}/>
             </Column2>
           </Row>
+        </RightWhiteBg>
+        <LeftWhiteBg>
+          <Row>
+            <SingleCol>
+              <Img2 src={require("../../Visuals/Portfolio/The Period Steriliser/development process.png")}/>
+            </SingleCol>
+            
+          </Row>
         </LeftWhiteBg>
-        <p>Hi</p>
       </HeroBg>
     </HeroContainer>
   )
