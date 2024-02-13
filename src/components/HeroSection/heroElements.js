@@ -47,7 +47,7 @@ export const WhiteBg = styled.div`
     border-bottom-left-radius: 4vw;
 
     @media screen and (max-width: 768px) {
-        margin-top: 4vh;
+        margin-top: 16vh;
         margin-left: 4vw;
         width: 90vw;
         height: 100%;
