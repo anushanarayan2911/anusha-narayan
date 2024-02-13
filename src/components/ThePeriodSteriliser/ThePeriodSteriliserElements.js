@@ -47,6 +47,7 @@ export const RightWhiteBg = styled.div`
     width: 92vw;
     height: auto;
     margin-left: 8vw;
+    margin-bottom: 8vh;
     border-top-left-radius: 4vw;
     border-bottom-left-radius: 4vw;
 
@@ -69,7 +70,7 @@ export const LeftWhiteBg = styled.div`
     width: auto;
     max-width: 92vw;
     height: auto;
-    margin-top: 16vh;
+    margin-top: 8vh;
     margin-left: -8vw;
     margin-bottom: 16vh;
     border-top-right-radius: 4vw;
@@ -168,5 +169,55 @@ export const Img2 = styled.img`
     @media screen and (max-width: 768px) {
         width: 80vw;
         height: 100%;
+    }
+`
+
+export const BtnRow = styled.div`
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 8vh;
+    background-color: #F5D5E1;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 84vw;
+    }
+`
+
+export const Btn = styled.div`
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding-left: 40vw;
+    width: 100vw;
+    background-color: #F5D5E1;
+
+    @media screen and (max-width: 768px) {
+        padding-left: 25vw;
+    }
+`
+
+export const BtnLink = styled(LinkR)`
+    border-radius: 4vw;
+    border: 0.05em solid #E491AF;
+    width: 25vw;
+    align-itmes: center;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    whitespace: nowrap;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: #E491AF;
+    font-size: 1.2em;
+    font-weight: 200;
+    text-decoration: none;
+
+    @media screen and (max-width: 768px) {
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
     }
 `

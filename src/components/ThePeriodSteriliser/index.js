@@ -1,19 +1,22 @@
 import React from 'react'
 import ThePeriodProductSteriliser from '../../Visuals/Portfolio/The Period Steriliser/ThePeriodProductSteriliser.pdf'
 
-import { InfoContainer, 
-    HeroBg, 
-    LeftWhiteBg,
-    RightWhiteBg,
-    Row,
-    Column1,
-    Column2,
-    SingleCol,
-    Heading,
-    Text,
-    Img1,
-    Img2,
-    HeroContainer
+import {
+  HeroContainer,  
+  HeroBg, 
+  LeftWhiteBg,
+  RightWhiteBg,
+  Row,
+  Column1,
+  Column2,
+  SingleCol,
+  Heading,
+  Text,
+  Img1,
+  Img2,
+  BtnRow,
+  Btn,
+  BtnLink
 } from './ThePeriodSteriliserElements'
 
 const ThePeriodProductSteriliserComponent = () => {
@@ -64,25 +67,22 @@ const ThePeriodProductSteriliserComponent = () => {
         <RightWhiteBg>
           <Row>
             <Column1>
-              <Heading>period product steriliser</Heading>
-              <Text>There are 500 million girls and women
-                around the world living in period poverty. 
-                They are frequently forced to resort to 
-                unhealthy alternatives in order to pay for 
-                period products.
-              </Text>
-              <Text>
-                I designed a steriliser which can clean 
-                period products, allowing them to be reused.
-                This creates a long-lasting, hygienic supply
-                of period products.
+              <Heading>how it works</Heading>
+              <Text>The user opens the top latch and places the product in. It is first soaked in cold water to remove 
+                the stain. The product is then washed in hot water to remove bacteria. Finally, steam is injected to 
+                kill microorganisms. The products can then be removed and reused. 
               </Text>
             </Column1>
             <Column2>
-              <Img1 src={require("../../Visuals/Portfolio/The Period Steriliser/The Period Product Steriliser.png")}/>
+              <Img1 src={require("../../Visuals/Portfolio/The Period Steriliser/Internal.png")}/>
             </Column2>
           </Row>
         </RightWhiteBg>
+        <BtnRow>
+          <Btn>
+            <BtnLink to={ThePeriodProductSteriliser} download="Portfolio" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
+          </Btn>
+        </BtnRow>
       </HeroBg>
     </HeroContainer>
   )
