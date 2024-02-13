@@ -42,7 +42,7 @@ export const RightWhiteBg = styled.div`
     width: 92vw;
     height: auto;
     margin-left: 8vw;
-    margin-top: 16vh;
+    margin-top: 100vh;
     border-top-left-radius: 4vw;
     border-bottom-left-radius: 4vw;
 
@@ -62,10 +62,11 @@ export const LeftWhiteBg = styled.div`
     display: flex;
     z-index: 1;
     background-color: #fff;
-    width: 84vw;
+    width: auto;
+    max-width: 92vw;
     height: auto;
     margin-top: 16vh;
-    margin-left: -16vw;
+    margin-left: -8vw;
     border-top-right-radius: 4vw;
     border-bottom-right-radius: 4vw;
 
@@ -155,7 +156,7 @@ export const Img1 = styled.img`
     }
 `
 export const Img2 = styled.img`
-    height: 60vh;
+    width: 80vw;
 
     @media screen and (max-width: 768px) {
         width: 80vw;
