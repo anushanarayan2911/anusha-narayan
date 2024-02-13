@@ -45,13 +45,13 @@ const UMeComponent = () => {
         <LeftWhiteBg>
           <Row>
             <SingleCol>
-              <Img2 src={require("../../Visuals/Portfolio/The Period Steriliser/development process.png")}/>
-              <Heading>development process</Heading>
+              <Img2 src={require("../../Visuals/Portfolio/U Me/Empathy Mapping.png")}/>
+              <Heading>empathy mapping</Heading>
               <Text>
-              The development process included sketching and lo-fi prototyping. 15 ideas were first generated, 
-              before being evaluated on an ideation matrix. This was narrowed down to 3 concepts, and a survey 
-              was conducted to see which one people would most prefer. The idea of a period product steriliser 
-              was most preferred. Lo-fi prototyping was then done to develop each part of the steriliser.
+              In order to accurately identify pain points, an empathy map was constructed, 
+              looking at a typical interaction between a parent and a child. Points of high 
+              stress to both the parent and child were identified, and used as a basis for 
+              ideation and concept development.
               </Text>
             </SingleCol>
           </Row>
