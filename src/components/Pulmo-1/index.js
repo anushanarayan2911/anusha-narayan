@@ -44,13 +44,15 @@ const Pulmo1Component = () => {
         <LeftWhiteBg>
           <Row>
             <SingleCol>
-              <Img2 src={require("../../Visuals/Portfolio/U Me/Empathy Mapping.png")}/>
-              <Heading>empathy mapping</Heading>
+              <Img2 src={require("../../Visuals/Portfolio/Pulmo-1/Future Contextual Studies.png")}/>
+              <Heading>future contextual studies</Heading>
               <Text>
-              In order to accurately identify pain points, an empathy map was constructed, 
-              looking at a typical interaction between a parent and a child. Points of high 
-              stress to both the parent and child were identified, and used as a basis for 
-              ideation and concept development.
+              To help define a future scenario, a STEEPV Wheel was created. Under the theme “The 
+              Future of Healthcare”, the overarching drivers, trends and enablers that will drive 
+              the project were identified. Key themes included the rise of telemedicine, development 
+              of personalised point-of-care healthcare solutions, the shift towards preventative 
+              models and the reduction of workload on healthcare workers through the integration of 
+              data-driven systems and partial privatisation of the NHS.
               </Text>
             </SingleCol>
           </Row>
