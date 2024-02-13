@@ -78,7 +78,15 @@ const Pulmo1Component = () => {
         </RightWhiteBg>
         <LeftWhiteBg>
           <Row>
-            
+            <SingleCol>
+                <Img2 src={require("../../Visuals/Portfolio/Pulmo-1/Final PSS.png")}/>
+                <Heading>product service system</Heading>
+                <Text>
+                The final concept was chosen to be Pulmo, a wearable device that collects 
+                data from a wide variety of biomarkers to detect lung disease. The product 
+                service system surrounding Pulmo was also designed.
+                </Text>
+            </SingleCol>
           </Row>
         </LeftWhiteBg>
         <BtnRow>
