@@ -207,7 +207,7 @@ export const BtnRow = styled.div`
     justify-content: center;
     width: 100vw;
     margin-bottom: 8vh;
-    background-color: #EFC6BE;
+    background-color: #C5E7F3;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -222,7 +222,7 @@ export const Btn = styled.div`
     position: absolute;
     padding-left: 40vw;
     width: 100vw;
-    background-color: #EFC6BE;
+    background-color: #C5E7F3;
 
     @media screen and (max-width: 768px) {
         padding-left: 25vw;
@@ -231,7 +231,7 @@ export const Btn = styled.div`
 
 export const BtnLink = styled(LinkR)`
     border-radius: 4vw;
-    border: 0.05em solid #E78C7A;
+    border: 0.05em solid #71B0C5;
     width: 25vw;
     align-itmes: center;
     justify-content: center;
@@ -242,7 +242,7 @@ export const BtnLink = styled(LinkR)`
     padding-right: 4vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    color: #E78C7A;
+    color: #71B0C5;
     font-size: 1.2em;
     font-weight: 200;
     text-decoration: none;
