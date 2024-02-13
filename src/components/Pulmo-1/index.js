@@ -59,19 +59,21 @@ const Pulmo1Component = () => {
         </LeftWhiteBg>
         <RightWhiteBg>
           <Row>
-            <Column1>
-              <Heading>UX/UI design</Heading>
-              <Text>The app is for the carer's use. They can use it to send instructions to 
-                the child's device, where an alert will appear on the screen, letting them 
-                know what to do. Additionally, if the child presses a button on their device 
-                to let their carer know that they need help, a notification will appear on 
-                the adult's app. Carers can also add instructions to their library, so that 
-                they can easily access instructions that they frequently use.
-              </Text>
-            </Column1>
-            <Column2>
-              <Img3 src={require("../../Visuals/Portfolio/U Me/App Design.png")}/>
-            </Column2>
+            <SingleCol>
+                <Img2 src={require("../../Visuals/Portfolio/Pulmo-1/Concepts.png")}/>
+                <Heading>ideation</Heading>
+                <Text>
+                An ideation session was conducted, using the technologies that had been 
+                researched as a basis. The aim of the session was to generate possible 
+                ideas for a product service system that could detect lung disease early. 
+                Any concept could be broken into 2 parts: data collection and data analysis. 
+                Since the latter would be done using machine learning models combined with 
+                the user's medical data, product ideation focussed on the first part. 
+                Ideation was done as a group, with C-Sketching and SCAMPER techniques being 
+                used. The top three ideas, a choker sensor, sleepmask sensor and chest ECG 
+                were chosen to move forward through a Pugh chart analysis.
+                </Text>
+            </SingleCol>
           </Row>
         </RightWhiteBg>
         <LeftWhiteBg>
