@@ -42,7 +42,7 @@ export const WhiteBg = styled.div`
     width: 92vw;
     height: 80vh;
     margin-left: 8vw;
-    margin-top: -8vh;
+    margin-top: 8vh;
     border-top-left-radius: 4vw;
     border-bottom-left-radius: 4vw;
 
@@ -115,7 +115,7 @@ export const BtnRow = styled.div`
     display: flex;
     flex-direction: row;
     width: 50vw;
-    margin-top: 8vh;
+    margin-top: 6vh;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;

@@ -41,7 +41,7 @@ export const WhiteBg = styled.div`
     height: 100%;
     margin-left: 8vw;
     margin-rigth: 8vw;
-    margin-top: 8vh;
+    margin-top: 16vh;
     border-top-left-radius: 4vw;
     border-top-right-radius: 4vw;
 

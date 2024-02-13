@@ -3,7 +3,8 @@ import ThePeriodProductSteriliser from '../../Visuals/Portfolio/The Period Steri
 
 import { InfoContainer, 
     HeroBg, 
-    WhiteBg,
+    LeftWhiteBg,
+    RightWhiteBg,
     Row,
     Column1,
     Column2,
@@ -22,7 +23,7 @@ const ThePeriodProductSteriliserComponent = () => {
   return (
     <HeroContainer id="portfolio">
         <HeroBg>
-        <WhiteBg>
+        <LeftWhiteBg>
           <Row>
             <Column1>
               <Heading>period product steriliser</Heading>
@@ -40,10 +41,11 @@ const ThePeriodProductSteriliserComponent = () => {
               </Text>
             </Column1>
             <Column2>
-              <Img src={require("../../Visuals/Home/Anusha.png")}/>
+              <Img src={require("../../Visuals/Portfolio/The Period Steriliser/The Period Product Steriliser.png")}/>
             </Column2>
           </Row>
-        </WhiteBg>
+        </LeftWhiteBg>
+        <p>Hi</p>
       </HeroBg>
     </HeroContainer>
   )
