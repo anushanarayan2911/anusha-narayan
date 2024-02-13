@@ -51,6 +51,13 @@ const ThePeriodProductSteriliserComponent = () => {
           <Row>
             <SingleCol>
               <Img2 src={require("../../Visuals/Portfolio/The Period Steriliser/development process.png")}/>
+              <Heading>development process</Heading>
+              <Text>
+              The development process included sketching and lo-fi prototyping. 15 ideas were first generated, 
+              before being evaluated on an ideation matrix. This was narrowed down to 3 concepts, and a survey 
+              was conducted to see which one people would most prefer. The idea of a period product steriliser 
+              was most preferred. Lo-fi prototyping was then done to develop each part of the steriliser.
+              </Text>
             </SingleCol>
             
           </Row>

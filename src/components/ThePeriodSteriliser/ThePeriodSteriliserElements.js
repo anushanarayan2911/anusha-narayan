@@ -42,13 +42,13 @@ export const RightWhiteBg = styled.div`
     width: 92vw;
     height: auto;
     margin-left: 8vw;
-    margin-top: 100vh;
+    margin-top: 160vh;
     border-top-left-radius: 4vw;
     border-bottom-left-radius: 4vw;
 
     @media screen and (max-width: 768px) {
         margin-top: 16vh;
-        margin-left: 4vw;
+        margin-left: 0vw;
         width: 90vw;
         height: 100%;
         border-top-left-radius: 4vw;
@@ -72,7 +72,7 @@ export const LeftWhiteBg = styled.div`
 
     @media screen and (max-width: 768px) {
         margin-top: 4vh;
-        margin-left: 4vw;
+        margin-left: 0vw;
         width: 90vw;
         height: 100%;
         border-top-left-radius: 4vw;
@@ -117,12 +117,13 @@ export const Column2 = styled.div`
 
 export const SingleCol = styled.div`
     width: 80vw;
-    margin-left: 4vw;
+    margin-left: 8vw;
     margin-top: 4vh;
 
     @media screen and (max-width: 768px) {
-        width: 84vw;
+        width: 80vw;
         margin-top: 4vh;
+        margin-left: 2vw;
     }
 `
 
@@ -156,7 +157,7 @@ export const Img1 = styled.img`
     }
 `
 export const Img2 = styled.img`
-    width: 80vw;
+    width: 72vw;
 
     @media screen and (max-width: 768px) {
         width: 80vw;
