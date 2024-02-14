@@ -45,12 +45,11 @@ const TravelToothpasteComponent = () => {
         <LeftWhiteBg>
           <Row>
             <SingleCol>
-              <Img2 src={require("../../Visuals/Portfolio/ReStand/System Design.png")}/>
-              <Heading>system design</Heading>
+              <Img2 src={require("../../Visuals/Portfolio/Travel Toothpaste/Product Teardown.png")}/>
+              <Heading>product teardown</Heading>
               <Text>
-              When designing the system, all possible scenarios were considered - the 
-              idealised journey taking centre place, but mitigations were put in place 
-              for other scenarios.
+              A product teardown was done, looking at the design, material, manufacture and packaging of travel 
+              toothpastes, in order to ascertain the environmental impact of them.
               </Text>
             </SingleCol>
           </Row>
