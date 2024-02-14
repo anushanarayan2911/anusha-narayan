@@ -61,18 +61,15 @@ const Pulmo2Component = () => {
         <RightWhiteBg>
           <Row>
             <SingleCol>
-                <Img2 src={require("../../Visuals/Portfolio/Pulmo-1/Concepts.png")}/>
-                <Heading>ideation</Heading>
+                <Img2 src={require("../../Visuals/Portfolio/Pulmo-2/App Design.png")}/>
+                <Heading>app design</Heading>
                 <Text>
-                An ideation session was conducted, using the technologies that had been 
-                researched as a basis. The aim of the session was to generate possible 
-                ideas for a product service system that could detect lung disease early. 
-                Any concept could be broken into 2 parts: data collection and data analysis. 
-                Since the latter would be done using machine learning models combined with 
-                the user's medical data, product ideation focussed on the first part. 
-                Ideation was done as a group, with C-Sketching and SCAMPER techniques being 
-                used. The top three ideas, a choker sensor, sleepmask sensor and chest ECG 
-                were chosen to move forward through a Pugh chart analysis.
+                The app will be paired with each user’s Pulmo. It will keep the user 
+                informed on their lung status, capitalising on the trend of self-monitoring 
+                health. It will also help to ensure proper usage of the device, and reminds 
+                the user to keep it well-maintained. In the event that inconsistencies are 
+                detected, the app will generate a preliminary diagnosis that the user can 
+                then share with their doctor, who can then validate it.
                 </Text>
             </SingleCol>
           </Row>
