@@ -197,7 +197,7 @@ export const Img3 = styled.img`
     width: 40vw;
 
     @media screen and (max-width: 768px) {
-        width: 40vw;
+        width: 84vw;
         height: 100%;
     }
 `
