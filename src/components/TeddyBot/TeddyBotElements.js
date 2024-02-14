@@ -176,7 +176,7 @@ export const Text = styled.p`
 
 export const Img1 = styled.img`
     width: 50vw;
-    padding-right: 16vw;
+    padding-right: 8vw;
     @media screen and (max-width: 768px) {
         width: 84vw;
         height: 100%;

@@ -46,13 +46,12 @@ const TeddyBotComponent = () => {
         <LeftWhiteBg>
           <Row>
             <SingleCol>
-              <Img2 src={require("../../Visuals/Portfolio/Pulmo-2/Technological Development.png")}/>
-              <Heading>technological development</Heading>
+              <Img2 src={require("../../Visuals/Portfolio/TeddyBot/Manufacture.png")}/>
+              <Heading>prototyping</Heading>
               <Text>
-              Technological development of the patch can be categorised into 4 groups: MEMS, 
-              materials, wearable technology and machine learning. 4 types of MEMS sensors were 
-              used to collect data: acoustic, resistive, EKG and PPG. These would all monitor 
-              different aspects of lung health.
+              Part of the project was to create a prototype of the design. Due to prototyping 
+              limitations, the outer casing was made using plywood. Manufacture involved laser 
+              cutting and electronics.
               </Text>
             </SingleCol>
           </Row>
