@@ -27,18 +27,19 @@ const AramaComponent = () => {
         <RightWhiteBg>
           <Row>
             <Column1>
-              <Heading>teddybot</Heading>
-              <Text>Mathematics is often considered to be the most boring subject 
-                for young children. The lack of interactivity means that they are 
-                frequently disengaged and do not enjoy the essential subject. 
+              <Heading>arama</Heading>
+              <Text>Children with severe autism have trouble communicating, 
+                even with those closest to them, such as their parents. They 
+                struggle to understand spoken instructions, and often cannot 
+                ask for help when they need it, even for simple tasks.
               </Text>
               <Text>
-              TeddyBot is a robotic game that will help children to practice their 
-              addition and subtraction skills.
+              I designed Arama, a speech recognition device which turns instructions 
+              given by a parent into a visual that the child can understand.
               </Text>
             </Column1>
             <Column2>
-              <Img1 src={require("../../Visuals/Portfolio/TeddyBot/TeddyBot.png")}/>
+              <Img1 src={require("../../Visuals/Portfolio/Arama/Arama.png")}/>
             </Column2>
           </Row>
         </RightWhiteBg>
