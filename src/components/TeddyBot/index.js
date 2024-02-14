@@ -1,85 +1,109 @@
 import React from 'react'
 import TeddyBot from '../../Visuals/Portfolio/TeddyBot/TeddyBot.pdf'
-import { InfoContainer, 
-    InfoWrapper, 
-    TitleImage,
-    Title,
-    Container,
-    Overlay,
-    Caption,
-    Text,
-    Divider,
+import { HeroContainer,  
+    HeroBg, 
+    LeftWhiteBg,
+    RightWhiteBg,
     Row,
-    LeftCol,
-    RightCol,
-    Image,
-    BtnLink,
+    Column1,
+    Column2,
+    SingleCol,
+    Heading,
+    Text,
+    Img1,
+    Img2,
+    Img3,
+    BtnRow,
     Btn,
+    BtnLink,
+    VideoCol,
     YoutubeEmbed
 } from './TeddyBotElements'
 
 const TeddyBotComponent = () => {
 
   return (
-    <InfoContainer>
-        <InfoWrapper>
-            <Container>
-                <Overlay>
-                    <Title>teddybot</Title>
-                    <Caption>an robotic maths games making learning maths a fun and interactive experience for young children</Caption>
-                </Overlay>
-                <TitleImage src={require("../../Visuals/Portfolio/TeddyBot/TeddyBot.png")}/>
-            </Container> 
-            <br/>
-            <br/>
-            <br/>
-            <Text>Mathematics is often considered to be the most boring subject for young children. The lack of interactivity means that they are frequently disengaged and do not enjoy the essential subject.</Text>
-            <br/>
-            <Divider/>
-            <br/>
+    <HeroContainer id="portfolio">
+      <HeroBg>
+        <RightWhiteBg>
+          <Row>
+            <Column1>
+              <Heading>pulmo - part II</Heading>
+              <Text>By 2050, 75% of the world’s population will live in cities, 
+                leading to heavy overcrowding in urban centres. Indoor air quality 
+                in the UK is poor, and the increase in vehicular transport will 
+                damage outdoor air quality further. The combination of these three 
+                factors spell a bleak future for lung health, especially for those 
+                in urban centres.  
+              </Text>
+              <Text>
+              Pulmo monitors a variety of data points of the lungs to detect and 
+              generate a preliminary diagnosis of lung diseases.
+              </Text>
+            </Column1>
+            <Column2>
+              <Img1 src={require("../../Visuals/Portfolio/Pulmo-2/Pulmo - 2.png")}/>
+            </Column2>
+          </Row>
+        </RightWhiteBg>
+        <LeftWhiteBg>
+          <Row>
+            <SingleCol>
+              <Img2 src={require("../../Visuals/Portfolio/Pulmo-2/Technological Development.png")}/>
+              <Heading>technological development</Heading>
+              <Text>
+              Technological development of the patch can be categorised into 4 groups: MEMS, 
+              materials, wearable technology and machine learning. 4 types of MEMS sensors were 
+              used to collect data: acoustic, resistive, EKG and PPG. These would all monitor 
+              different aspects of lung health.
+              </Text>
+            </SingleCol>
+          </Row>
+        </LeftWhiteBg>
+        <RightWhiteBg>
+          <Row>
+            <SingleCol>
+                <Img2 src={require("../../Visuals/Portfolio/Pulmo-2/App Design.png")}/>
+                <Heading>app design</Heading>
+                <Text>
+                The app will be paired with each user’s Pulmo. It will keep the user 
+                informed on their lung status, capitalising on the trend of self-monitoring 
+                health. It will also help to ensure proper usage of the device, and reminds 
+                the user to keep it well-maintained. In the event that inconsistencies are 
+                detected, the app will generate a preliminary diagnosis that the user can 
+                then share with their doctor, who can then validate it.
+                </Text>
+            </SingleCol>
+          </Row>
+        </RightWhiteBg>
+        <LeftWhiteBg>
+          <Row>
+            <SingleCol>
+                <Img2 src={require("../../Visuals/Portfolio/Pulmo-2/Pulmo and IoT.png")}/>
+                <Heading>IoT system</Heading>
+                <Text>
+                As home IOT systems become more common, Pulmo will integrate fully with other 
+                smart devices in the home. By connecting with other devices linked to air quality, 
+                the air that the user breathes in will be optimised, improving the user's lung 
+                health, and subsequently, quality of life.
+                </Text>
+            </SingleCol>
+          </Row>
+        </LeftWhiteBg>
+        <RightWhiteBg>
             <Row>
-                <LeftCol>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <Text>Part of the project was to create a prototype of the design. Due to prototyping limitations, the outer casing was made using plywood. Manufacture involved laser cutting and electronics.</Text>
-                </LeftCol>
-                <RightCol>
-                    <Image src={require("../../Visuals/Portfolio/TeddyBot/Manufacture.png")}/>
-                </RightCol>
+                <VideoCol>
+                    <YoutubeEmbed/>
+                </VideoCol>
             </Row>
-            <br/>
-            <Divider/>
-            <br/>
-            <br/>
-            <Row>
-                <Image src={require("../../Visuals/Portfolio/TeddyBot/Robot Circuit.png")}/>
-            </Row>
-            <br/>
-            <Text>The electronic circuit for the robot consisted of Arduino boards, an LCD screen, 9 LEDs, 2 servo motors, a buzzer and a keypad. All of these components were used to make the robot of the game work.</Text>
-            <br/>
-            <Divider/>
-            <br/>
-            <Row>
-                <YoutubeEmbed/>
-            </Row>
-            <br/>
-            <Row>
-                <Btn>
-                    <BtnLink to={TeddyBot} download="TeddyBot" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
-                </Btn>
-            </Row>
-            <br/>
-            <br/>
-            <br/>
-            <br/>   
-        </InfoWrapper>
-    </InfoContainer>
-
+        </RightWhiteBg>
+        <BtnRow>
+          <Btn>
+            <BtnLink to={TeddyBot} download="Portfolio" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
+          </Btn>
+        </BtnRow>
+      </HeroBg>
+    </HeroContainer>
   )
 }
 

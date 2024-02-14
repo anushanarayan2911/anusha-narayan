@@ -17,7 +17,7 @@ import { HeroContainer,
     Btn,
     BtnLink,
     VideoCol,
-    YoutubeEmbed,
+    YoutubeEmbed
 } from './Pulmo-2-Elements'
 
 const Pulmo2Component = () => {
