@@ -77,16 +77,18 @@ const Pulmo2Component = () => {
         <LeftWhiteBg>
           <Row>
             <SingleCol>
-                <Img2 src={require("../../Visuals/Portfolio/Pulmo-1/Final PSS.png")}/>
-                <Heading>product service system</Heading>
+                <Img2 src={require("../../Visuals/Portfolio/Pulmo-2/Pulmo and IoT.png")}/>
+                <Heading>IoT system</Heading>
                 <Text>
-                The final concept was chosen to be Pulmo, a wearable device that collects 
-                data from a wide variety of biomarkers to detect lung disease. The product 
-                service system surrounding Pulmo was also designed.
+                As home IOT systems become more common, Pulmo will integrate fully with other 
+                smart devices in the home. By connecting with other devices linked to air quality, 
+                the air that the user breathes in will be optimised, improving the user's lung 
+                health, and subsequently, quality of life.
                 </Text>
             </SingleCol>
           </Row>
         </LeftWhiteBg>
+        
         <BtnRow>
           <Btn>
             <BtnLink to={Pulmo2} download="Portfolio" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
