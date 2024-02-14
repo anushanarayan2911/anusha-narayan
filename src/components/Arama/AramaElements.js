@@ -193,8 +193,8 @@ export const Img2 = styled.img`
 
 export const Img3 = styled.img`
     padding-top: 4vh;
-    padding-left: 4vw;
-    width: 18vw;
+    padding-right: 12vw;
+    width: 40vw;
 
     @media screen and (max-width: 768px) {
         width: 40vw;

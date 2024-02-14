@@ -58,15 +58,17 @@ const AramaComponent = () => {
         </LeftWhiteBg>
         <RightWhiteBg>
           <Row>
-            <SingleCol>
-                <Img2 src={require("../../Visuals/Portfolio/TeddyBot/Robot Circuit.png")}/>
-                <Heading>electronics prototyping</Heading>
-                <Text>
-                The electronic circuit for the robot consisted of Arduino boards, an LCD screen, 
-                9 LEDs, 2 servo motors, a buzzer and a keypad. All of these components were used 
-                to make the robot of the game work.
-                </Text>
-            </SingleCol>
+            <Column1>
+              <Heading>ideation</Heading>
+              <Text>Instead of choosing one opportunity, ideation consisted of iterating on 
+                one idea, incorporating multiple opportunities to come up with a complete 
+                design that could address many of the problems currently affecting the lives 
+                of autistic children.
+              </Text>
+            </Column1>
+            <Column2>
+              <Img3 src={require("../../Visuals/Portfolio/Arama/Concept Development.png")}/>
+            </Column2>
           </Row>
         </RightWhiteBg>
         <BtnRow>
