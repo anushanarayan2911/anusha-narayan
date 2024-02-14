@@ -58,31 +58,11 @@ const ReStandComponent = () => {
         </LeftWhiteBg>
         <RightWhiteBg>
           <Row>
-            <Column1>
-              <Heading>ideation</Heading>
-              <Text>Instead of choosing one opportunity, ideation consisted of iterating on 
-                one idea, incorporating multiple opportunities to come up with a complete 
-                design that could address many of the problems currently affecting the lives 
-                of autistic children.
-              </Text>
-            </Column1>
-            <Column2>
-              <Img3 src={require("../../Visuals/Portfolio/Arama/Concept Development.png")}/>
-            </Column2>
+            <VideoCol>
+                <YoutubeEmbed/>
+            </VideoCol>
           </Row>
         </RightWhiteBg>
-        <LeftWhiteBg>
-          <Row>
-            <SingleCol>
-              <Img2 src={require("../../Visuals/Portfolio/Arama/Prototyping.png")}/>
-              <Heading>lo-fi prototyping</Heading>
-              <Text>
-              Lo-fi prototyping was done to determine form and ergonomics of the device, 
-              and was also shown to field experts to get their feedback.
-              </Text>
-            </SingleCol>
-          </Row>
-        </LeftWhiteBg>
         <BtnRow>
           <Btn>
             <BtnLink to={ReStand} download="Portfolio" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
