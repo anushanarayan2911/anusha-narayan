@@ -46,11 +46,13 @@ const AdobeBuildComponent = () => {
         <LeftWhiteBg>
           <Row>
             <SingleCol>
-              <Img2 src={require("../../Visuals/Portfolio/Travel Toothpaste/Product Teardown.png")}/>
-              <Heading>product teardown</Heading>
+              <Img2 src={require("../../Visuals/Portfolio/Adobe Build/User Research.png")}/>
+              <Heading>user research</Heading>
               <Text>
-              A product teardown was done, looking at the design, material, manufacture and packaging of travel 
-              toothpastes, in order to ascertain the environmental impact of them.
+              To find a segment of the market that is underserved, user and market research was 
+              conducted. This allowed us to choose start-ups who are wishing to establish their 
+              online presence as a user group. A user persona was created, and used to identify 
+              pain points that our proposal could address.
               </Text>
             </SingleCol>
           </Row>
