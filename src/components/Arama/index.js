@@ -16,7 +16,7 @@ import { HeroContainer,
     BtnRow,
     Btn,
     BtnLink,
-    VideoCol,
+    VideoCol
 } from './AramaElements'
 
 const AramaComponent = () => {
