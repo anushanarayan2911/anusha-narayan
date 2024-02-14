@@ -59,40 +59,23 @@ const TeddyBotComponent = () => {
         <RightWhiteBg>
           <Row>
             <SingleCol>
-                <Img2 src={require("../../Visuals/Portfolio/Pulmo-2/App Design.png")}/>
-                <Heading>app design</Heading>
+                <Img2 src={require("../../Visuals/Portfolio/TeddyBot/Robot Circuit.png")}/>
+                <Heading>electronics prototyping</Heading>
                 <Text>
-                The app will be paired with each user’s Pulmo. It will keep the user 
-                informed on their lung status, capitalising on the trend of self-monitoring 
-                health. It will also help to ensure proper usage of the device, and reminds 
-                the user to keep it well-maintained. In the event that inconsistencies are 
-                detected, the app will generate a preliminary diagnosis that the user can 
-                then share with their doctor, who can then validate it.
+                The electronic circuit for the robot consisted of Arduino boards, an LCD screen, 
+                9 LEDs, 2 servo motors, a buzzer and a keypad. All of these components were used 
+                to make the robot of the game work.
                 </Text>
             </SingleCol>
           </Row>
         </RightWhiteBg>
         <LeftWhiteBg>
           <Row>
-            <SingleCol>
-                <Img2 src={require("../../Visuals/Portfolio/Pulmo-2/Pulmo and IoT.png")}/>
-                <Heading>IoT system</Heading>
-                <Text>
-                As home IOT systems become more common, Pulmo will integrate fully with other 
-                smart devices in the home. By connecting with other devices linked to air quality, 
-                the air that the user breathes in will be optimised, improving the user's lung 
-                health, and subsequently, quality of life.
-                </Text>
-            </SingleCol>
+            <VideoCol>
+                <YoutubeEmbed/>
+            </VideoCol>
           </Row>
         </LeftWhiteBg>
-        <RightWhiteBg>
-            <Row>
-                <VideoCol>
-                    <YoutubeEmbed/>
-                </VideoCol>
-            </Row>
-        </RightWhiteBg>
         <BtnRow>
           <Btn>
             <BtnLink to={TeddyBot} download="Portfolio" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
