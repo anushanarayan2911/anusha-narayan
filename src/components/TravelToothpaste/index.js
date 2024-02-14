@@ -27,18 +27,18 @@ const TravelToothpasteComponent = () => {
         <RightWhiteBg>
           <Row>
             <Column1>
-              <Heading>restand</Heading>
-              <Text>In 2015, there were 2200 camping chairs left at the Glastonbury festival. 
-                There are few product service systems in place to remove the waste left 
-                behind and the materials used add to energy wastage and carbon footprint.
+              <Heading>travel toothpaste</Heading>
+              <Text>Travel toothpaste is often sold as part of travel toiletries, 
+                and have a detrimental effect on the environment. Many toothpaste 
+                suppliers are attempting to combat the negative environmental impact 
+                that their products have.
               </Text>
               <Text>
-              ReStand is a product service system to recycling camping chairs following 
-              festivals, to prevent them from going to waste.
+              I identified risks and opportunities that could serve as innovation points.
               </Text>
             </Column1>
             <Column2>
-              <Img1 src={require("../../Visuals/Portfolio/ReStand/ReStand.png")}/>
+              <Img1 src={require("../../Visuals/Portfolio/Travel Toothpaste/Travel Toothpaste.png")}/>
             </Column2>
           </Row>
         </RightWhiteBg>
