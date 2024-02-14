@@ -16,6 +16,8 @@ import { HeroContainer,
     BtnRow,
     Btn,
     BtnLink,
+    VideoCol,
+    YoutubeEmbed,
 } from './Pulmo-2-Elements'
 
 const Pulmo2Component = () => {
@@ -88,7 +90,13 @@ const Pulmo2Component = () => {
             </SingleCol>
           </Row>
         </LeftWhiteBg>
-        
+        <RightWhiteBg>
+            <Row>
+                <VideoCol>
+                    <YoutubeEmbed/>
+                </VideoCol>
+            </Row>
+        </RightWhiteBg>
         <BtnRow>
           <Btn>
             <BtnLink to={Pulmo2} download="Portfolio" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
