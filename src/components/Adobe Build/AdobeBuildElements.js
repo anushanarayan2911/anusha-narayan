@@ -79,7 +79,7 @@ export const LeftWhiteBg = styled.div`
 
     @media screen and (max-width: 768px) {
         margin-top: 4vh;
-        margin-bottom: 0vh;
+        margin-bottom: -12vh;
         margin-left: 0vw;
         width: 90vw;
         height: 100%;
