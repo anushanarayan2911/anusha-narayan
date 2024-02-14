@@ -61,6 +61,7 @@ export const WorkContainer = styled.div`
 export const Row1 = styled.div`
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 84vw;
     margin-top: 6vh;
 
@@ -74,6 +75,7 @@ export const Row1 = styled.div`
 export const Row2 = styled.div`
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 84vw;
     margin-top: 4vh;
 
@@ -86,6 +88,7 @@ export const Row2 = styled.div`
 export const Row3 = styled.div`
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 84vw;
     margin-top: 4vh;
     margin-bottom: 4vh;
@@ -142,6 +145,7 @@ export const ImageLink = styled(LinkR)`
 `
 export const Image = styled.img`
     width: 100%;
+    height: 100vh;
     height: auto;
     display: block;
     overflow-x: no-scroll;

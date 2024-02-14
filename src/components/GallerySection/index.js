@@ -28,35 +28,35 @@ const GallerySection = () => {
           <WorkContainer>
             <Row1>
               <Column1>
-                <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
+                <Image src={require("../../Visuals/Gallery/1.png")}/>
               </Column1>
               <Column2>
-                <Image src={require("../../Visuals/Portfolio/Landing Page/U Me Title Card.png")}/>
+                <Image src={require("../../Visuals/Gallery/2.png")}/>
               </Column2>
               <Column3>
-                <Image src={require("../../Visuals/Portfolio/Landing Page/Pulmo - 1 Title Card.png")}/>
+                <Image src={require("../../Visuals/Gallery/3.png")}/>
               </Column3>
             </Row1>
             <Row2>
             <Column1>
-                <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
+                <Image src={require("../../Visuals/Gallery/4.png")}/>
               </Column1>
               <Column2>
-                <Image src={require("../../Visuals/Portfolio/Landing Page/U Me Title Card.png")}/>
+                <Image src={require("../../Visuals/Gallery/5.png")}/>
               </Column2>
               <Column3>
-                <Image src={require("../../Visuals/Portfolio/Landing Page/Pulmo - 1 Title Card.png")}/>
+                <Image src={require("../../Visuals/Gallery/6.png")}/>
               </Column3>
             </Row2>
             <Row3>
             <Column1>
-                <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
+                <Image src={require("../../Visuals/Gallery/7.png")}/>
               </Column1>
               <Column2>
-                <Image src={require("../../Visuals/Portfolio/Landing Page/U Me Title Card.png")}/>
+                <Image src={require("../../Visuals/Gallery/8.png")}/>
               </Column2>
               <Column3>
-                <Image src={require("../../Visuals/Portfolio/Landing Page/Pulmo - 1 Title Card.png")}/>
+                <Image src={require("../../Visuals/Gallery/9.png")}/>
               </Column3>
             </Row3>
           </WorkContainer>
