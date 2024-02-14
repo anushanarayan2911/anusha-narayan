@@ -27,18 +27,19 @@ const AdobeBuildComponent = () => {
         <RightWhiteBg>
           <Row>
             <Column1>
-              <Heading>travel toothpaste</Heading>
-              <Text>Travel toothpaste is often sold as part of travel toiletries, 
-                and have a detrimental effect on the environment. Many toothpaste 
-                suppliers are attempting to combat the negative environmental impact 
-                that their products have.
+              <Heading>adobe build</Heading>
+              <Text>This project required designing a product within a brand's existing portfolio. Adobe was 
+                not engaged in any consultancy or collaborative capacity with this project, and the outcome 
+                is in no way endorsed by them. Any publicity is limited to personal and academic use.
               </Text>
               <Text>
-              I identified risks and opportunities that could serve as innovation points.
+              The aim of the project was to develop a business proposal for the company, Adobe. The new product 
+              had to fit with Adobe's target market, trends on which they operate but also help the company to 
+              expand.
               </Text>
             </Column1>
             <Column2>
-              <Img1 src={require("../../Visuals/Portfolio/Travel Toothpaste/Travel Toothpaste.png")}/>
+              <Img1 src={require("../../Visuals/Portfolio/Adobe Build/Adobe Build.png")}/>
             </Column2>
           </Row>
         </RightWhiteBg>
