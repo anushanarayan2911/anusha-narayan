@@ -28,21 +28,18 @@ const TeddyBotComponent = () => {
         <RightWhiteBg>
           <Row>
             <Column1>
-              <Heading>pulmo - part II</Heading>
-              <Text>By 2050, 75% of the world’s population will live in cities, 
-                leading to heavy overcrowding in urban centres. Indoor air quality 
-                in the UK is poor, and the increase in vehicular transport will 
-                damage outdoor air quality further. The combination of these three 
-                factors spell a bleak future for lung health, especially for those 
-                in urban centres.  
+              <Heading>teddybot</Heading>
+              <Text>Mathematics is often considered to be the most boring subject 
+                for young children. The lack of interactivity means that they are 
+                frequently disengaged and do not enjoy the essential subject. 
               </Text>
               <Text>
-              Pulmo monitors a variety of data points of the lungs to detect and 
-              generate a preliminary diagnosis of lung diseases.
+              TeddyBot is a robotic game that will help children to practice their 
+              addition and subtraction skills.
               </Text>
             </Column1>
             <Column2>
-              <Img1 src={require("../../Visuals/Portfolio/Pulmo-2/Pulmo - 2.png")}/>
+              <Img1 src={require("../../Visuals/Portfolio/TeddyBot/TeddyBot.png")}/>
             </Column2>
           </Row>
         </RightWhiteBg>
