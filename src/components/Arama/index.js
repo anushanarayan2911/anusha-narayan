@@ -46,12 +46,12 @@ const AramaComponent = () => {
         <LeftWhiteBg>
           <Row>
             <SingleCol>
-              <Img2 src={require("../../Visuals/Portfolio/TeddyBot/Manufacture.png")}/>
-              <Heading>prototyping</Heading>
+              <Img2 src={require("../../Visuals/Portfolio/Arama/User Research.png")}/>
+              <Heading>user research</Heading>
               <Text>
-              Part of the project was to create a prototype of the design. Due to prototyping 
-              limitations, the outer casing was made using plywood. Manufacture involved laser 
-              cutting and electronics.
+              It was not possible to speak directly to autistic children, so we instead spoke 
+              to a variety of adults who could provide different perspectives on the lives of 
+              the children. This was done through user interviews and observation.
               </Text>
             </SingleCol>
           </Row>
