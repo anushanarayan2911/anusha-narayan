@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 
 export const HeroContainer = styled.div`
-    background: #BFD1A7;
+    background: #C3DFDD;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ export const HeroBg = styled.div`
     display: flex;
     flex-direction: column;
     z-index: 1;
-    background-color: #BFD1A7;
+    background-color: #C3DFDD;
     height: auto;
     width: 100vw;
     align-items: center;
@@ -156,7 +156,7 @@ export const VideoCol = styled.div`
 export const Heading = styled.h1`
     font-size: 3.6em;
     font-weight: 200;
-    color: #4D7E0B;
+    color: #199D93;
 `
 
 export const Text = styled.p`
@@ -208,7 +208,7 @@ export const BtnRow = styled.div`
     justify-content: center;
     width: 100vw;
     margin-bottom: 8vh;
-    background-color: #BFD1A7;
+    background-color: #C3DFDD;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -223,7 +223,7 @@ export const Btn = styled.div`
     position: absolute;
     padding-left: 40vw;
     width: 100vw;
-    background-color: #BFD1A7;
+    background-color: #C3DFDD;
 
     @media screen and (max-width: 768px) {
         padding-left: 25vw;
@@ -232,7 +232,7 @@ export const Btn = styled.div`
 
 export const BtnLink = styled(LinkR)`
     border-radius: 4vw;
-    border: 0.05em solid #4D7E0B;
+    border: 0.05em solid #199D93;
     width: 25vw;
     align-itmes: center;
     justify-content: center;
@@ -243,7 +243,7 @@ export const BtnLink = styled(LinkR)`
     padding-right: 4vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    color: #4D7E0B;
+    color: #199D93;
     font-size: 1.2em;
     font-weight: 200;
     text-decoration: none;
