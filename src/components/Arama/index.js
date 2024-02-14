@@ -1,101 +1,80 @@
 import React from 'react'
 import Arama from '../../Visuals/Portfolio/Arama/Arama.pdf'
-import { InfoContainer, 
-    InfoWrapper, 
-    TitleImage,
-    Title,
-    Container,
-    Overlay,
-    Caption,
-    Text,
-    Divider,
+import { HeroContainer,  
+    HeroBg, 
+    LeftWhiteBg,
+    RightWhiteBg,
     Row,
-    LeftCol,
-    RightCol,
-    Image,
+    Column1,
+    Column2,
+    SingleCol,
+    Heading,
+    Text,
+    Img1,
+    Img2,
+    Img3,
+    BtnRow,
+    Btn,
     BtnLink,
-    Btn
+    VideoCol,
 } from './AramaElements'
 
 const AramaComponent = () => {
 
   return (
-    <InfoContainer>
-        <InfoWrapper>
-            <Container>
-                <Overlay>
-                    <Title>arama</Title>
-                    <Caption>a voice recognition device that provides visual prompts to autistic children to help them understand questions and instructions from carers</Caption>
-                </Overlay>
-                <TitleImage src={require("../../Visuals/Portfolio/Arama/Arama.png")}/>
-            </Container> 
-            <br/>
-            <br/>
-            <br/>
-            <Text>Children with severe autism have trouble communicating, even with those closest to them, such as their parents. They struggle to understand spoken instructions, and often cannot ask for help when they need it, even for simple tasks.</Text>
-            <br/>
-            <Divider/>
-            <br/>
-            <Row>
-                <Image src={require("../../Visuals/Portfolio/Arama/User Research.png")}/>
-            </Row>
-            <br/>
-            <Text>It was not possible to speak directly to autistic children, so we instead spoke to a variety of adults who could provide different perspectives on the lives of the children. This was done through user interviews and observation.</Text>
-            <br/>
-            <Divider/>
-            <br/>
-            <br/>
-            <Row>
-                <LeftCol>
-                    <br/>
-                    <br/>   
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <Text>Instead of choosing one opportunity, ideation consisted of iterating on one idea, incorporating multiple opportunities to come up with a complete design that could address many of the problems currently affecting the lives of autistic children.</Text>
-                </LeftCol>
-                <RightCol>
-                    <Image src={require("../../Visuals/Portfolio/Arama/Concept Development.png")}/>
-                </RightCol>
-            </Row>
-            <br/>
-            <Divider/>
-            <br/>
-            <Row>
-                <Image src={require("../../Visuals/Portfolio/Arama/Prototyping.png")}/>
-            </Row>
-            <br/>
-            <Divider/>
-            <br/>
-            <Row>
-                <LeftCol>
-                    <Image src={require("../../Visuals/Portfolio/Arama/CAD.png")}/>
-                </LeftCol>
-                <RightCol>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <Text>SolidWorks and KeyShot were used to generate the CAD models. The mechanical mating feature of SolidWorks was used for simulation of mechanical parts of the device.</Text>
-                </RightCol>
-            </Row>
-            <br/>
-            <Divider/>
-            <br/>
-            <br/>
-            <Row>
-                <Btn>
-                    <BtnLink to={Arama} download="Arama" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
-                </Btn>
-            </Row>
-            <br/>
-            <br/>
-            <br/>
-            <br/>   
-        </InfoWrapper>
-    </InfoContainer>
+    <HeroContainer id="portfolio">
+      <HeroBg>
+        <RightWhiteBg>
+          <Row>
+            <Column1>
+              <Heading>teddybot</Heading>
+              <Text>Mathematics is often considered to be the most boring subject 
+                for young children. The lack of interactivity means that they are 
+                frequently disengaged and do not enjoy the essential subject. 
+              </Text>
+              <Text>
+              TeddyBot is a robotic game that will help children to practice their 
+              addition and subtraction skills.
+              </Text>
+            </Column1>
+            <Column2>
+              <Img1 src={require("../../Visuals/Portfolio/TeddyBot/TeddyBot.png")}/>
+            </Column2>
+          </Row>
+        </RightWhiteBg>
+        <LeftWhiteBg>
+          <Row>
+            <SingleCol>
+              <Img2 src={require("../../Visuals/Portfolio/TeddyBot/Manufacture.png")}/>
+              <Heading>prototyping</Heading>
+              <Text>
+              Part of the project was to create a prototype of the design. Due to prototyping 
+              limitations, the outer casing was made using plywood. Manufacture involved laser 
+              cutting and electronics.
+              </Text>
+            </SingleCol>
+          </Row>
+        </LeftWhiteBg>
+        <RightWhiteBg>
+          <Row>
+            <SingleCol>
+                <Img2 src={require("../../Visuals/Portfolio/TeddyBot/Robot Circuit.png")}/>
+                <Heading>electronics prototyping</Heading>
+                <Text>
+                The electronic circuit for the robot consisted of Arduino boards, an LCD screen, 
+                9 LEDs, 2 servo motors, a buzzer and a keypad. All of these components were used 
+                to make the robot of the game work.
+                </Text>
+            </SingleCol>
+          </Row>
+        </RightWhiteBg>
+        <BtnRow>
+          <Btn>
+            <BtnLink to={Arama} download="Portfolio" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
+          </Btn>
+        </BtnRow>
+      </HeroBg>
+    </HeroContainer>
   )
 }
 
