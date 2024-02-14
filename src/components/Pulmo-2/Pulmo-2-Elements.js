@@ -156,7 +156,7 @@ export const VideoCol = styled.div`
 export const Heading = styled.h1`
     font-size: 3.6em;
     font-weight: 200;
-    color: #71B0C5;
+    color: #53C8E5;
 `
 
 export const Text = styled.p`
@@ -176,7 +176,7 @@ export const Text = styled.p`
 
 export const Img1 = styled.img`
     width: 50vw;
-    padding-right: 4vw;
+    padding-right: 8vw;
     @media screen and (max-width: 768px) {
         width: 84vw;
         height: 100%;
@@ -231,7 +231,7 @@ export const Btn = styled.div`
 
 export const BtnLink = styled(LinkR)`
     border-radius: 4vw;
-    border: 0.05em solid #71B0C5;
+    border: 0.05em solid #53C8E5;
     width: 25vw;
     align-itmes: center;
     justify-content: center;
@@ -242,7 +242,7 @@ export const BtnLink = styled(LinkR)`
     padding-right: 4vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    color: #71B0C5;
+    color: #53C8E5;
     font-size: 1.2em;
     font-weight: 200;
     text-decoration: none;

@@ -26,18 +26,21 @@ const Pulmo2Component = () => {
         <RightWhiteBg>
           <Row>
             <Column1>
-              <Heading>pulmo - part I</Heading>
-              <Text>Respiratory diseases are on the rise, due to an increase 
-                in smokers and air pollution. It is likely that by 2042, they 
-                will be putting a significant strain on the NHS. 
+              <Heading>pulmo - part II</Heading>
+              <Text>By 2050, 75% of the world’s population will live in cities, 
+                leading to heavy overcrowding in urban centres. Indoor air quality 
+                in the UK is poor, and the increase in vehicular transport will 
+                damage outdoor air quality further. The combination of these three 
+                factors spell a bleak future for lung health, especially for those 
+                in urban centres.  
               </Text>
               <Text>
-                I designed a product service system that would detect respiratory 
-                disease early, preventing it from becoming too advanced
+              Pulmo monitors a variety of data points of the lungs to detect and 
+              generate a preliminary diagnosis of lung diseases.
               </Text>
             </Column1>
             <Column2>
-              <Img1 src={require("../../Visuals/Portfolio/Pulmo-1/Pulmo - 1.png")}/>
+              <Img1 src={require("../../Visuals/Portfolio/Pulmo-2/Pulmo - 2.png")}/>
             </Column2>
           </Row>
         </RightWhiteBg>
