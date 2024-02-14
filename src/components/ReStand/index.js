@@ -46,12 +46,12 @@ const ReStandComponent = () => {
         <LeftWhiteBg>
           <Row>
             <SingleCol>
-              <Img2 src={require("../../Visuals/Portfolio/Arama/User Research.png")}/>
-              <Heading>user research</Heading>
+              <Img2 src={require("../../Visuals/Portfolio/ReStand/System Design.png")}/>
+              <Heading>system design</Heading>
               <Text>
-              It was not possible to speak directly to autistic children, so we instead spoke 
-              to a variety of adults who could provide different perspectives on the lives of 
-              the children. This was done through user interviews and observation.
+              When designing the system, all possible scenarios were considered - the 
+              idealised journey taking centre place, but mitigations were put in place 
+              for other scenarios.
               </Text>
             </SingleCol>
           </Row>
