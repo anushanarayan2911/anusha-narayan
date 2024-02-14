@@ -47,7 +47,6 @@ export const RightWhiteBg = styled.div`
     width: 92vw;
     height: auto;
     margin-left: 8vw;
-    margin-bottom: 12vh;
     padding-right: 0vw;
     padding-bottom: 4vh;
     border-top-left-radius: 4vw;
@@ -74,7 +73,7 @@ export const LeftWhiteBg = styled.div`
     height: auto;
     margin-top: 8vh;
     margin-left: -8vw;
-    margin-bottom: 16vh;
+    margin-bottom: 8vh;
     border-top-right-radius: 4vw;
     border-bottom-right-radius: 4vw;
 

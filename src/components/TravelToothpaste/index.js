@@ -68,6 +68,19 @@ const TravelToothpasteComponent = () => {
             </SingleCol>
           </Row>
         </RightWhiteBg>
+        <LeftWhiteBg>
+          <Row>
+            <SingleCol>
+              <Img2 src={require("../../Visuals/Portfolio/Travel Toothpaste/Specification.png")}/>
+              <Heading>specification generation</Heading>
+              <Text>
+              Based on the flaws identified in the system analysis, the risks and opportunities for 
+              sustainable improvement were decided upon. These then became the basis for specification 
+              generation, which included systemic points, social points and market related specification.
+              </Text>
+            </SingleCol>
+          </Row>
+        </LeftWhiteBg>
         <BtnRow>
           <Btn>
             <BtnLink to={TravelToothpaste} download="Portfolio" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>
