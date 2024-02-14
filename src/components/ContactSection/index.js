@@ -9,7 +9,9 @@ import { HeroContainer,
     SingleInputField,
     MultiInputField,
     Btn,
-    BtnLink
+    BtnLink,
+    BtnRow,
+    Row
 } from './ContactElements'
 
 const ContactSection = () => {
@@ -57,40 +59,30 @@ const ContactSection = () => {
             <WhiteBg>
               <Form onSubmit={onSubmit}>
                 <Label>
-                  <TextHeading>NAME</TextHeading>
+                  <TextHeading>Name</TextHeading>
                   <SingleInputField name="from_name" value={toSend.from_name} onChange={handleChange}></SingleInputField>
                 </Label>
-                <br/>
-                <br/>
                 <Label>
-                  <TextHeading>EMAIL</TextHeading>
+                  <TextHeading>Email</TextHeading>
                   <SingleInputField name="from_email" value={toSend.from_email} onChange={handleChange}></SingleInputField>
                 </Label>
-                <br/>
-                <br/>
                 <Label>
-                  <TextHeading>SUBJECT TITLE</TextHeading>
+                  <TextHeading>Title</TextHeading>
                   <SingleInputField name="subject_title" value={toSend.subject_title} onChange={handleChange}></SingleInputField>
                 </Label>
-                <br/>
-                <br/>
                 <Label>
-                  <TextHeading>MESSAGE</TextHeading>
+                  <TextHeading>Message</TextHeading>
                   <MultiInputField name="message" value={toSend.message} onChange={handleChange}></MultiInputField>
                 </Label>
-                <br/>
-                <br/>
-                <br/>
-                <Btn>
-                  <BtnLink type="submit" />
-                </Btn>
+                <Row>
+                  <BtnRow>
+                    <Btn>
+                      <BtnLink type="submit">Submit</BtnLink>
+                    </Btn>
+                  </BtnRow>
+                </Row>
+                
               </Form>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-
             </WhiteBg>
             </HeroBg>
     </HeroContainer>

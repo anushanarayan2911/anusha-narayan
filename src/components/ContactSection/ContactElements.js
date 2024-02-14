@@ -32,6 +32,10 @@ export const HeroBg = styled.div`
     height: 100%;
     width: 100vw;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+        height: 100%
+    }
 `
 
 export const WhiteBg = styled.div`
@@ -56,16 +60,29 @@ export const WhiteBg = styled.div`
     }
 `
 
+export const Row = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 90vw;
+        height: fit-content;
+    }
+`
+
 export const TextHeading = styled.p`
-    color: #787878;
-    font-size: 1.5em;
+    color: #66ABC6;
+    font-size: 1em;
     font-weight: 200;
-    letter-spacing: 1.4px;
     text-align: left;
 `
 
 export const Form = styled.form`
-    margin-left: 8%;
+    margin-left: 4vw;
+    margin-top: 4vh;
     autocomplete: off;
 `
 
@@ -74,57 +91,76 @@ export const Label = styled.label`
 `
 
 export const SingleInputField = styled.input`
-    width: 90%;
+    width: 84vw;
+    margin-bottom: 4vh;
     border: none;
-    border-bottom: 1px solid #787878; 
+    border-bottom: 0.1vh solid #66ABC6; 
     outline: none;
     color: #787878;
     font-family: runda;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 100;
 `
 
 export const MultiInputField = styled.textarea`
-    width: 90%;
+    width: 84vw;
+    margin-bottom: 4vh;
     border: none;
-    border-bottom: 1px solid #787878; 
+    border-bottom: 0.1vh solid #66ABC6; 
     outline: none;
     color: #787878;
     font-family: runda;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 100;
 `
 
+export const BtnRow = styled.div`
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 8vh;
+    background-color: red;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 84vw;
+        margin-top: 8vh;
+    }
+`
+
 export const Btn = styled.div`
-    display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    margin-left: 25%;
+    padding-left: 40vw;
+    width: 100vw;
+
+    @media screen and (max-width: 768px) {
+        width: 84vw;
+        padding-left: 30vw;
+    }
 `
-export const BtnLink = styled.input`
-    type: submit;
-    border-radius: 50px;
-    width: 15vw;
+
+export const BtnLink = styled(LinkR)`
+    border-radius: 4vw;
+    border: 0.05em solid #53C8E5;
+    width: 25vw;
     align-itmes: center;
     justify-content: center;
     text-align: center;
-    background: #EFEFEF;
+    background: white;
     whitespace: nowrap;
-    padding: 5% 10% 5% 10%;
-    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.25);
-    color: #787878;
-    font-size: 16px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: #53C8E5;
+    font-size: 1.2em;
     font-weight: 200;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
     text-decoration: none;
-    
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #ffffff;
-        color: #787878
+
+    @media screen and (max-width: 768px) {
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
     }
 `
