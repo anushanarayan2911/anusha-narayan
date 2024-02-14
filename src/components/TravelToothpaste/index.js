@@ -56,7 +56,16 @@ const TravelToothpasteComponent = () => {
         </LeftWhiteBg>
         <RightWhiteBg>
           <Row>
-            
+          <SingleCol>
+              <Img2 src={require("../../Visuals/Portfolio/Travel Toothpaste/Material and System Analysis.png")}/>
+              <Heading>material & system analysis</Heading>
+              <Text>
+              The materials used in travel toothpastes were analysed, to determine the embodied energy and 
+              carbon dioxide footprint that travel toothpastes have on the environment. Furthermore, an 
+              existing product service system designed to recycle products which cannot be done through governmental 
+              means.
+              </Text>
+            </SingleCol>
           </Row>
         </RightWhiteBg>
         <BtnRow>
