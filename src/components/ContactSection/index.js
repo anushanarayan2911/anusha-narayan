@@ -1,7 +1,8 @@
 import {React, useState} from 'react'
 import {send} from 'emailjs-com'
-import { InfoContainer, 
-    InfoWrapper,
+import { HeroContainer, 
+    HeroBg,
+    WhiteBg,
     Form,
     TextHeading,
     Label,
@@ -51,45 +52,48 @@ const ContactSection = () => {
   
 
   return (
-    <InfoContainer id="contact">
-        <InfoWrapper>
-            <Form onSubmit={onSubmit}>
-              <Label>
-                <TextHeading>NAME</TextHeading>
-                <SingleInputField name="from_name" value={toSend.from_name} onChange={handleChange}></SingleInputField>
-              </Label>
+    <HeroContainer id="contact">
+        <HeroBg>
+            <WhiteBg>
+              <Form onSubmit={onSubmit}>
+                <Label>
+                  <TextHeading>NAME</TextHeading>
+                  <SingleInputField name="from_name" value={toSend.from_name} onChange={handleChange}></SingleInputField>
+                </Label>
+                <br/>
+                <br/>
+                <Label>
+                  <TextHeading>EMAIL</TextHeading>
+                  <SingleInputField name="from_email" value={toSend.from_email} onChange={handleChange}></SingleInputField>
+                </Label>
+                <br/>
+                <br/>
+                <Label>
+                  <TextHeading>SUBJECT TITLE</TextHeading>
+                  <SingleInputField name="subject_title" value={toSend.subject_title} onChange={handleChange}></SingleInputField>
+                </Label>
+                <br/>
+                <br/>
+                <Label>
+                  <TextHeading>MESSAGE</TextHeading>
+                  <MultiInputField name="message" value={toSend.message} onChange={handleChange}></MultiInputField>
+                </Label>
+                <br/>
+                <br/>
+                <br/>
+                <Btn>
+                  <BtnLink type="submit" />
+                </Btn>
+              </Form>
               <br/>
               <br/>
-              <Label>
-                <TextHeading>EMAIL</TextHeading>
-                <SingleInputField name="from_email" value={toSend.from_email} onChange={handleChange}></SingleInputField>
-              </Label>
-              <br/>
-              <br/>
-              <Label>
-                <TextHeading>SUBJECT TITLE</TextHeading>
-                <SingleInputField name="subject_title" value={toSend.subject_title} onChange={handleChange}></SingleInputField>
-              </Label>
-              <br/>
-              <br/>
-              <Label>
-                <TextHeading>MESSAGE</TextHeading>
-                <MultiInputField name="message" value={toSend.message} onChange={handleChange}></MultiInputField>
-              </Label>
               <br/>
               <br/>
               <br/>
-              <Btn>
-                <BtnLink type="submit" />
-              </Btn>
-            </Form>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-        </InfoWrapper>
-    </InfoContainer>
+
+            </WhiteBg>
+            </HeroBg>
+    </HeroContainer>
   )
 }
 
