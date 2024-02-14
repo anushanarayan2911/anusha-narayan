@@ -1,80 +1,68 @@
 import {React, useState} from 'react'
 import Link from 'react-scroll/modules/components/Link'
 import { InfoContainer, 
-  InfoWrapper, 
-  InfoRow, 
-  TopLine, 
-  ImageOverlay,
-  PortfolioGrid, 
-  PortfolioRow,
-  Column,
-  LinkWrap,
+  HeroBg,
+  WhiteBg,
+  WorkContainer,
+  Row1,
+  Row2,
+  Row3,
+  Column1,
+  Column2,
+  Column3,
   ImageLink,
-  Image
+  Image,
+  LinkWrap,
+  Container,
+  Overlay,
+  HeaderCaption
 } from './galleryElements'
 
 const GallerySection = () => {
   const [isOverlay, setIsOverlay] = useState(false);
   const [isImage, setIsImage] = useState('')
   return (
-    <InfoContainer id="portfolio">
-      <InfoWrapper>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <ImageOverlay src={isImage} visible={isOverlay}/>
-        <PortfolioGrid>
-          <PortfolioRow>
-            <Column>
-              <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/1.png')}/>
-              </LinkWrap>
-            </Column>
-            <Column>
-              <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/2.png')}/>
-              </LinkWrap>
-            </Column>
-          </PortfolioRow>
-          <PortfolioRow>
-            <Column>
-              <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/5.png')}/>
-              </LinkWrap>
-            </Column>
-            <Column>
-              <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/4.png')}/>
-              </LinkWrap>
-            </Column>
-          </PortfolioRow>
-          <PortfolioRow>
-            <Column>
-              <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/8.png')}/>
-              </LinkWrap>
-            </Column>
-            <Column>
-              <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/7.png')}/>
-              </LinkWrap>
-            </Column>
-          </PortfolioRow>
-          <PortfolioRow>
-            <Column>
-              <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/6.png')}/>
-              </LinkWrap>
-            </Column>
-            <Column>
-              <LinkWrap>
-                <Image src={require('../../Visuals/Gallery/3.png')}/>
-              </LinkWrap>
-            </Column>
-          </PortfolioRow>
-        </PortfolioGrid>
-      </InfoWrapper>
+    <InfoContainer id="gallery">
+      <HeroBg>
+        <WhiteBg>
+          <WorkContainer>
+            <Row1>
+              <Column1>
+                <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
+              </Column1>
+              <Column2>
+                <Image src={require("../../Visuals/Portfolio/Landing Page/U Me Title Card.png")}/>
+              </Column2>
+              <Column3>
+                <Image src={require("../../Visuals/Portfolio/Landing Page/Pulmo - 1 Title Card.png")}/>
+              </Column3>
+            </Row1>
+            <Row2>
+            <Column1>
+                <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
+              </Column1>
+              <Column2>
+                <Image src={require("../../Visuals/Portfolio/Landing Page/U Me Title Card.png")}/>
+              </Column2>
+              <Column3>
+                <Image src={require("../../Visuals/Portfolio/Landing Page/Pulmo - 1 Title Card.png")}/>
+              </Column3>
+            </Row2>
+            <Row3>
+            <Column1>
+                <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
+              </Column1>
+              <Column2>
+                <Image src={require("../../Visuals/Portfolio/Landing Page/U Me Title Card.png")}/>
+              </Column2>
+              <Column3>
+                <Image src={require("../../Visuals/Portfolio/Landing Page/Pulmo - 1 Title Card.png")}/>
+              </Column3>
+            </Row3>
+          </WorkContainer>
+          
+        </WhiteBg>
+      </HeroBg>
     </InfoContainer>
   )
 }

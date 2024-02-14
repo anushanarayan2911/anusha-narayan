@@ -2,108 +2,190 @@ import styled, {css} from 'styled-components';
 import {Link as LinkR} from 'react-router-dom'
 
 export const InfoContainer = styled.div`
-    background-color: #ffffff;
-    width: 100%;
-    height: 100%;
-    overflow: hidden
-    
-    @media screen and (max-width: 768px) {
-        padding: 0px
-    }
-`
-
-export const InfoWrapper = styled.div`
-    display: grid;
-    z-index: 1;
-    background-color: #ffffff;
-    height: 100%;
-    width: auto;
-    margin-right: 10%;
-    margin-left: 10%;
-    overflow: hidden;
-
-    @media screen and (max-width: 768px) {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    @media screen and (max-width: 400px) {
-        margin-right: 0%;
-        margin-left: 0%;
-    }
-
-`
-
-export const InfoRow = styled.div`
-    display: grid;
-    margin-top: 0px;
-    grid-auto-columns: minmax(auto, 1fr)
-    align-items: left;
-    overflow: hidden;
-`
-
-export const TopLine = styled.p`
-    color: #4b4b4b;
-    font-size: 30px;
-    font-weight: 200;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-`
-
-export const ImageOverlay = styled.img`
-    width: 50%;
-    z-index: 2;
-    padding: 15px 5px 15px 5px;
-    position: fixed;
-    top: 2.5%;
-    left: 25%;
-    
-    ${({ visible }) => {
-        return css`
-            visibility: ${visible ? 'visible' : 'hidden'};
-        `;
-    }}
-`
-
-export const PortfolioGrid = styled.div`
-    width: 100%;
-    overflow: hidden;
-    align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
-`
-export const PortfolioRow = styled.div`
+    background: #66ABC6;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     width: 100%;
-    margin-bottom: 2%;
+    position: relative;
 
-    overflow-x: no-scroll;
-    justify-content: space-between;
+    :before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), linear-gradient (180 deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    }
+
+    @media screen and (max-width: 768px) {
+        height: 100%;
+    }
+`
+export const HeroBg = styled.div`
+    display: flex;
+    z-index: 1;
+    background-color: #66ABC6;
+    height: 100%;
+    width: 100vw;
+    align-items: center;
+`
+
+export const WhiteBg = styled.div`
+    display: flex;
+    z-index: 2;
+    background-color: #ffffff;
+    width: 84vw;
+    height: 100%;
+    margin-left: 8vw;
+    margin-rigth: 8vw;
+    margin-top: 16vh;
+    border-top-left-radius: 4vw;
+    border-top-right-radius: 4vw;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 16vh;
+        margin-left: 4vw;
+        width: 88vw;
+        height: 100%;
+    }
+`
+
+export const WorkContainer = styled.div`
+    display: flex;
+    flex-direction: column
+`
+
+export const Row1 = styled.div`
+    display: flex;
     flex-direction: row;
+    width: 84vw;
+    margin-top: 6vh;
+
     @media screen and (max-width: 768px) {
         flex-direction: column;
+        width: 90vw;
+        height: fit-content;
     }
 `
 
-export const Column = styled.div`
-    max-width: 50%;
-    padding: 0px 1% 0px 5px; 
-    overflow-x: no-scroll;
+export const Row2 = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 84vw;
+    margin-top: 4vh;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 90vw;
+        height: fit-content;
+    }
+`
+export const Row3 = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 84vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 90vw;
+        height: fit-content;
+    }
 `
 
+export const Column1 = styled.div`
+    width: 30vw;
+    margin-left: 2vw;
+
+    @media screen and (max-width: 768px) {
+        width: 84vw;
+        padding-top: 1vh;
+        padding-right: 4vw
+    }
+`
+
+export const Column2 = styled.div`
+    width: 30vw;
+    padding-left: 2vw;
+
+    @media screen and (max-width: 768px) {
+        width: 84vw;
+        padding-top: 1vh;
+        padding-right: 4vw
+    }
+`
+
+export const Column3 = styled.div`
+    width: 30vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    @media screen and (max-width: 768px) {
+        width: 84vw;
+        padding-top: 1vh;
+        padding-right: 4vw
+    }
+`
 export const LinkWrap = styled.nav`
     display: flex;
     align-items: center
+    overflow-x: no-scroll;
 `
 
 export const ImageLink = styled(LinkR)`
     background: #ffffff;
+    overflow: no-scroll;
 `
-
 export const Image = styled.img`
     width: 100%;
     height: auto;
     display: block;
     overflow-x: no-scroll;
 `
+
+export const Container = styled.div`
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+`
+export const Overlay = styled.div`
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    top: 0%;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+    &: hover{
+        opacity: 80%;
+    }
+`
+export const HeaderCaption = styled.p`
+    color: #787878;
+    font-size: 2em;
+    font-weight: 300;
+    width: 100%;
+    height: 50%;
+    top: 30%;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 768px){
+        font-size: 4em;
+        top: 32%;
+    }
+`
+
