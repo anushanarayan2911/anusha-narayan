@@ -47,15 +47,13 @@ const Pulmo2Component = () => {
         <LeftWhiteBg>
           <Row>
             <SingleCol>
-              <Img2 src={require("../../Visuals/Portfolio/Pulmo-1/Future Contextual Studies.png")}/>
-              <Heading>future contextual studies</Heading>
+              <Img2 src={require("../../Visuals/Portfolio/Pulmo-2/Technological Development.png")}/>
+              <Heading>technological development</Heading>
               <Text>
-              To help define a future scenario, a STEEPV Wheel was created. Under the theme “The 
-              Future of Healthcare”, the overarching drivers, trends and enablers that will drive 
-              the project were identified. Key themes included the rise of telemedicine, development 
-              of personalised point-of-care healthcare solutions, the shift towards preventative 
-              models and the reduction of workload on healthcare workers through the integration of 
-              data-driven systems and partial privatisation of the NHS.
+              Technological development of the patch can be categorised into 4 groups: MEMS, 
+              materials, wearable technology and machine learning. 4 types of MEMS sensors were 
+              used to collect data: acoustic, resistive, EKG and PPG. These would all monitor 
+              different aspects of lung health.
               </Text>
             </SingleCol>
           </Row>
