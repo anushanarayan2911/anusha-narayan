@@ -132,7 +132,7 @@ export const Btn = styled.div`
     align-items: center;
     justify-content: center;
     position: absolute;
-    padding-left: 40vw;
+    padding-left: 35vw;
     width: 100vw;
 
     @media screen and (max-width: 768px) {
