@@ -28,19 +28,18 @@ const ReStandComponent = () => {
         <RightWhiteBg>
           <Row>
             <Column1>
-              <Heading>arama</Heading>
-              <Text>Children with severe autism have trouble communicating, 
-                even with those closest to them, such as their parents. They 
-                struggle to understand spoken instructions, and often cannot 
-                ask for help when they need it, even for simple tasks.
+              <Heading>restand</Heading>
+              <Text>In 2015, there were 2200 camping chairs left at the Glastonbury festival. 
+                There are few product service systems in place to remove the waste left 
+                behind and the materials used add to energy wastage and carbon footprint.
               </Text>
               <Text>
-              I designed Arama, a speech recognition device which turns instructions 
-              given by a parent into a visual that the child can understand.
+              ReStand is a product service system to recycling camping chairs following 
+              festivals, to prevent them from going to waste.
               </Text>
             </Column1>
             <Column2>
-              <Img1 src={require("../../Visuals/Portfolio/Arama/Arama.png")}/>
+              <Img1 src={require("../../Visuals/Portfolio/ReStand/ReStand.png")}/>
             </Column2>
           </Row>
         </RightWhiteBg>
