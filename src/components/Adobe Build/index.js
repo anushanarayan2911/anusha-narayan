@@ -60,30 +60,16 @@ const AdobeBuildComponent = () => {
         <RightWhiteBg>
           <Row>
           <SingleCol>
-              <Img2 src={require("../../Visuals/Portfolio/Travel Toothpaste/Material and System Analysis.png")}/>
-              <Heading>material & system analysis</Heading>
+              <Img2 src={require("../../Visuals/Portfolio/Adobe Build/Concept.png")}/>
+              <Heading>proposal</Heading>
               <Text>
-              The materials used in travel toothpastes were analysed, to determine the embodied energy and 
-              carbon dioxide footprint that travel toothpastes have on the environment. Furthermore, an 
-              existing product service system designed to recycle products which cannot be done through governmental 
-              means.
+              Our proposal was Adobe Build, a browser-based website design software. An inbuilt 
+              AI Tips Editor would provide recommendations, to help the user to create a website 
+              with excellent interface design
               </Text>
             </SingleCol>
           </Row>
         </RightWhiteBg>
-        <LeftWhiteBg>
-          <Row>
-            <SingleCol>
-              <Img2 src={require("../../Visuals/Portfolio/Travel Toothpaste/Specification.png")}/>
-              <Heading>specification generation</Heading>
-              <Text>
-              Based on the flaws identified in the system analysis, the risks and opportunities for 
-              sustainable improvement were decided upon. These then became the basis for specification 
-              generation, which included systemic points, social points and market related specification.
-              </Text>
-            </SingleCol>
-          </Row>
-        </LeftWhiteBg>
         <BtnRow>
           <Btn>
             <BtnLink to={AdobeBuild} download="Portfolio" target="_blank" rel="noreferrer">Download Portfolio</BtnLink>

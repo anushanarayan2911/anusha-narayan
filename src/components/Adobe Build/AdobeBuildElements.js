@@ -206,6 +206,7 @@ export const BtnRow = styled.div`
     align-items: center;
     justify-content: center;
     width: 100vw;
+    margin-top: 8vh;
     margin-bottom: 8vh;
     background-color: #E6C4F2;
 
