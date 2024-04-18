@@ -4,8 +4,10 @@ import {Link as LinkR} from 'react-router-dom'
 
 export const Nav = styled.nav`
     background: #ffffff;
-    height: 10vh;
+    height: 7.422vh;
     width: 100vw;
+    padding-left: 3.33vw;
+    padding-right: 3.33vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,11 +25,8 @@ export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 2vh;
     z-index: 1;
     width: 90vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
 `
 
 export const NavLogo = styled(LinkR)`
@@ -42,9 +41,10 @@ export const MobileIcon = styled.div`
     
     @media screen and (max-width: 768px) {
         display: block;
+        height: 7.422vh;
         position: absolute;
-        top: 3vh;
-        right: 5vw;
+        top: 2vh;
+        right: 12vw;
         transform: translate (-100%, -60%);
         font-size: 1.8rem;
         cursor: pointer;
@@ -102,7 +102,7 @@ export const NavLinks = styled(LinkR)`
 `
 
 export const Img = styled.img`
-    width: 5vw;
+    height: 7.422vh;
     margin: 0 0 0 0;
     padding-right: 0;  
 `
