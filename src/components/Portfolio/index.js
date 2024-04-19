@@ -3,13 +3,8 @@ import Link from 'react-scroll/modules/components/Link'
 import { InfoContainer, 
   HeroBg,
   WhiteBg,
-  WorkContainer,
-  Row1,
-  Row2,
-  Row3,
-  Column1,
-  Column2,
-  Column3,
+  Row,
+  Column,
   ImageLink,
   Image,
   LinkWrap,
@@ -34,123 +29,44 @@ const PortfolioSection = () => {
     <InfoContainer id="portfolio">
       <HeroBg>
         <WhiteBg>
-          <WorkContainer>
-            <Row1>
-              <Column1>
-                <LinkWrap>
-                  <ImageLink to={"/ThePeriodProductSteriliser"}>
-                    <Container>
-                      <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
-                      <Overlay>
-                        <HeaderCaption>period product steriliser</HeaderCaption>
-                      </Overlay>
-                    </Container>
-                  </ImageLink>
-                </LinkWrap>
-              </Column1>
-              <Column2>
-                <LinkWrap>
-                  <ImageLink to={"/UMe"}>
-                    <Container>
-                      <Image src={require("../../Visuals/Portfolio/Landing Page/U Me Title Card.png")}/>
-                      <Overlay>
-                        <HeaderCaption>u me</HeaderCaption>
-                      </Overlay>
-                    </Container>
-                  </ImageLink>
-                </LinkWrap>
-              </Column2>
-              <Column3>
-                <LinkWrap>
-                  <ImageLink to={"/Pulmo1"}>
-                    <Container>
-                      <Image src={require("../../Visuals/Portfolio/Landing Page/Pulmo - 1 Title Card.png")}/>
-                      <Overlay>
-                        <HeaderCaption>pulmo - part I</HeaderCaption>
-                      </Overlay>
-                    </Container>
-                  </ImageLink>
-                </LinkWrap>
-              </Column3>
-            </Row1>
-            <Row2>
-              <Column1>
-                <LinkWrap>
-                  <ImageLink to={"/Pulmo2"}>
-                    <Container>
-                      <Image src={require("../../Visuals/Portfolio/Landing Page/Pulmo - 2 Title Card.png")}/>
-                      <Overlay>
-                        <HeaderCaption>pulmo - part II</HeaderCaption>
-                      </Overlay>
-                    </Container>
-                  </ImageLink>
-                </LinkWrap>
-              </Column1>
-              <Column2>
-                <LinkWrap>
-                  <ImageLink to={"/TeddyBot"}>
-                    <Container>
-                      <Image src={require("../../Visuals/Portfolio/Landing Page/TeddyBot Title Card.png")}/>
-                      <Overlay>
-                        <HeaderCaption>teddybot</HeaderCaption>
-                      </Overlay>
-                    </Container>
-                  </ImageLink>
-                </LinkWrap>
-              </Column2>
-              <Column3>
-                <LinkWrap>
-                  <ImageLink to={"/Arama"}>
-                    <Container>
-                      <Image src={require("../../Visuals/Portfolio/Landing Page/Arama Title Card.png")}/>
-                      <Overlay>
-                        <HeaderCaption>arama</HeaderCaption>
-                      </Overlay>
-                    </Container>
-                  </ImageLink>
-                </LinkWrap>
-              </Column3>
-            </Row2>
-            <Row3>
-              <Column1>
-              <LinkWrap>
-                  <ImageLink to={"/ReStand"}>
-                    <Container>
-                      <Image src={require("../../Visuals/Portfolio/Landing Page/ReStand Title Card.png")}/>
-                      <Overlay>
-                        <HeaderCaption>restand</HeaderCaption>
-                      </Overlay>
-                    </Container>
-                  </ImageLink>
-                </LinkWrap>
-              </Column1>
-              <Column2>
-              <LinkWrap>
-                  <ImageLink to={"/TravelToothpaste"}>
-                    <Container>
-                      <Image src={require("../../Visuals/Portfolio/Landing Page/Travel Toothpaste Title Card.png")}/>
-                      <Overlay>
-                        <HeaderCaption>travel toothpaste</HeaderCaption>
-                      </Overlay>
-                    </Container>
-                  </ImageLink>
-                </LinkWrap>
-              </Column2>
-              <Column3>
-              <LinkWrap>
-                  <ImageLink to={"/AdobeBuild"}>
-                    <Container>
-                      <Image src={require("../../Visuals/Portfolio/Landing Page/Adobe Build Title Card.png")}/>
-                      <Overlay>
-                        <HeaderCaption>adobe build</HeaderCaption>
-                      </Overlay>
-                    </Container>
-                  </ImageLink>
-                </LinkWrap>
-              </Column3>
-            </Row3>
-          </WorkContainer>
-          
+          <Row>
+            <LinkWrap>
+              <ImageLink to={"/ThePeriodProductSteriliser"}>
+                <Container>
+                  <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
+                  <Overlay>
+                    <HeaderCaption>period product steriliser</HeaderCaption>
+                  </Overlay>
+                </Container>
+              </ImageLink>
+            </LinkWrap>
+            <LinkWrap>
+              <ImageLink to={"/ThePeriodProductSteriliser"}>
+                <Container>
+                  <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
+                  <Overlay>
+                    <HeaderCaption>period product steriliser</HeaderCaption>
+                  </Overlay>
+                </Container>
+              </ImageLink>
+            </LinkWrap>
+            <LinkWrap>
+              <ImageLink to={"/ThePeriodProductSteriliser"}>
+                <Container>
+                  <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
+                  <Overlay>
+                    <HeaderCaption>period product steriliser</HeaderCaption>
+                  </Overlay>
+                </Container>
+              </ImageLink>
+            </LinkWrap>
+          </Row>
+          <Row>
+            <p>Hello</p>
+          </Row>
+          <Row>
+            <p>Bye</p>
+          </Row>
         </WhiteBg>
       </HeroBg>
     </InfoContainer>

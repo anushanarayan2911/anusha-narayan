@@ -4,11 +4,10 @@ import {Link as LinkR} from 'react-router-dom'
 export const InfoContainer = styled.div`
     background: #66ABC6;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
-    position: relative;
+    width: 100vw;
+    position: absolute;
+    top: 7.422vh;
 
     :before {
         content: '';
@@ -19,87 +18,58 @@ export const InfoContainer = styled.div`
         bottom: 0;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), linear-gradient (180 deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     }
-
-    @media screen and (max-width: 768px) {
-        height: 100%;
-    }
 `
 export const HeroBg = styled.div`
     display: flex;
+    flex-direction: row;
     z-index: 1;
-    background-color: #66ABC6;
-    height: 100%;
     width: 100vw;
-    align-items: center;
+    height: 100%;
+
+    @media screen and (max-width: 768px) {
+        align-items: center;
+    }
 `
 
 export const WhiteBg = styled.div`
     display: flex;
-    z-index: 2;
+    flex-direction: column;
+    width: 84vw;
+    height: fit-content;
+    margin-left: 6vw;
+    margin-top: 8vh;
     background-color: #ffffff;
-    width: 84vw;
-    height: 100%;
-    margin-left: 8vw;
-    margin-rigth: 8vw;
-    margin-top: 16vh;
-    border-top-left-radius: 4vw;
-    border-top-right-radius: 4vw;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    padding: 2rem;
 
     @media screen and (max-width: 768px) {
-        margin-top: 16vh;
-        margin-left: 4vw;
-        width: 88vw;
+        flex-direction: column;
+        width: 80vw;
         height: 100%;
+        margin-left: 3vw;
     }
 `
 
-export const WorkContainer = styled.div`
-    display: flex;
-    flex-direction: column
-`
-
-export const Row1 = styled.div`
+export const Row = styled.div`
     display: flex;
     flex-direction: row;
-    width: 84vw;
-    margin-top: 6vh;
+    width: 100%;
+    height: fit-content;
+    align-items: center;    
+    justify-content: space-between;
+    gap: 1vw;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
-        width: 90vw;
+        width: 100%;
         height: fit-content;
     }
 `
 
-export const Row2 = styled.div`
-    display: flex;
-    flex-direction: row;
-    width: 84vw;
-    margin-top: 4vh;
-
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-        width: 90vw;
-        height: fit-content;
-    }
-`
-export const Row3 = styled.div`
-    display: flex;
-    flex-direction: row;
-    width: 84vw;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
-
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-        width: 90vw;
-        height: fit-content;
-    }
-`
-
-export const Column1 = styled.div`
+export const Column = styled.div`
     width: 30vw;
-    margin-left: 2vw;
+    margin-left: 2rem;
 
     @media screen and (max-width: 768px) {
         width: 84vw;
@@ -108,28 +78,6 @@ export const Column1 = styled.div`
     }
 `
 
-export const Column2 = styled.div`
-    width: 30vw;
-    padding-left: 2vw;
-
-    @media screen and (max-width: 768px) {
-        width: 84vw;
-        padding-top: 1vh;
-        padding-right: 4vw
-    }
-`
-
-export const Column3 = styled.div`
-    width: 30vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-
-    @media screen and (max-width: 768px) {
-        width: 84vw;
-        padding-top: 1vh;
-        padding-right: 4vw
-    }
-`
 export const LinkWrap = styled.nav`
     display: flex;
     align-items: center
@@ -164,6 +112,7 @@ export const Overlay = styled.div`
     right: 0;
     width: 100%;
     height: 100%;
+    padding: 1rem;
     opacity: 0;
     transition: .5s ease;
     background-color: #ffffff;
@@ -177,7 +126,7 @@ export const HeaderCaption = styled.p`
     font-weight: 300;
     width: 100%;
     height: 50%;
-    top: 30%;
+    top: 25%;
     position: absolute;
     text-align: center;
     justify-content: center;

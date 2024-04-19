@@ -5,7 +5,7 @@ import {Link as LinkR} from 'react-router-dom'
 export const HeroContainer = styled.div`
     background: #66ABC6;
     display: flex;
-    align-items: 100%;
+    align-items: center;
     width: 100vw;
     position: absolute;
     top: 7.422vh;
