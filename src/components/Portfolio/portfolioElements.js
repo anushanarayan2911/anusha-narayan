@@ -97,25 +97,26 @@ export const Image = styled.img`
 
 export const Container = styled.div`
     position: relative;
+    width: fit-content;
+    height: fit-content;
     justify-content: center;
     align-items: center;
     vertical-align: middle;
 `
 export const Overlay = styled.div`
     position: absolute;
+    display: flex;
     justify-content: center;
     align-items: center;
-    vertical-align: middle;
+    margin: auto;
     top: 0%;
-    bottom: 0;
+    bottom: 0%;
     left: 0%;
-    right: 0;
+    right: 0%;
     width: 100%;
-    height: 100%;
-    padding: 1rem;
-    opacity: 0;
+    opacity: 0%;
     transition: .5s ease;
-    background-color: #ffffff;
+    background-color: white;
     &: hover{
         opacity: 80%;
     }
@@ -124,9 +125,7 @@ export const HeaderCaption = styled.p`
     color: #787878;
     font-size: 2em;
     font-weight: 300;
-    width: 100%;
-    height: 50%;
-    top: 25%;
+    padding: 1rem;
     position: absolute;
     text-align: center;
     justify-content: center;

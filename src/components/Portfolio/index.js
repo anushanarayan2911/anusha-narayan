@@ -34,8 +34,18 @@ const PortfolioSection = () => {
               <ImageLink to={"/ThePeriodProductSteriliser"}>
                 <Container>
                   <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
+                    <Overlay>
+                      <HeaderCaption>period product steriliser</HeaderCaption>
+                    </Overlay>
+                </Container>
+              </ImageLink>
+            </LinkWrap>
+            <LinkWrap>
+              <ImageLink to={"/ThePeriodProductSteriliser"}>
+                <Container>
+                  <Image src={require("../../Visuals/Portfolio/Landing Page/U Me Title Card.png")}/>
                   <Overlay>
-                    <HeaderCaption>period product steriliser</HeaderCaption>
+                    <HeaderCaption>u me</HeaderCaption>
                   </Overlay>
                 </Container>
               </ImageLink>
@@ -43,19 +53,9 @@ const PortfolioSection = () => {
             <LinkWrap>
               <ImageLink to={"/ThePeriodProductSteriliser"}>
                 <Container>
-                  <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
+                  <Image src={require("../../Visuals/Portfolio/Landing Page/Pulmo - 1 Title Card.png")}/>
                   <Overlay>
-                    <HeaderCaption>period product steriliser</HeaderCaption>
-                  </Overlay>
-                </Container>
-              </ImageLink>
-            </LinkWrap>
-            <LinkWrap>
-              <ImageLink to={"/ThePeriodProductSteriliser"}>
-                <Container>
-                  <Image src={require("../../Visuals/Portfolio/Landing Page/The Period Product Steriliser Title Card.png")}/>
-                  <Overlay>
-                    <HeaderCaption>period product steriliser</HeaderCaption>
+                    <HeaderCaption>pulmo - part I</HeaderCaption>
                   </Overlay>
                 </Container>
               </ImageLink>
