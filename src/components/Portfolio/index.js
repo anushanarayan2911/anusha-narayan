@@ -41,7 +41,7 @@ const PortfolioSection = () => {
               </ImageLink>
             </LinkWrap>
             <LinkWrap>
-              <ImageLink to={"/ThePeriodProductSteriliser"}>
+              <ImageLink to={"/UMe"}>
                 <Container>
                   <Image src={require("../../Visuals/Portfolio/Landing Page/U Me Title Card.png")}/>
                   <Overlay>
@@ -51,7 +51,7 @@ const PortfolioSection = () => {
               </ImageLink>
             </LinkWrap>
             <LinkWrap>
-              <ImageLink to={"/ThePeriodProductSteriliser"}>
+              <ImageLink to={"/Pulmo1"}>
                 <Container>
                   <Image src={require("../../Visuals/Portfolio/Landing Page/Pulmo - 1 Title Card.png")}/>
                   <Overlay>
@@ -62,10 +62,68 @@ const PortfolioSection = () => {
             </LinkWrap>
           </Row>
           <Row>
-            <p>Hello</p>
+            <LinkWrap>
+                <ImageLink to={"/Pulmo2"}>
+                  <Container>
+                    <Image src={require("../../Visuals/Portfolio/Landing Page/Pulmo - 2 Title Card.png")}/>
+                      <Overlay>
+                        <HeaderCaption>pulmo - part II</HeaderCaption>
+                      </Overlay>
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
+              <LinkWrap>
+                <ImageLink to={"/TeddyBot"}>
+                  <Container>
+                    <Image src={require("../../Visuals/Portfolio/Landing Page/TeddyBot Title Card.png")}/>
+                    <Overlay>
+                      <HeaderCaption>teddybot</HeaderCaption>
+                    </Overlay>
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
+              <LinkWrap>
+                <ImageLink to={"/Arama"}>
+                  <Container>
+                    <Image src={require("../../Visuals/Portfolio/Landing Page/Arama Title Card.png")}/>
+                    <Overlay>
+                      <HeaderCaption>arama</HeaderCaption>
+                    </Overlay>
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
           </Row>
           <Row>
-            <p>Bye</p>
+            <LinkWrap>
+                <ImageLink to={"/ReStand"}>
+                  <Container>
+                    <Image src={require("../../Visuals/Portfolio/Landing Page/ReStand Title Card.png")}/>
+                      <Overlay>
+                        <HeaderCaption>restand</HeaderCaption>
+                      </Overlay>
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
+              <LinkWrap>
+                <ImageLink to={"/TravelToothpaste"}>
+                  <Container>
+                    <Image src={require("../../Visuals/Portfolio/Landing Page/Travel Toothpaste Title Card.png")}/>
+                    <Overlay>
+                      <HeaderCaption>travel toothpaste</HeaderCaption>
+                    </Overlay>
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
+              <LinkWrap>
+                <ImageLink to={"/AdobeBuild"}>
+                  <Container>
+                    <Image src={require("../../Visuals/Portfolio/Landing Page/Adobe Build Title Card.png")}/>
+                    <Overlay>
+                      <HeaderCaption>adobe build</HeaderCaption>
+                    </Overlay>
+                  </Container>
+                </ImageLink>
+              </LinkWrap>
           </Row>
         </WhiteBg>
       </HeroBg>

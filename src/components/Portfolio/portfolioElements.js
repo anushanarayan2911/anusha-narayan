@@ -42,6 +42,7 @@ export const WhiteBg = styled.div`
     border-top-left-radius: 3rem;
     border-top-right-radius: 3rem;
     padding: 2rem;
+    gap: 2vh;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
