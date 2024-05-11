@@ -42,7 +42,7 @@ const Navbar = ({toggle, id}) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to={"/Portfolio"}>my work</NavLinks>
+              <NavLinks to={"/MyWork"}>my work</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to={"/Gallery"}>gallery</NavLinks>

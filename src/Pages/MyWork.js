@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import AboutComponent from '../components/About'
+import MyWorkSection from '../components/My Work'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 
-const About = (id="about") => {
+const MyWork = (id="mywork") => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -14,10 +14,10 @@ const About = (id="about") => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
-      <AboutComponent/>
+      <MyWorkSection/>
     </>
     
   )
 }
 
-export default About
+export default MyWork
