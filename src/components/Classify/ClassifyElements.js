@@ -27,12 +27,21 @@ export const TitleRow = styled.div`
     display: flex;
     flex-direction: row;
     width: 80vw;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `
 
 export const Column = styled.div`
     display: flex;
     flex-direction: column;
     width: 50%;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        align-items: center;
+    }
 `
 
 export const ProjectName = styled.p`
@@ -47,12 +56,21 @@ export const ProjectDescription = styled.p`
     font-weight: 200;
     margin-top: 2vh;
     margin-bottom: 2vh;
+
+    @media screen and (max-width: 768px) {
+        text-align: center;
+        margin-bottom: 4vh;
+    }
 `
 
 export const SkillsSection = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1.5vh;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: row;
+    }
 `
 
 export const SkillsRow = styled.div`
@@ -85,6 +103,13 @@ export const DescriptionBox = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 8vh;
+        margin-left: 0vh;
+        width: 100%;
+        padding-bottom: 10%;
+    }
 `
 
 export const Description = styled.p`
@@ -94,6 +119,10 @@ export const Description = styled.p`
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 200;
+
+    @media screen and (max-width: 768px) {
+        max-width: 100%;
+    }
 `
 
 export const Button = styled.a`
