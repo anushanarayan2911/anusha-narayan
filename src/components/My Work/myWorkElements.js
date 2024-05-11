@@ -12,6 +12,7 @@ export const HeroContainer = styled.div`
     padding-top: 12vh;
     padding-bottom: 8vh;
 `
+
 export const Row = styled.div`
     width: 72vw;
     display: flex;
@@ -32,5 +33,9 @@ export const Image = styled.img`
     @media screen and (max-width: 768px) {
         width: 100%;
         margin-left: 0vw;
+    }
+
+    &: hover{
+        opacity: 30%;
     }
 `
