@@ -74,7 +74,7 @@ export const Skill = styled.div`
 
 export const DescriptionBox = styled.div`
     background-color: white;
-    border-color: #3E678D;
+    border: 0.05rem solid #3E678D;
     border-radius: 2rem;
     margin-left: 6.25vw;
     padding-top: 10%;
@@ -103,7 +103,7 @@ export const Button = styled.a`
     padding-right: 0.75rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    border: 1px solid #3E678D;
+    border: 0.05rem solid #3E678D;
     border-radius: 2rem;
     font-size: 1.5rem;
 `
