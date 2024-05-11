@@ -29,6 +29,10 @@ const MyWorkSection = () => {
         <ImageContainer>
           <ImageLink to={"/Pulmo"}>
             <Image src={require("../../Visuals/My Work/Landing Page/Pulmo.png")}/>
+            <Overlay>
+              <ProjectTitle>pulmo</ProjectTitle>
+              <ProjectCaption>the future of respiratory health</ProjectCaption>
+            </Overlay>
           </ImageLink>
         </ImageContainer>
       </Row>
@@ -36,12 +40,19 @@ const MyWorkSection = () => {
         <ImageContainer>
           <ImageLink to={"/UMe"}>
             <Image src={require("../../Visuals/My Work/Landing Page/U Me.png")}/>
+            <Overlay>
+              <ProjectTitle>u me</ProjectTitle>
+              <ProjectCaption>bringing easy communication to every home</ProjectCaption>
+            </Overlay>
           </ImageLink>
-          
         </ImageContainer>
         <ImageContainer>
           <ImageLink to={"/AdobeBuild"}>
             <Image src={require("../../Visuals/My Work/Landing Page/Adobe Build.png")}/>
+            <Overlay>
+              <ProjectTitle>adobe build</ProjectTitle>
+              <ProjectCaption>the ultimate website building tool</ProjectCaption>
+            </Overlay>
           </ImageLink>
         </ImageContainer>
       </Row>
