@@ -13,14 +13,24 @@ export const HeroContainer = styled.div`
     padding-bottom: 8vh;
 `
 export const Row = styled.div`
-    width: 90%;
+    width: 72vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-left: 10vw;
     padding-right: 10vw;
-
+    gap: 2vw;
+    margin-bottom: 2vh;
     @media screen and (max-width: 768px) {
         flex-direction: column;
+    }
+`
+
+export const Image = styled.img`
+    width: 50%;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        margin-left: 0vw;
     }
 `
