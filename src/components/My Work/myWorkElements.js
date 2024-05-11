@@ -29,6 +29,9 @@ export const Row = styled.div`
 
 export const ImageContainer = styled.div`
     position: relative;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
 `
 
 export const ImageLink = styled(LinkR)`
@@ -42,9 +45,36 @@ export const Image = styled.img`
         width: 100%;
         margin-left: 0vw;
     }
-
+`
+export const Overlay = styled.div`
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
     &: hover{
-        opacity: 30%;
-        transition: 0.5s ease;
+        opacity: 90%;
     }
+`
+
+export const ProjectTitle = styled.p`
+    color: #787878;
+    font-size: 4rem;
+    font-weight: 200;
+    margin-bottom: 0;
+`
+
+export const ProjectCaption = styled.p`
+    color: #787878;
+    font-size: 1rem;
+    font-weight: 100;
 `

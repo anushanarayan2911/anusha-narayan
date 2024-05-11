@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
 import Link from 'react-scroll/modules/components/Link'
-import { HeroContainer, Image, ImageContainer, ImageLink, Row } from './myWorkElements'
+import { HeroContainer, Image, ImageContainer, ImageLink, Overlay, ProjectCaption, ProjectTitle, Row, TextWrapper } from './myWorkElements'
 
 const MyWorkSection = () => {
 
@@ -20,6 +20,10 @@ const MyWorkSection = () => {
         <ImageContainer>
           <ImageLink>
             <Image src={require("../../Visuals/My Work/Landing Page/Classify.png")}/>
+            <Overlay>
+              <ProjectTitle>classify</ProjectTitle>
+              <ProjectCaption>student progress tracking, but better</ProjectCaption>
+            </Overlay>
           </ImageLink>
         </ImageContainer>
         <ImageContainer>
@@ -33,6 +37,7 @@ const MyWorkSection = () => {
           <ImageLink to={"/UMe"}>
             <Image src={require("../../Visuals/My Work/Landing Page/U Me.png")}/>
           </ImageLink>
+          
         </ImageContainer>
         <ImageContainer>
           <ImageLink to={"/AdobeBuild"}>
