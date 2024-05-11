@@ -6,7 +6,7 @@ import Sidebar from './components/SideBar'
 import Gallery from './Pages/Gallery';
 import Contact from './Pages/Contact'
 import UMe from './Pages/UMePage';
-import Pulmo2 from './Pages/Pulmo2Page'
+import Pulmo from './Pages/PulmoPage'
 import AdobeBuild from './Pages/AdobeBuildPage';
 import createHistory from "history/createBrowserHistory"
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
@@ -28,7 +28,7 @@ function App() {
         <Route path="/Gallery" component={Gallery} exact/>
         <Route path="/Contact" component={Contact} exact />
         <Route path="/UMe" component={UMe} exact />
-        <Route path="/Pulmo2" component={Pulmo2} exact/>
+        <Route path="/Pulmo" component={Pulmo} exact/>
         <Route path="/AdobeBuild" component={AdobeBuild} exact/>
       </Switch>
     </BrowserRouter>

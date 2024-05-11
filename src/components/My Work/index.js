@@ -1,17 +1,6 @@
 import {React, useState} from 'react'
 import Link from 'react-scroll/modules/components/Link'
-import { InfoContainer, 
-  HeroBg,
-  WhiteBg,
-  Row,
-  Column,
-  ImageLink,
-  Image,
-  LinkWrap,
-  Container,
-  Overlay,
-  HeaderCaption
-} from './myWorkElements'
+import { HeroContainer, Row } from './myWorkElements'
 
 const MyWorkSection = () => {
 
@@ -26,11 +15,11 @@ const MyWorkSection = () => {
   };
 
   return (
-    <InfoContainer id="portfolio">
-      <HeroBg>
-        
-      </HeroBg>
-    </InfoContainer>
+    <HeroContainer id="mywork">
+      <Row>
+        <p>Hi</p>
+      </Row>
+    </HeroContainer>
   )
 }
 
