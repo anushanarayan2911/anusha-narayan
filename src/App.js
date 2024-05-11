@@ -1,16 +1,18 @@
 import './App.css';
+import React from 'react'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './Pages'
-import React from 'react'
+import MyWork from './Pages/MyWork';
 import Sidebar from './components/SideBar'
 import Gallery from './Pages/Gallery';
 import Contact from './Pages/Contact'
+import Classify from './Pages/ClassifyPage';
 import UMe from './Pages/UMePage';
 import Pulmo from './Pages/PulmoPage'
 import AdobeBuild from './Pages/AdobeBuildPage';
 import createHistory from "history/createBrowserHistory"
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
-import MyWork from './Pages/MyWork';
+
 
 
 function App() {
@@ -30,6 +32,7 @@ function App() {
         <Route path="/UMe" component={UMe} exact />
         <Route path="/Pulmo" component={Pulmo} exact/>
         <Route path="/AdobeBuild" component={AdobeBuild} exact/>
+        <Route path="/Classify" component={Classify} exact/>
       </Switch>
     </BrowserRouter>
     

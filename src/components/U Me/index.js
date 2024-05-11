@@ -25,7 +25,7 @@ const UMeComponent = () => {
 
   return (
     <HeroContainer id="portfolio">
-      
+      <p>Hi</p>
     </HeroContainer>
   )
 }

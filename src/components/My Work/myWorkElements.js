@@ -27,8 +27,16 @@ export const Row = styled.div`
     }
 `
 
-export const Image = styled.img`
+export const ImageContainer = styled.div`
+    position: relative;
+`
+
+export const ImageLink = styled(LinkR)`
     width: 50%;
+`
+
+export const Image = styled.img`
+    width: 100%;
 
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -37,5 +45,6 @@ export const Image = styled.img`
 
     &: hover{
         opacity: 30%;
+        transition: 0.5s ease;
     }
 `

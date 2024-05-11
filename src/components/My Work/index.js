@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
 import Link from 'react-scroll/modules/components/Link'
-import { Column, HeroContainer, Image, Row } from './myWorkElements'
+import { HeroContainer, Image, ImageContainer, ImageLink, Row } from './myWorkElements'
 
 const MyWorkSection = () => {
 
@@ -17,12 +17,28 @@ const MyWorkSection = () => {
   return (
     <HeroContainer id="mywork">
       <Row>
-        <Image src={require("../../Visuals/My Work/Landing Page/Classify.png")}/>
-        <Image src={require("../../Visuals/My Work/Landing Page/Pulmo.png")}/>
+        <ImageContainer>
+          <ImageLink>
+            <Image src={require("../../Visuals/My Work/Landing Page/Classify.png")}/>
+          </ImageLink>
+        </ImageContainer>
+        <ImageContainer>
+          <ImageLink to={"/Pulmo"}>
+            <Image src={require("../../Visuals/My Work/Landing Page/Pulmo.png")}/>
+          </ImageLink>
+        </ImageContainer>
       </Row>
       <Row>
-        <Image src={require("../../Visuals/My Work/Landing Page/U Me.png")}/>
-        <Image src={require("../../Visuals/My Work/Landing Page/Adobe Build.png")}/>
+        <ImageContainer>
+          <ImageLink to={"/UMe"}>
+            <Image src={require("../../Visuals/My Work/Landing Page/U Me.png")}/>
+          </ImageLink>
+        </ImageContainer>
+        <ImageContainer>
+          <ImageLink to={"/AdobeBuild"}>
+            <Image src={require("../../Visuals/My Work/Landing Page/Adobe Build.png")}/>
+          </ImageLink>
+        </ImageContainer>
       </Row>
     </HeroContainer>
   )
