@@ -21,11 +21,19 @@ export const Row = styled.div`
     align-items: center;
     padding-left: 10vw;
     padding-right: 10vw;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `
 
 export const Column = styled.div`
     width: 50%;
     display: block;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
 `
 
 export const ButtonRow = styled.div`
@@ -34,6 +42,11 @@ export const ButtonRow = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 2vh;
+    }
 `
 export const Button = styled(LinkR)`
     color: #66ABC6;
@@ -67,6 +80,11 @@ export const Text = styled.p`
 `
 
 export const Image = styled.img`
-    width: 30vw;
+    width: 80%;
     margin-left: 8vw;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        margin-left: 0vw;
+    }
 `
