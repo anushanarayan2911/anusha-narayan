@@ -18,7 +18,7 @@ const MyWorkSection = () => {
     <HeroContainer id="mywork">
       <Row>
         <ImageContainer>
-          <ImageLink>
+          <ImageLink to={"/Classify"}>
             <Image src={require("../../Visuals/My Work/Landing Page/Classify.png")}/>
             <Overlay>
               <ProjectTitle>classify</ProjectTitle>

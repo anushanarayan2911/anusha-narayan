@@ -1,11 +1,10 @@
 import React, {useState} from 'react'
-import Pulmo from '../components/Pulmo'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
 import { useEffect } from 'react'
 import PulmoComponent from '../components/Pulmo'
 
-const Pulmo1 = () => {
+const Pulmo = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggle = () => {
@@ -25,4 +24,4 @@ const Pulmo1 = () => {
   )
 }
 
-export default Pulmo1
+export default Pulmo
