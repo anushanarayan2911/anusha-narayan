@@ -35,26 +35,20 @@ const AdobeBuildComponent = () => {
         </TitleContainer>
         <ContentRow>
           <LargeText>
-            40% of autistic children are non-verbal. Not being able to communicate their wants and needs is a daily struggle for both the children and their parents. Current workarounds involve the parent writing down instructions every time they want the child to accomplish a task, carrying picture cards with them or the child using an iPad to write down what they want. All of these are cumbersome, time-consuming and on the child’s part, detrimental to their long-term eye health to be spending so much time on a screen.
+          *This project required designing a product within a brand's existing portfolio. Adobe was not engaged in any consultancy or collaborative capacity with this project, and the outcome is in no way endorsed by them. Any publicity is limited to personal and academic use.
           </LargeText>
         </ContentRow>
         <ContentRow>
-          <ContentImage src={require("../../Visuals/My Work/U Me/Empathy Map.png")}/>
+          <ContentImage src={require("../../Visuals/My Work/Adobe Build/Market Analysis.png")}/>
+          <Text>Adobe splits their products into three families: Digital Experience, Digital Media and Publishing & Advertising. Market analysis was conducted for the top two revenue-producing families, identifying key trends and the companies implementing them.</Text>
         </ContentRow>
         <ContentRow>
-          <Column>
-            <ContentImage src={require("../../Visuals/My Work/U Me/U Me Device.png")}/>
-          </Column>
-          <Column>
-            <Text>The U Me is a hand held device for non-verbal autistic children. A visual representation of instructions set by the parents appear on the pixel screen, whilst the child can use the buttons on the right to communicate their needs to their parents.</Text>
-          </Column>
-        </ContentRow>
-        <ContentRow>
-          <ContentImage src={require("../../Visuals/My Work/U Me/App Development.png")}/>
+          <ContentImage src={require("../../Visuals/My Work/Adobe Build/Persona.png")}/>
+          <Text>Customer profiles were created to guide development of the product.</Text>
         </ContentRow>
         <ImageContainer>
           <ContainerRow>
-            <ContainerImageRow src={require("../../Visuals/My Work/U Me/Container-1.png")}/>
+            <ContainerImageRow src={require("../../Visuals/My Work/Adobe Build/Idea.png")}/>
           </ContainerRow>
         </ImageContainer>
     </HeroContainer>

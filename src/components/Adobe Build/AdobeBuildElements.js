@@ -157,7 +157,7 @@ export const DownloadButton = styled(LinkR)`
 export const ContentRow = styled.div`
     width: 80vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 12vh;
     align-items: center;
 `
