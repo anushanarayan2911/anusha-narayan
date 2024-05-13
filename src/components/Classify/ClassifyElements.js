@@ -135,6 +135,7 @@ export const Button = styled.a`
     border: 0.05rem solid #3E678D;
     border-radius: 2rem;
     font-size: 1.5rem;
+    text-decoration: none;
 `
 
 export const ContentRow = styled.div`

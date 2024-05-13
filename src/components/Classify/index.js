@@ -25,7 +25,7 @@ const ClassifyComponent = () => {
             <Column>
               <DescriptionBox>
                 <Description>my start-up, based out of Imperial College London</Description>
-                <Button>check it out</Button>
+                <Button href={"https://www.getclassify.co.uk/"} target="_blank">check it out</Button>
               </DescriptionBox>
             </Column>
           </TitleRow>
