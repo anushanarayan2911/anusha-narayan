@@ -35,47 +35,27 @@ const UMeComponent = () => {
           </TitleRow>
         </TitleContainer>
         <ContentRow>
-          <Column>
-            <Text>The Pulmo app is designed to give the user a holistic overview of their lung health, giving them actionable insights so that that they can take control.</Text>
-          </Column>
-          <Column>
-            <ContentImage src={require("../../Visuals/My Work/Pulmo/Pulmo App.png")}/>
-          </Column>
-        </ContentRow>
-        <ContentRow>
           <LargeText>
-            As urban pollution worsens, the future of lung health is at risk. Pulmo, and it’s accompanying app, help users to take control of their lung health. The Pulmo sits just beneath the chest, monitoring a variety of datapoints. Machine learning algorithms analyse the data and provide the user with actionable insights.
+            40% of autistic children are non-verbal. Not being able to communicate their wants and needs is a daily struggle for both the children and their parents. Current workarounds involve the parent writing down instructions every time they want the child to accomplish a task, carrying picture cards with them or the child using an iPad to write down what they want. All of these are cumbersome, time-consuming and on the child’s part, detrimental to their long-term eye health to be spending so much time on a screen.
           </LargeText>
         </ContentRow>
         <ContentRow>
-          <ContentImage src={require("../../Visuals/My Work/Pulmo/Pulmo Device.png")}/>
+          <ContentImage src={require("../../Visuals/My Work/U Me/Empathy Map.png")}/>
         </ContentRow>
         <ContentRow>
           <Column>
-            <Text>Technological development of the patch can be categorised into 4 groups: MEMS, materials, wearable technology and machine learning. 4 types of MEMS sensors were used to collect data: acoustic, resistive, EKG and PPG. These would all monitor different aspects of lung health.</Text>
+            <ContentImage src={require("../../Visuals/My Work/U Me/U Me Device.png")}/>
           </Column>
           <Column>
-            <ContentImage src={require("../../Visuals/My Work/Pulmo/Technological Development.png")}/>
+            <Text>The U Me is a hand held device for non-verbal autistic children. A visual representation of instructions set by the parents appear on the pixel screen, whilst the child can use the buttons on the right to communicate their needs to their parents.</Text>
           </Column>
         </ContentRow>
         <ContentRow>
-          <Column>
-            <ContentImage src={require("../../Visuals/My Work/Pulmo/IoT.png")}/>
-          </Column>
-          <Column>
-            <Text>As home IOT systems become more common, Pulmo will integrate fully with other smart devices in the home. By connecting with other devices linked to air quality, the air that the user breathes in will be optimised, improving the user's lung health, and subsequently, quality of life.</Text>
-          </Column>
+          <ContentImage src={require("../../Visuals/My Work/U Me/App Development.png")}/>
         </ContentRow>
         <ImageContainer>
           <ContainerRow>
-            <ContainerImage src={require("../../Visuals/My Work/Pulmo/Container-1.png")}/>
-            <ContainerImage src={require("../../Visuals/My Work/Pulmo/Container-2.png")}/>
-            <ContainerImage src={require("../../Visuals/My Work/Pulmo/Container-3.png")}/>
-            <ContainerImage src={require("../../Visuals/My Work/Pulmo/Container-4.png")}/>
-            <ContainerImage src={require("../../Visuals/My Work/Pulmo/Container-5.png")}/>
-          </ContainerRow>
-          <ContainerRow>
-            <ContainerImageRow src={require("../../Visuals/My Work/Pulmo/Container-6.png")}/>
+            <ContainerImageRow src={require("../../Visuals/My Work/U Me/Container-1.png")}/>
           </ContainerRow>
         </ImageContainer>
     </HeroContainer>
