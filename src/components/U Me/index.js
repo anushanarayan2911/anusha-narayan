@@ -12,27 +12,24 @@ const UMeComponent = () => {
       <TitleContainer>
           <TitleRow>
             <Column>
-              <ProjectName>PULMO</ProjectName>
-              <ProjectDescription>wearable lung monitor</ProjectDescription>
+              <ProjectName>U ME</ProjectName>
+              <ProjectDescription>communication device for autism</ProjectDescription>
               <SkillsSection>
                 <SkillsRow>
-                  <Skill>futures thinking</Skill>
+                  <Skill>industrial design</Skill>
+                  <Skill>graphic design</Skill>
+                </SkillsRow>
+                <SkillsRow>
                   <Skill>UX/UI</Skill>
-                </SkillsRow>
-                <SkillsRow>
-                  <Skill>literature review</Skill>
-                  <Skill>system design</Skill>
-                </SkillsRow>
-                <SkillsRow>
-                  <Skill>usability study</Skill>
+                  <Skill>designing for children</Skill>
                 </SkillsRow>
               </SkillsSection>
             </Column>
             <Column>
               <DescriptionBox>
-                <Description>a group project to develop a solution to a problem that will exist in 2042</Description>
-                <DownloadButton to={Portfolio} download="Pulmo - Portfolio" target="_blank" rel="noreferrer">download portfolio</DownloadButton>
-                <Button href="https://www.youtube.com/watch?v=t8diYfsUAZg" target="_blank">watch video</Button>
+                <Description>a group project to develop a device for underserved users</Description>
+                <DownloadButton to={Portfolio} download="U Me - Portfolio" target="_blank" rel="noreferrer">download portfolio</DownloadButton>
+                <Button href="https://www.youtube.com/watch?v=Hsf9Sks_270" target="_blank">watch video</Button>
               </DescriptionBox>
             </Column>
           </TitleRow>
