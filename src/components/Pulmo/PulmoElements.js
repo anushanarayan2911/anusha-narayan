@@ -160,6 +160,10 @@ export const ContentRow = styled.div`
     flex-direction: row;
     margin-top: 12vh;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `
 
 export const Text = styled.p`
@@ -209,10 +213,18 @@ export const ContainerRow = styled.div`
     justify-content: center;
     gap: 2vw;
     margin-bottom: 2vw;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `
 
 export const ContainerImage = styled.img`
     width: 20%;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
 `
 
 export const ContainerImageRow = styled.img`

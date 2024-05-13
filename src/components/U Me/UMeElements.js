@@ -160,6 +160,10 @@ export const ContentRow = styled.div`
     flex-direction: row;
     margin-top: 12vh;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `
 
 export const Text = styled.p`
