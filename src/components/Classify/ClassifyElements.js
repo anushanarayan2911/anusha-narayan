@@ -94,11 +94,11 @@ export const DescriptionBox = styled.div`
     background-color: white;
     border: 0.05rem solid #3E678D;
     border-radius: 2rem;
-    margin-left: 6.25vw;
+    margin-left: 12vw;
     padding-top: 10%;
     padding-left: 2vw;
     padding-right: 2vw;
-    width: 28vw;
+    width: 16vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -135,4 +135,64 @@ export const Button = styled.a`
     border: 0.05rem solid #3E678D;
     border-radius: 2rem;
     font-size: 1.5rem;
+`
+
+export const ContentRow = styled.div`
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 12vh;
+    align-items: center;
+`
+
+export const Text = styled.p`
+    color: black;
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 150%;
+    margin-left: 4vw;
+`
+
+export const ContentImage = styled.img`
+    width: 80%;
+    margin-left: 8vw;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        margin-left: 0vw;
+    }
+`
+
+export const LargeText = styled.p`
+    color: black;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 150%;
+`
+
+export const ImageContainer = styled.div`
+    background-color: #F0F7FE;
+    width: fit-content;
+    border-radius: 1.5rem;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-left: 28vw;
+    padding-right: 28vw;
+    margin-top: 12vh;
+    align-items: center;
+`
+
+export const ContainerRow = styled.div`
+    width: 72vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+    margin-bottom: 2vw;
+`
+
+export const ContainerImage = styled.img`
+    width: 50%;
 `
