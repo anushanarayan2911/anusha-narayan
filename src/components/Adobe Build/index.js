@@ -10,24 +10,25 @@ const AdobeBuildComponent = () => {
       <TitleContainer>
           <TitleRow>
             <Column>
-              <ProjectName>U ME</ProjectName>
-              <ProjectDescription>communication device for autism</ProjectDescription>
+              <ProjectName>ADOBE BUILD</ProjectName>
+              <ProjectDescription>the ultimate website builder</ProjectDescription>
               <SkillsSection>
                 <SkillsRow>
-                  <Skill>industrial design</Skill>
-                  <Skill>graphic design</Skill>
+                  <Skill>user & market research</Skill>
+                  <Skill>personas</Skill>
                 </SkillsRow>
                 <SkillsRow>
-                  <Skill>UX/UI</Skill>
-                  <Skill>designing for children</Skill>
+                  <Skill>marketing campaigns</Skill>
+                </SkillsRow>
+                <SkillsRow>
+                  <Skill>working within a brand portfolio</Skill>
                 </SkillsRow>
               </SkillsSection>
             </Column>
             <Column>
               <DescriptionBox>
-                <Description>a group project to develop a device for underserved users</Description>
+                <Description>develop a business proposal for Adobe, to help them expand</Description>
                 <DownloadButton to={Paper} download="Adobe Build - Paper" target="_blank" rel="noreferrer">download paper</DownloadButton>
-                <Button href="https://www.youtube.com/watch?v=Hsf9Sks_270" target="_blank">watch video</Button>
               </DescriptionBox>
             </Column>
           </TitleRow>
