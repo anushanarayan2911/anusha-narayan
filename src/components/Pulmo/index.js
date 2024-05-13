@@ -1,5 +1,5 @@
 import React from 'react'
-import { Column, HeroContainer, ProjectDescription, ProjectName, SkillsSection, TitleContainer, TitleRow, SkillsRow, Skill, DescriptionBox, Description, Button, ContentRow, ContentImage, Text, LargeText, ImageContainer, ContainerRow, ContainerImage, DownloadButton,  
+import { Column, HeroContainer, ProjectDescription, ProjectName, SkillsSection, TitleContainer, TitleRow, SkillsRow, Skill, DescriptionBox, Description, Button, ContentRow, ContentImage, Text, LargeText, ImageContainer, ContainerRow, ContainerImage, DownloadButton, ContainerImageRow,  
 } from './PulmoElements'
 import Paper from "../../Visuals/My Work/Pulmo/Paper.pdf"
 import Portfolio from "../../Visuals/My Work/Pulmo/Portfolio.pdf"
@@ -39,44 +39,46 @@ const PulmoComponent = () => {
         </TitleContainer>
         <ContentRow>
           <Column>
-            <ContentImage src={require("../../Visuals/My Work/Classify/Data Entry.png")}/>
+            <Text>The Pulmo app is designed to give the user a holistic overview of their lung health, giving them actionable insights so that that they can take control.</Text>
           </Column>
           <Column>
-            <Text>Teachers simply hit record on their Classify app, available on phone, tablet and browser. They can record themselves as they give feedback to children in the classroom, or as they mark assessments. The Classify algorithm will then identify the correct school goal, and calculate an evidence-based attainment level for every child.</Text>
-          </Column>
-        </ContentRow>
-        <ContentRow>
-          <ContentImage src={require("../../Visuals/My Work/Classify/Home Screen.png")}/>
-        </ContentRow>
-        <ContentRow>
-          <Column>
-            <Text>School heads and subject leaders can view macro-level analyses of progress based on age, gender, or any other group of student.</Text>
-          </Column>
-          <Column>
-            <ContentImage src={require("../../Visuals/My Work/Classify/Macro Analysis.png")}/>
-          </Column>
-        </ContentRow>
-        <ContentRow>
-          <Column>
-            <ContentImage src={require("../../Visuals/My Work/Classify/Student Profile.png")}/>
-          </Column>
-          <Column>
-            <Text>See all reflections and analysis of individual students and see how they’re progressing.</Text>
+            <ContentImage src={require("../../Visuals/My Work/Pulmo/Pulmo App.png")}/>
           </Column>
         </ContentRow>
         <ContentRow>
           <LargeText>
-            Documenting student progress is a vital task for teachers. But current systems are manual and tedious. We wanted to create a simpler solution. With Classify, teachers can simply record themselves giving feedback in the classroom, or as they mark work. Our algorithm will analyse what the teacher is saying, and determine what level every child is working at, for every academic and personal development objective. Teachers can then see a profile of each child, whilst also viewing macro-analyses of progression
+            As urban pollution worsens, the future of lung health is at risk. Pulmo, and it’s accompanying app, help users to take control of their lung health. The Pulmo sits just beneath the chest, monitoring a variety of datapoints. Machine learning algorithms analyse the data and provide the user with actionable insights.
           </LargeText>
+        </ContentRow>
+        <ContentRow>
+          <ContentImage src={require("../../Visuals/My Work/Pulmo/Pulmo Device.png")}/>
+        </ContentRow>
+        <ContentRow>
+          <Column>
+            <Text>Technological development of the patch can be categorised into 4 groups: MEMS, materials, wearable technology and machine learning. 4 types of MEMS sensors were used to collect data: acoustic, resistive, EKG and PPG. These would all monitor different aspects of lung health.</Text>
+          </Column>
+          <Column>
+            <ContentImage src={require("../../Visuals/My Work/Pulmo/Technological Development.png")}/>
+          </Column>
+        </ContentRow>
+        <ContentRow>
+          <Column>
+            <ContentImage src={require("../../Visuals/My Work/Pulmo/IoT.png")}/>
+          </Column>
+          <Column>
+            <Text>As home IOT systems become more common, Pulmo will integrate fully with other smart devices in the home. By connecting with other devices linked to air quality, the air that the user breathes in will be optimised, improving the user's lung health, and subsequently, quality of life.</Text>
+          </Column>
         </ContentRow>
         <ImageContainer>
           <ContainerRow>
-            <ContainerImage src={require("../../Visuals/My Work/Classify/Container-1.png")}/>
-            <ContainerImage src={require("../../Visuals/My Work/Classify/Container-2.png")}/>
+            <ContainerImage src={require("../../Visuals/My Work/Pulmo/Container-1.png")}/>
+            <ContainerImage src={require("../../Visuals/My Work/Pulmo/Container-2.png")}/>
+            <ContainerImage src={require("../../Visuals/My Work/Pulmo/Container-3.png")}/>
+            <ContainerImage src={require("../../Visuals/My Work/Pulmo/Container-4.png")}/>
+            <ContainerImage src={require("../../Visuals/My Work/Pulmo/Container-5.png")}/>
           </ContainerRow>
           <ContainerRow>
-            <ContainerImage src={require("../../Visuals/My Work/Classify/Container-3.png")}/>
-            <ContainerImage src={require("../../Visuals/My Work/Classify/Container-4.png")}/>
+            <ContainerImageRow src={require("../../Visuals/My Work/Pulmo/Container-6.png")}/>
           </ContainerRow>
         </ImageContainer>
     </HeroContainer>

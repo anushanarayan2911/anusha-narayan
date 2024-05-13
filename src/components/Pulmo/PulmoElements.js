@@ -192,24 +192,29 @@ export const LargeText = styled.p`
 export const ImageContainer = styled.div`
     background-color: #ECF5F8;
     width: fit-content;
-    border-radius: 1.5rem;
     padding-top: 4vh;
     padding-bottom: 4vh;
-    padding-left: 28vw;
-    padding-right: 28vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
     margin-top: 12vh;
     align-items: center;
+    justify-content: center;
 `
 
 export const ContainerRow = styled.div`
-    width: 72vw;
+    width: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 2vw;
     margin-bottom: 2vw;
 `
 
 export const ContainerImage = styled.img`
-    width: 50%;
+    width: 20%;
+`
+
+export const ContainerImageRow = styled.img`
+    width: 100%;
 `
