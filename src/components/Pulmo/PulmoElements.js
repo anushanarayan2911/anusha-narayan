@@ -98,7 +98,8 @@ export const DescriptionBox = styled.div`
     padding-top: 10%;
     padding-left: 2vw;
     padding-right: 2vw;
-    width: 16vw;
+    padding-bottom: 10%;
+    width: 24vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -132,9 +133,25 @@ export const Button = styled.a`
     padding-right: 0.75rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    margin-top: 2vh;
     border: 0.05rem solid #5083B1;
     border-radius: 2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+`
+
+export const DownloadButton = styled(LinkR)`
+    background-color: white;
+    color: #5083B1;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 2vh;
+    border: 0.05rem solid #5083B1;
+    border-radius: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
 `
 
 export const ContentRow = styled.div`

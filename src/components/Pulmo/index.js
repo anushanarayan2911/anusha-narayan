@@ -1,6 +1,8 @@
 import React from 'react'
-import { Column, HeroContainer, ProjectDescription, ProjectName, SkillsSection, TitleContainer, TitleRow, SkillsRow, Skill, DescriptionBox, Description, Button, ContentRow, ContentImage, Text, LargeText, ImageContainer, ContainerRow, ContainerImage,  
+import { Column, HeroContainer, ProjectDescription, ProjectName, SkillsSection, TitleContainer, TitleRow, SkillsRow, Skill, DescriptionBox, Description, Button, ContentRow, ContentImage, Text, LargeText, ImageContainer, ContainerRow, ContainerImage, DownloadButton,  
 } from './PulmoElements'
+import Paper from "../../Visuals/My Work/Pulmo/Paper.pdf"
+import Portfolio from "../../Visuals/My Work/Pulmo/Portfolio.pdf"
 
 const PulmoComponent = () => {
 
@@ -9,24 +11,28 @@ const PulmoComponent = () => {
          <TitleContainer>
           <TitleRow>
             <Column>
-              <ProjectName>CLASSIFY</ProjectName>
-              <ProjectDescription>student progress tracking platform</ProjectDescription>
+              <ProjectName>PULMO</ProjectName>
+              <ProjectDescription>wearable lung monitor</ProjectDescription>
               <SkillsSection>
                 <SkillsRow>
-                  <Skill>project management</Skill>
-                  <Skill>B2B</Skill>
+                  <Skill>futures thinking</Skill>
                   <Skill>UX/UI</Skill>
                 </SkillsRow>
                 <SkillsRow>
-                  <Skill>wireframing</Skill>
+                  <Skill>literature review</Skill>
+                  <Skill>system design</Skill>
+                </SkillsRow>
+                <SkillsRow>
                   <Skill>usability study</Skill>
                 </SkillsRow>
               </SkillsSection>
             </Column>
             <Column>
               <DescriptionBox>
-                <Description>my start-up, based out of Imperial College London</Description>
-                <Button>check it out</Button>
+                <Description>a group project to develop a solution to a problem that will exist in 2042</Description>
+                <DownloadButton to={Paper} download="Pulmo - Paper" target="_blank" rel="noreferrer">download paper</DownloadButton>
+                <DownloadButton to={Portfolio} download="Pulmo - Portfolio" target="_blank" rel="noreferrer">download portfolio</DownloadButton>
+                <Button href="https://www.youtube.com/watch?v=t8diYfsUAZg" target="_blank">watch video</Button>
               </DescriptionBox>
             </Column>
           </TitleRow>
