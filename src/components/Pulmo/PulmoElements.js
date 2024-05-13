@@ -14,7 +14,7 @@ export const HeroContainer = styled.div`
 `
 
 export const TitleContainer = styled.div`
-    background-color: #F0F7FE;
+    background-color: #ECF5F8;
     width: 80vw;
     border-radius: 1.5rem;
     padding-top: 24vh;
@@ -45,13 +45,13 @@ export const Column = styled.div`
 `
 
 export const ProjectName = styled.p`
-    color: #3E678D;
+    color: #5083B1;
     font-size: 1rem;
     font-weight: 700;
 `
 
 export const ProjectDescription = styled.p`
-    color: #3E678D;
+    color: #5083B1;
     font-size: 4rem;
     font-weight: 200;
     margin-top: 2vh;
@@ -80,8 +80,8 @@ export const SkillsRow = styled.div`
 `
 
 export const Skill = styled.div`
-    background-color: #C3E1FC;
-    color: #3E678D;
+    background-color: #B2DAE4;
+    color: #5083B1;
     padding-left: 0.75rem;
     padding-top: 0.5rem;
     padding-right: 0.75rem;
@@ -92,7 +92,7 @@ export const Skill = styled.div`
 
 export const DescriptionBox = styled.div`
     background-color: white;
-    border: 0.05rem solid #3E678D;
+    border: 0.05rem solid #5083B1;
     border-radius: 2rem;
     margin-left: 12vw;
     padding-top: 10%;
@@ -113,7 +113,7 @@ export const DescriptionBox = styled.div`
 `
 
 export const Description = styled.p`
-    color: #3E678D;
+    color: #5083B1;
     max-width: 20vw;
     text-align: center;
     font-size: 1.5rem;
@@ -127,12 +127,12 @@ export const Description = styled.p`
 
 export const Button = styled.a`
     background-color: white;
-    color: #3E678D;
+    color: #5083B1;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    border: 0.05rem solid #3E678D;
+    border: 0.05rem solid #5083B1;
     border-radius: 2rem;
     font-size: 1.5rem;
 `
@@ -173,7 +173,7 @@ export const LargeText = styled.p`
 `
 
 export const ImageContainer = styled.div`
-    background-color: #F0F7FE;
+    background-color: #ECF5F8;
     width: fit-content;
     border-radius: 1.5rem;
     padding-top: 4vh;
