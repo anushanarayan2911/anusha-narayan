@@ -10,16 +10,16 @@ export const HeroContainer = styled.div`
     flex-direction: column;
     position: absolute;
     align-items: center;
-    padding-top: 12vh;
+    padding-top: 16vh;
     padding-bottom: 8vh;
 `
 
 export const Row = styled.div`
-    width: 72vw;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 10vw;
+    padding-left: 12vw;
     padding-right: 10vw;
     gap: 2vw;
     margin-bottom: 2vh;
