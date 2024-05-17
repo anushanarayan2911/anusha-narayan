@@ -9,12 +9,19 @@ const GallerySection = () => {
   return (
     <HeroContainer id="gallery">
       <Row>
-        <Image src={require("../../Visuals/My Work/Landing Page/Classify.png")}/>
-        <Image src={require("../../Visuals/My Work/Landing Page/Pulmo.png")}/>
+        <Image src={require("../../Visuals/Gallery/1.png")}/>
+        <Image src={require("../../Visuals/Gallery/2.png")}/>
+        <Image src={require("../../Visuals/Gallery/3.png")}/>
       </Row>
       <Row>
-        <Image src={require("../../Visuals/My Work/Landing Page/U Me.png")}/>
-        <Image src={require("../../Visuals/My Work/Landing Page/Adobe Build.png")}/>
+        <Image src={require("../../Visuals/Gallery/4.png")}/>
+        <Image src={require("../../Visuals/Gallery/5.png")}/>
+        <Image src={require("../../Visuals/Gallery/6.png")}/>
+      </Row>
+      <Row>
+        <Image src={require("../../Visuals/Gallery/7.png")}/>
+        <Image src={require("../../Visuals/Gallery/8.png")}/>
+        <Image src={require("../../Visuals/Gallery/9.png")}/>
       </Row>
     </HeroContainer>
   )

@@ -29,7 +29,7 @@ export const Row = styled.div`
 `
 
 export const Image = styled.img`
-    width: 50%;
+    width: 30%;
 
     @media screen and (max-width: 768px) {
         width: 100%;
