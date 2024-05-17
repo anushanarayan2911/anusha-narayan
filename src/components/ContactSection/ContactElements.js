@@ -15,12 +15,18 @@ export const HeroContainer = styled.div`
 
 export const Row = styled.div`
     width: 72vw;
+    margin-top: 4vh;
+`
+
+export const LinkWrap = styled.a`
+    width: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 2vw;
-    margin-top: 4vh;
+    text-decoration: none;
+    
     @media screen and (max-width: 768px) {
         flex-direction: column;
     }
