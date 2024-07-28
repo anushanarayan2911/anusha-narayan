@@ -1,6 +1,7 @@
 import {React, useState} from 'react'
 import Link from 'react-scroll/modules/components/Link'
 import { HeroContainer, Image, ImageContainer, ImageLink, Overlay, ProjectCaption, ProjectTitle, Row, TextWrapper } from './myWorkElements'
+import Footer from '../Footer'
 
 const MyWorkSection = () => {
 
@@ -56,6 +57,7 @@ const MyWorkSection = () => {
           </ImageLink>
         </ImageContainer>
       </Row>
+      <Footer></Footer>
     </HeroContainer>
   )
 }

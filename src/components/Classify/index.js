@@ -1,5 +1,6 @@
 import React from 'react'
 import { Column, HeroContainer, ProjectDescription, ProjectName, SkillsSection, TitleContainer, TitleRow, SkillsRow, Skill, DescriptionBox, Description, Button, ContentRow, ContentImage, Text, LargeText, ImageContainer, ContainerRow, ContainerImage } from './ClassifyElements'
+import Footer from "../Footer"
 
 const ClassifyComponent = () => {
 

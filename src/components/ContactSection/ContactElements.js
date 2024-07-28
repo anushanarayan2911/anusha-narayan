@@ -13,9 +13,13 @@ export const HeroContainer = styled.div`
     padding-bottom: 8vh;
 `
 
-export const Row = styled.div`
+export const Col = styled.div`
     width: 72vw;
     margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8vh;
 `
 
 export const LinkWrap = styled.a`
@@ -25,7 +29,20 @@ export const LinkWrap = styled.a`
     align-items: center;
     justify-content: center;
     gap: 2vw;
+    margin-below: 8vh;
     text-decoration: none;
+    color: #787878;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 150%;
+
+    &:hover{
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 50%;
+        border-bottom-width: 2,
+    }
     
     @media screen and (max-width: 768px) {
         flex-direction: column;

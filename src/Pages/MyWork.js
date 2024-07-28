@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import MyWorkSection from '../components/My Work'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/SideBar'
+import Footer from '../components/Footer'
 
 const MyWork = (id="mywork") => {
   const [isOpen, setIsOpen] = useState(false);

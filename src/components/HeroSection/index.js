@@ -2,6 +2,7 @@ import React from 'react'
 import { HeroContainer, Header, Row, Column, Text, Image, ButtonRow, Button} from './heroElements'
 import CV from "../../Visuals/Home/CV.pdf"
 import Portfolio from "../../Visuals/Home/Portfolio.pdf"
+import Footer from '../Footer'
 
 
 const HeroSection = () => {
@@ -26,6 +27,7 @@ const HeroSection = () => {
         <Button to={Portfolio} download="Portfolio" target="_blank" rel="noreferrer">Portfolio</Button>
       </ButtonRow>
       {" "}
+      <Footer></Footer>
     </HeroContainer>
   )
 }

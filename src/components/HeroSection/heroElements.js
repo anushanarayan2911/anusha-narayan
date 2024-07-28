@@ -11,7 +11,6 @@ export const HeroContainer = styled.div`
     position: absolute;
     align-items: center;
     padding-top: 12vh;
-    padding-bottom: 8vh;
 `
 
 export const Row = styled.div`

@@ -2,6 +2,7 @@ import {React, useState} from 'react'
 import Link from 'react-scroll/modules/components/Link'
 import { HeroContainer, Image, ImageContainer, ImageLink, Overlay, ProjectCaption, ProjectTitle, Row, TextWrapper
 } from './galleryElements'
+import Footer from '../Footer';
 
 const GallerySection = () => {
   const [isOverlay, setIsOverlay] = useState(false);
@@ -23,6 +24,7 @@ const GallerySection = () => {
         <Image src={require("../../Visuals/Gallery/8.png")}/>
         <Image src={require("../../Visuals/Gallery/9.png")}/>
       </Row>
+      <Footer></Footer>
     </HeroContainer>
   )
 }
