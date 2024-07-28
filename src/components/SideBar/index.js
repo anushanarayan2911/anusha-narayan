@@ -22,6 +22,12 @@ const Sidebar = ({isOpen, toggle}) => {
               <SidebarLink to={'/Gallery'} onClick={toggle}>
                 gallery
               </SidebarLink>
+              <SidebarLink to={'/Blog'} onClick={toggle}>
+                blog
+              </SidebarLink>
+              <SidebarLink to={'/Coaching'} onClick={toggle}>
+                coaching
+              </SidebarLink>
           </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>
