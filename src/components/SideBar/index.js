@@ -22,9 +22,6 @@ const Sidebar = ({isOpen, toggle}) => {
               <SidebarLink to={'/Gallery'} onClick={toggle}>
                 gallery
               </SidebarLink>
-              <SidebarLink to={'/Contact'} onClick={toggle}>
-                contact
-              </SidebarLink>
           </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>
