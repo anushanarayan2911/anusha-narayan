@@ -42,6 +42,7 @@ export const ButtonRow = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding-top: 5vh;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -73,14 +74,14 @@ export const Header = styled.p`
 
 export const Text = styled.p`
     color: #787878;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 100;
     text-align: justify;
     line-height: 150%;
 `
 
 export const Image = styled.img`
-    width: 80%;
+    width: 70%;
     margin-left: 8vw;
 
     @media screen and (max-width: 768px) {

@@ -8,10 +8,14 @@ const HeroSection = () => {
 
   return (
     <HeroContainer id="home">
-      <Header>Hi I'm Anusha</Header>
       <Row>
         <Column>
-          <Text>I’m a user-centric engineer, with a passion for designing data-driven, digital solutions to some of society’s most pressing challenges. My work revolves around placing the user at the core of the design process, ensuring that the solutions I create are not only innovative and efficient but also meaningful and accessible. With a track record of crafting effective answers to complex problems, I strive to make a positive impact through thoughtful design and engineering.</Text>
+          <Text>
+            Hi, I'm Anusha.
+          </Text>
+          <Text>
+            I’m a user-centric engineer, with a passion for designing data-driven, digital solutions to some of society’s most pressing challenges. My work revolves around placing the user at the core of the design process, ensuring that the solutions I create are not only innovative and efficient but also meaningful and accessible. With a track record of crafting effective answers to complex problems, I strive to make a positive impact through thoughtful design and engineering.
+          </Text>
         </Column>
         <Column>
           <Image src={require("../../Visuals/Home/Anusha.png")}/>
