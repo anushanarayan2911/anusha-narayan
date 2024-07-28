@@ -10,6 +10,11 @@ export const Row = styled.div`
     padding-bottom: 4vh;
     padding-left: 10vw;
     margin-top: 12vh;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 export const Link = styled.a`

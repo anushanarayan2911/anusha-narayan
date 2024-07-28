@@ -10,6 +10,8 @@ import Classify from './Pages/ClassifyPage';
 import UMe from './Pages/UMePage';
 import Pulmo from './Pages/PulmoPage'
 import AdobeBuild from './Pages/AdobeBuildPage';
+import Blog from './Pages/BlogPage';
+import Coaching from './Pages/CoachingPage';
 import createHistory from "history/createBrowserHistory"
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
@@ -28,7 +30,8 @@ function App() {
         <Route exact path="/" component={Home}/>
         <Route path="/MyWork" component={MyWork} exact/>
         <Route path="/Gallery" component={Gallery} exact/>
-        <Route path="/Contact" component={Contact} exact />
+        <Route path="/Blog" component={Blog} exact />
+        <Route path="/Coaching" component={Coaching} exact/>
         <Route path="/UMe" component={UMe} exact />
         <Route path="/Pulmo" component={Pulmo} exact/>
         <Route path="/AdobeBuild" component={AdobeBuild} exact/>
