@@ -67,16 +67,17 @@ export const SkillsSection = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1.5vh;
-
-    @media screen and (max-width: 768px) {
-        flex-direction: row;
-    }
 `
 
 export const SkillsRow = styled.div`
     display: flex;
     flex-direction: row;
     gap: 0.5vw;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 1.5vh;
+    }
 `
 
 export const Skill = styled.div`
@@ -88,6 +89,7 @@ export const Skill = styled.div`
     padding-bottom: 0.5rem;
     border-radius: 2rem;
     font-size: 1rem;
+    text-align: center;
 `
 
 export const DescriptionBox = styled.div`
@@ -103,6 +105,7 @@ export const DescriptionBox = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     @media screen and (max-width: 768px) {
         margin-top: 8vh;
@@ -136,6 +139,7 @@ export const Button = styled.a`
     border-radius: 2rem;
     font-size: 1.5rem;
     text-decoration: none;
+    text-align: center;
 `
 
 export const ContentRow = styled.div`
@@ -175,6 +179,10 @@ export const LargeText = styled.p`
     font-weight: 100;
     text-align: justify;
     line-height: 150%;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;
+    }
 `
 
 export const ImageContainer = styled.div`
