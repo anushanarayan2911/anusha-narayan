@@ -47,6 +47,12 @@ const Navbar = ({toggle, id}) => {
             <NavItem>
               <NavLinks to={"/Gallery"}>gallery</NavLinks>
             </NavItem>
+            <NavItem>
+              <NavLinks to={"/Blog"}>blog</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to={"/Coaching"}>coaching</NavLinks>
+            </NavItem>
           </NavMenu>
           
         </NavbarContainer>
