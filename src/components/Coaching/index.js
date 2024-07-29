@@ -1,20 +1,16 @@
 import React from "react";
 import { HeroContainer, Column, Text } from "./coachingElements";
+import Footer from "../Footer"
 
 const CoachingComponent = () => {
     return (
         <HeroContainer>
             <Column>
                 <Text>
-                    I offer personalized coaching sessions for students looking to study design and engineering. Whether it's an initial consultation to get started or regular coaching throughout the entire application process, my goal is to provide the right level of support.
-                </Text>
-                <Text>
-                    By focusing on individual strengths and goals, I help craft standout portfolios and personal statements that highlight skills and passion. With my background in UX design and industry experience, I offer customized advice and insights to ensure every application reflects the best of what each applicant has to offer.
-                </Text>
-                <Text>
-                    If this interests you, get in touch to find out more!
+                I’m excited to offer coaching for students who are passionate about entering the product design and engineering fields. My services include personalized sessions that cover writing compelling applications, creating standout portfolios, and preparing for mock interviews. Whether you're just starting out and need an initial consultation or you're looking for regular coaching throughout the entire process, I tailor my approach to meet your unique needs. Each applicant receives customized advice to highlight their strengths and ensure their materials stand out. My rates are determined based on individual cases, ensuring that the coaching is accessible and tailored to your specific requirements. Get in touch to learn more about how I can help you achieve your academic and career goals in design and engineering!
                 </Text>
             </Column>
+            <Footer/>   
         </HeroContainer>
     )
 }

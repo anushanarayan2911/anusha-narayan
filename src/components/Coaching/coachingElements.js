@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeroContainer = styled.div`
     background: white;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -18,10 +18,6 @@ export const Column = styled.div`
     align-items: center;
     padding-left: 10vw;
     padding-right: 10vw;
-
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-    }
 `
 
 export const Text = styled.p`
