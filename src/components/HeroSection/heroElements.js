@@ -11,6 +11,7 @@ export const HeroContainer = styled.div`
     position: absolute;
     align-items: center;
     padding-top: 12vh;
+    padding-bottom: 16vh;
 `
 
 export const Row = styled.div`
@@ -36,12 +37,11 @@ export const Column = styled.div`
 `
 
 export const ButtonRow = styled.div`
-    width: 24vw;
+    width: fit-content;
     display: flex;
     flex-direction: row;
+    gap: 1vw;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 5vh;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -51,7 +51,7 @@ export const ButtonRow = styled.div`
 export const Button = styled(LinkR)`
     color: #66ABC6;
     background-color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 100;
     text-decoration: none;
     padding: 0.5rem 1.5rem;

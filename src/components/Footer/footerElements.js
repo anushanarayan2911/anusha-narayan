@@ -6,10 +6,11 @@ export const Row = styled.div`
     flex-direction: row;
     gap: 4vw;
     width: 100vw;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     padding-left: 10vw;
-    margin-top: 12vh;
+    position: fixed;
+    bottom: 0;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -19,7 +20,7 @@ export const Row = styled.div`
 
 export const Link = styled.a`
     color: white;
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight: 100;
     text-align: justify;
     line-height: 150%;
