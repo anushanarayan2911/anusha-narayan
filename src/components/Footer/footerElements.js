@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Row = styled.div`
-    background: #D2E6EE;
+    background: #E9F8FE;
     display: flex;
     flex-direction: row;
     gap: 4vw;
