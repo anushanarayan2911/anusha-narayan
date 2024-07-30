@@ -30,6 +30,11 @@ export const Column = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2vh;
+
+    @media screen and (max-width: 768px) {
+        width: 80vw;
+        align-items: center;
+    }
 `
 
 export const BlogList = styled.div`
@@ -37,6 +42,12 @@ export const BlogList = styled.div`
     display: flex;
     flex-direction: column;
     gap: 4.8vh;
+
+    @media screen and (max-width: 768px) {
+        width: 80vw;
+        align-items: center;
+        gap: 2vh;
+    }
 `
 
 export const HeaderText = styled.p`
