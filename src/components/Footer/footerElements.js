@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Row = styled.div`
-    background: #66ABC6;
+    background: #D2E6EE;
     display: flex;
     flex-direction: row;
     gap: 4vw;
@@ -19,9 +19,9 @@ export const Row = styled.div`
 `
 
 export const Link = styled.a`
-    color: white;
-    font-size: 0.75rem;
-    font-weight: 100;
+    color: #66ABC6;
+    font-size: 1rem;
+    font-weight: 400;
     text-align: justify;
     line-height: 150%;
     text-decoration: none;
