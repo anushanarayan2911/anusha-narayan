@@ -12,6 +12,7 @@ import Pulmo from './Pages/PulmoPage'
 import AdobeBuild from './Pages/AdobeBuildPage';
 import Blog from './Pages/BlogPage';
 import Coaching from './Pages/CoachingPage';
+import BringingHCDtoDigitalRealm from './Pages/BlogPage1';
 import createHistory from "history/createBrowserHistory"
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="/Pulmo" component={Pulmo} exact/>
         <Route path="/AdobeBuild" component={AdobeBuild} exact/>
         <Route path="/Classify" component={Classify} exact/>
+        <Route path="/BringingHCDtoDigitalRealm" component={BringingHCDtoDigitalRealm} exact/>
       </Switch>
     </BrowserRouter>
     

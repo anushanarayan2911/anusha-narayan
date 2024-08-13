@@ -23,7 +23,7 @@ const BlogComponent = () => {
                 <Column>
                     <HeaderText>Digital Design & Engineering</HeaderText>
                     <BlogList>
-                        <BlogTitle>the human-centred design process for digital design</BlogTitle>
+                        <BlogTitle to={"/BringingHCDtoDigitalRealm"}>bringing human-centred design to the digital realm</BlogTitle>
                         <BlogTitle>the impact of AI on digital design</BlogTitle>
                         <BlogTitle>sustainable digital design practices</BlogTitle>
                     </BlogList>
