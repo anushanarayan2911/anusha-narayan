@@ -13,6 +13,7 @@ import AdobeBuild from './Pages/AdobeBuildPage';
 import Blog from './Pages/BlogPage';
 import Coaching from './Pages/CoachingPage';
 import BringingHCDtoDigitalRealm from './Pages/BlogPage1';
+import ImpactofAIonDigitalDesign from './Pages/BlogPage2';
 import createHistory from "history/createBrowserHistory"
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
@@ -38,6 +39,7 @@ function App() {
         <Route path="/AdobeBuild" component={AdobeBuild} exact/>
         <Route path="/Classify" component={Classify} exact/>
         <Route path="/BringingHCDtoDigitalRealm" component={BringingHCDtoDigitalRealm} exact/>
+        <Route path="/ImpactofAIonDigitalDesign" component={ImpactofAIonDigitalDesign} exact/>
       </Switch>
     </BrowserRouter>
     
