@@ -14,7 +14,7 @@ const BlogComponent = () => {
                 <Column>
                     <HeaderText>UX in STEM</HeaderText>
                     <BlogList>
-                        <BlogTitle>the role of UX in STEM</BlogTitle>
+                        <BlogTitle to={"/RoleofUXinSTEM"}>the role of UX in STEM</BlogTitle>
                         <BlogTitle>successful UX in STEM</BlogTitle>
                         <BlogTitle>accessibility in UX for STEM</BlogTitle>
                         <BlogTitle>designing for complex data visualisations</BlogTitle>

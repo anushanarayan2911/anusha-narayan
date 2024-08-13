@@ -16,6 +16,7 @@ import BringingHCDtoDigitalRealm from './Pages/BlogPage1';
 import ImpactofAIonDigitalDesign from './Pages/BlogPage2';
 import createHistory from "history/createBrowserHistory"
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
+import RoleofUXinSTEM from './Pages/BlogPage3';
 
 
 
@@ -40,6 +41,7 @@ function App() {
         <Route path="/Classify" component={Classify} exact/>
         <Route path="/BringingHCDtoDigitalRealm" component={BringingHCDtoDigitalRealm} exact/>
         <Route path="/ImpactofAIonDigitalDesign" component={ImpactofAIonDigitalDesign} exact/>
+        <Route path="/RoleofUXinSTEM" component={RoleofUXinSTEM} exact/>
       </Switch>
     </BrowserRouter>
     
