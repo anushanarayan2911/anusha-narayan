@@ -31,8 +31,8 @@ const BlogComponent = () => {
                 <Column>
                     <HeaderText>Entrepreneurship in Tech</HeaderText>
                     <BlogList>
-                        <BlogTitle>innovation in the digital space</BlogTitle>
-                        <BlogTitle>ethical considerations in tech entrepreneurship</BlogTitle>
+                        <BlogTitle to={"/InnovationintheDigitalSpace"}>innovation in the digital space</BlogTitle>
+                        <BlogTitle to={"/EthicalConsiderationsofTechEntrepreneurship"}>ethical considerations in tech entrepreneurship</BlogTitle>
                         <BlogTitle>future proofing your tech startup</BlogTitle>
                     </BlogList>
                 </Column>
