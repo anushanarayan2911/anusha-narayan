@@ -19,6 +19,7 @@ import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import RoleofUXinSTEM from './Pages/BlogPage3';
 import InnovationintheDigitalSpace from './Pages/BlogPage4';
 import EthicalConsiderationsofTechEntrepreneurship from './Pages/BlogPage5';
+import SustainableDigitalDesignPractices from './Pages/BlogPage6';
 
 
 
@@ -46,6 +47,7 @@ function App() {
         <Route path="/RoleofUXinSTEM" component={RoleofUXinSTEM} exact/>
         <Route path="/InnovationintheDigitalSpace" component={InnovationintheDigitalSpace} exact/>
         <Route path="/EthicalConsiderationsofTechEntrepreneurship" component={EthicalConsiderationsofTechEntrepreneurship} exact/>
+        <Route path="/SustainableDigitalDesignPractices" component={SustainableDigitalDesignPractices} exact />
       </Switch>
     </BrowserRouter>
     
