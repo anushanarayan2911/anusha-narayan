@@ -16,8 +16,8 @@ const BlogComponent = () => {
                     <BlogList>
                         <BlogTitle to={"/RoleofUXinSTEM"}>the role of UX in STEM</BlogTitle>
                         <BlogTitle to={"/SuccessfulUXinSTEM"}>successful UX in STEM</BlogTitle>
-                        <BlogTitle>accessibility in UX for STEM</BlogTitle>
-                        <BlogTitle>designing for complex data visualisations</BlogTitle>
+                        <BlogTitle to={"/AccessibilityinUXforSTEM"}>accessibility in UX for STEM</BlogTitle>
+                        <BlogTitle to={"/DesigningforComplexDataViz"}>designing for complex data visualisations</BlogTitle>
                     </BlogList>
                 </Column>
                 <Column>
@@ -33,7 +33,7 @@ const BlogComponent = () => {
                     <BlogList>
                         <BlogTitle to={"/InnovationintheDigitalSpace"}>innovation in the digital space</BlogTitle>
                         <BlogTitle to={"/EthicalConsiderationsofTechEntrepreneurship"}>ethical considerations in tech entrepreneurship</BlogTitle>
-                        <BlogTitle>future proofing your tech startup</BlogTitle>
+                        <BlogTitle to={"/FutureProofingYourTechStartup"}>future proofing your tech startup</BlogTitle>
                     </BlogList>
                 </Column>
             </Row>

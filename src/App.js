@@ -21,6 +21,9 @@ import InnovationintheDigitalSpace from './Pages/BlogPage4';
 import EthicalConsiderationsofTechEntrepreneurship from './Pages/BlogPage5';
 import SustainableDigitalDesignPractices from './Pages/BlogPage6';
 import SuccessfulUXinSTEM from './Pages/BlogPage7';
+import FutureProofingYourTechStartup from './Pages/BlogPage8';
+import AccessibilityinUXforSTEM from './Pages/BlogPage9';
+import DesigningforComplexDataViz from './Pages/BlogPage10';
 
 
 
@@ -50,6 +53,9 @@ function App() {
         <Route path="/EthicalConsiderationsofTechEntrepreneurship" component={EthicalConsiderationsofTechEntrepreneurship} exact/>
         <Route path="/SustainableDigitalDesignPractices" component={SustainableDigitalDesignPractices} exact />
         <Route path="/SuccessfulUXinSTEM" component={SuccessfulUXinSTEM} exact/>
+        <Route path="/FutureProofingYourTechStartup" component={FutureProofingYourTechStartup} exact/>
+        <Route path="/AccessibilityinUXforSTEM" component={AccessibilityinUXforSTEM} exact/>
+        <Route path="/DesigningforComplexDataViz" component={DesigningforComplexDataViz} exact/>
       </Switch>
     </BrowserRouter>
     
